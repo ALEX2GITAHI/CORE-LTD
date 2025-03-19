@@ -9,7 +9,7 @@ include 'header.php'; // Includes the header file
   <div class="container">
     <div class="breadcrumb-content">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li class="active">Tenda-F3</li>
       </ul>
     </div>
@@ -109,7 +109,7 @@ include 'header.php'; // Includes the header file
       <div class="col-lg-7 col-md-6">
         <div class="product-details-view-content pt-60">
           <div class="product-info">
-            <h2>Tenda F3 N300 Wireless Wi-Fi Router</h2>
+            <h3>Tenda F3 N300 Wireless Wi-Fi Router</h3>
             <span class="product-details-ref">Reference: N300</span>
             <div class="rating-box pt-20">
               <ul class="rating rating-with-review-item">
@@ -447,7 +447,7 @@ include 'header.php'; // Includes the header file
                       </div>
                     </div>
                     <h4>
-                      <a class="product_name" href="tenda-f3.php">Tenda-F6</a>
+                      <a class="product_name" href="tenda-f6.php">Tenda-F6</a>
                     </h4>
                     <div class="price-box">
                       <span class="new-price">Ksh. 1,550</span>

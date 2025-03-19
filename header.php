@@ -322,16 +322,8 @@
                 <div class="hb-menu hb-menu-2 d-xl-block">
                   <nav>
                     <ul>
-                      <li class="dropdown-holder">
-                        <a href="index.html">Home</a>
-                        <ul class="hb-dropdown">
-                          <li><a href="index.html">Home One</a></li>
-                          <li class="active">
-                            <a href="index-2.html">Home Two</a>
-                          </li>
-                          <li><a href="index-3.html">Home Three</a></li>
-                          <li><a href="index-4.html">Home Four</a></li>
-                        </ul>
+                      <li class="">
+                        <a href="index.php">Home</a>                        
                       </li>
                       <li class="megamenu-holder">
                         <a href="shop-left-sidebar.html">Shop</a>
@@ -586,7 +578,7 @@
                             </ul>
                           </li>
                           <li>
-                            <a href="index.html">Other Pages</a>
+                            <a href="index.php">Account</a>
                             <ul>
                               <li>
                                 <a href="login-register.html">My Account</a>
@@ -600,17 +592,17 @@
                             </ul>
                           </li>
                           <li>
-                            <a href="index.html">Other Pages 2</a>
+                            <a href="index.php">Profile</a>
                             <ul>
-                              <li><a href="contact.html">Contact</a></li>
-                              <li><a href="about-us.html">About Us</a></li>
-                              <li><a href="faq.html">FAQ</a></li>
-                              <li><a href="404.html">404 Error</a></li>
+                              <li><a href="contact.php">Contact</a></li>
+                              <li><a href="about-us.php">About Us</a></li>
+                              <li><a href="faq.php">FAQ</a></li>
+                              <li><a href="404.php">404 Error</a></li>
                             </ul>
                           </li>
                         </ul>
                       </li>
-                      <li><a href="about-us.html">About Us</a></li>
+                      <li><a href="about-us.php">About Us</a></li>
                       <li><a href="contact.php">Contact</a></li>
                       <!-- Begin Header Bottom Menu Information Area -->          
                       <!-- Header Bottom Menu Information Area End Here -->

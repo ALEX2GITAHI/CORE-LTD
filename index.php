@@ -243,14 +243,14 @@ include 'header.php'; // Includes the header file
           </h2>
         </div>
         <div class="row">
-          <div class="special-product-active owl-carousel">
+          <div class="product-active owl-carousel">
             <div class="col-lg-12">
               <!-- single-product-wrap start -->
               <div class="single-product-wrap">
                 <div class="product-image">
-                  <a href="tenda-f3.html">
+                  <a href="tenda-f3.php">
                     <img
-                      src="images/product/small-size/Tenda F3.jpg" 
+                      src="images/product/small-size/Tenda F3.jpg"
                       alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
@@ -259,7 +259,7 @@ include 'header.php'; // Includes the header file
                   <div class="product_desc_info">
                     <div class="product-review">
                       <h5 class="manufacturer">
-                        <a href="shop-left-sidebar.html">Router</a>
+                        <a href="routers.php">Router</a>
                       </h5>
                       <div class="rating-box">
                         <ul class="rating">
@@ -276,22 +276,16 @@ include 'header.php'; // Includes the header file
                       </div>
                     </div>
                     <h4>
-                      <a class="product_name" href="tenda-f3.php">Tenda F3 N300</a>
+                      <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
                     </h4>
                     <div class="price-box">
                       <span class="new-price">Ksh. 1,350</span>
                     </div>
-                    <div class="countersection">
-                      <div class="li-countdown"></div>
-                    </div>
                   </div>
                   <div class="add-actions">
                     <ul class="add-actions-link">
                       <li class="add-cart active">
                         <a href="#">Add to cart</a>
-                      </li>
-                      <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                       <li>
                         <a
@@ -300,6 +294,9 @@ include 'header.php'; // Includes the header file
                           class="quick-view-btn"
                           data-toggle="modal"
                           data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
+                      </li>
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -311,9 +308,9 @@ include 'header.php'; // Includes the header file
               <!-- single-product-wrap start -->
               <div class="single-product-wrap">
                 <div class="product-image">
-                  <a href="single-product.html">
+                  <a href="tenda-ac5.php">
                     <img
-                      src="images/product/large-size/2.jpg"
+                      src="images/product/small-size/Tenda-AC5-front.jpg"
                       alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
@@ -322,7 +319,7 @@ include 'header.php'; // Includes the header file
                   <div class="product_desc_info">
                     <div class="product-review">
                       <h5 class="manufacturer">
-                        <a href="shop-left-sidebar.html">Studio Design</a>
+                        <a href="routers.php">Router</a>
                       </h5>
                       <div class="rating-box">
                         <ul class="rating">
@@ -339,24 +336,18 @@ include 'header.php'; // Includes the header file
                       </div>
                     </div>
                     <h4>
-                      <a class="product_name" href="single-product.html">Mug Today is a good day</a>
+                      <a class="product_name" href="tenda-ac5.php">Tenda AC5</a>
                     </h4>
                     <div class="price-box">
-                      <span class="new-price new-price-2">$71.80</span>
-                      <span class="old-price">$77.22</span>
+                      <span class="new-price new-price-2">Ksh. 3,500</span>
+                      <span class="old-price">Ksh. 4,000</span>
                       <span class="discount-percentage">-7%</span>
                     </div>
-                    <div class="countersection">
-                      <div class="li-countdown"></div>
-                    </div>
                   </div>
                   <div class="add-actions">
                     <ul class="add-actions-link">
                       <li class="add-cart active">
                         <a href="#">Add to cart</a>
-                      </li>
-                      <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                       <li>
                         <a
@@ -365,6 +356,9 @@ include 'header.php'; // Includes the header file
                           class="quick-view-btn"
                           data-toggle="modal"
                           data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
+                      </li>
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -376,9 +370,9 @@ include 'header.php'; // Includes the header file
               <!-- single-product-wrap start -->
               <div class="single-product-wrap">
                 <div class="product-image">
-                  <a href="single-product.html">
+                  <a href="tenda-ac8.php">
                     <img
-                      src="images/product/large-size/5.jpg"
+                      src="images/product/small-size/tenda ac 8 front.jpg"
                       alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
@@ -387,7 +381,7 @@ include 'header.php'; // Includes the header file
                   <div class="product_desc_info">
                     <div class="product-review">
                       <h5 class="manufacturer">
-                        <a href="shop-left-sidebar.html">Graphic Corner</a>
+                        <a href="routers.php">Router</a>
                       </h5>
                       <div class="rating-box">
                         <ul class="rating">
@@ -404,13 +398,10 @@ include 'header.php'; // Includes the header file
                       </div>
                     </div>
                     <h4>
-                      <a class="product_name" href="single-product.html">Accusantium dolorem1</a>
+                      <a class="product_name" href="tenda-ac8.php">Tenda-AC8</a>
                     </h4>
                     <div class="price-box">
-                      <span class="new-price">$46.80</span>
-                    </div>
-                    <div class="countersection">
-                      <div class="li-countdown"></div>
+                      <span class="new-price">Ksh. 4,000</span>
                     </div>
                   </div>
                   <div class="add-actions">
@@ -419,15 +410,15 @@ include 'header.php'; // Includes the header file
                         <a href="#">Add to cart</a>
                       </li>
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                      </li>
-                      <li>
                         <a
                           href="#"
                           title="quick view"
                           class="quick-view-btn"
                           data-toggle="modal"
                           data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
+                      </li>
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -439,9 +430,9 @@ include 'header.php'; // Includes the header file
               <!-- single-product-wrap start -->
               <div class="single-product-wrap">
                 <div class="product-image">
-                  <a href="single-product.html">
+                  <a href="tenda-ac10.php">
                     <img
-                      src="images/product/large-size/8.jpg"
+                      src="images/product/small-size/tenda ac10 all.jpg"
                       alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
@@ -450,7 +441,7 @@ include 'header.php'; // Includes the header file
                   <div class="product_desc_info">
                     <div class="product-review">
                       <h5 class="manufacturer">
-                        <a href="shop-left-sidebar.html">Studio Design</a>
+                        <a href="routers.php">Router</a>
                       </h5>
                       <div class="rating-box">
                         <ul class="rating">
@@ -467,15 +458,12 @@ include 'header.php'; // Includes the header file
                       </div>
                     </div>
                     <h4>
-                      <a class="product_name" href="single-product.html">Mug Today is a good day</a>
+                      <a class="product_name" href="tenda-ac10.php">Tenda-AC10</a>
                     </h4>
                     <div class="price-box">
-                      <span class="new-price new-price-2">$71.80</span>
-                      <span class="old-price">$77.22</span>
-                      <span class="discount-percentage">-7%</span>
-                    </div>
-                    <div class="countersection">
-                      <div class="li-countdown"></div>
+                      <span class="new-price new-price-2">Ksh. 4,500</span>
+                      <span class="old-price">Ksh. 5,000</span>
+                      <span class="discount-percentage">-8%</span>
                     </div>
                   </div>
                   <div class="add-actions">
@@ -484,15 +472,15 @@ include 'header.php'; // Includes the header file
                         <a href="#">Add to cart</a>
                       </li>
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                      </li>
-                      <li>
                         <a
                           href="#"
                           title="quick view"
                           class="quick-view-btn"
                           data-toggle="modal"
                           data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
+                      </li>
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -504,9 +492,9 @@ include 'header.php'; // Includes the header file
               <!-- single-product-wrap start -->
               <div class="single-product-wrap">
                 <div class="product-image">
-                  <a href="single-product.html">
+                  <a href="tp-link-840.php">
                     <img
-                      src="images/product/large-size/7.jpg"
+                      src="images/product/small-size/tplink front.webp"
                       alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
@@ -515,7 +503,7 @@ include 'header.php'; // Includes the header file
                   <div class="product_desc_info">
                     <div class="product-review">
                       <h5 class="manufacturer">
-                        <a href="shop-left-sidebar.html">Graphic Corner</a>
+                        <a href="routers.php">Router</a>
                       </h5>
                       <div class="rating-box">
                         <ul class="rating">
@@ -532,13 +520,10 @@ include 'header.php'; // Includes the header file
                       </div>
                     </div>
                     <h4>
-                      <a class="product_name" href="single-product.html">Accusantium dolorem1</a>
+                      <a class="product_name" href="tp-link-840.php">TP-Link 840N</a>
                     </h4>
                     <div class="price-box">
-                      <span class="new-price">$46.80</span>
-                    </div>
-                    <div class="countersection">
-                      <div class="li-countdown"></div>
+                      <span class="new-price">Ksh. 1,750</span>
                     </div>
                   </div>
                   <div class="add-actions">
@@ -547,15 +532,15 @@ include 'header.php'; // Includes the header file
                         <a href="#">Add to cart</a>
                       </li>
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                      </li>
-                      <li>
                         <a
                           href="#"
                           title="quick view"
                           class="quick-view-btn"
                           data-toggle="modal"
                           data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
+                      </li>
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -567,9 +552,9 @@ include 'header.php'; // Includes the header file
               <!-- single-product-wrap start -->
               <div class="single-product-wrap">
                 <div class="product-image">
-                  <a href="single-product.html">
+                  <a href="tp-link-844.php">
                     <img
-                      src="images/product/large-size/4.jpg"
+                      src="images/product/small-size/tp link844 front.jpg"
                       alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
@@ -578,7 +563,7 @@ include 'header.php'; // Includes the header file
                   <div class="product_desc_info">
                     <div class="product-review">
                       <h5 class="manufacturer">
-                        <a href="shop-left-sidebar.html">Studio Design</a>
+                        <a href="routers.php">Router</a>
                       </h5>
                       <div class="rating-box">
                         <ul class="rating">
@@ -595,15 +580,12 @@ include 'header.php'; // Includes the header file
                       </div>
                     </div>
                     <h4>
-                      <a class="product_name" href="single-product.html">Mug Today is a good day</a>
+                      <a class="product_name" href="tp-link-844.php">TP-Link 844N</a>
                     </h4>
                     <div class="price-box">
-                      <span class="new-price new-price-2">$71.80</span>
-                      <span class="old-price">$77.22</span>
-                      <span class="discount-percentage">-7%</span>
-                    </div>
-                    <div class="countersection">
-                      <div class="li-countdown"></div>
+                      <span class="new-price new-price-2">Ksh. 1450</span>
+                      <span class="old-price">Ksh. 1,550</span>
+                      <span class="discount-percentage">-5%</span>
                     </div>
                   </div>
                   <div class="add-actions">
@@ -612,15 +594,15 @@ include 'header.php'; // Includes the header file
                         <a href="#">Add to cart</a>
                       </li>
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                      </li>
-                      <li>
                         <a
                           href="#"
                           title="quick view"
                           class="quick-view-btn"
                           data-toggle="modal"
                           data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
+                      </li>
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
