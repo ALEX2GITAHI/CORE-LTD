@@ -25,7 +25,7 @@ include 'header.php'; // Includes the header file
                       <li><a href="#">CAT-6 Cables</a></li>
                       <li><a href="#">Crimping Tools</a></li>
                       <li><a href="#">RJ's</a></li>
-                      <li><a href="#">Receivers</a></li>
+                      <li><a href="#">Access Points</a></li>
                       <li><a href="#">Adapter Boxs</a></li>
                       <li><a href="#">LAN Testers</a></li>
                       <li><a href="#">Mikrotik's</a></li>
@@ -41,17 +41,17 @@ include 'header.php'; // Includes the header file
                       <li><a href="#">FAT's</a></li>
                       <li><a href="#">Drop Cable</a></li>
                       <li><a href="#">Splitters</a></li>
-                      <li><a href="#">Tension's</a></li>
+                      <li><a href="#">Safety Tools</a></li>
                     </ul>
                   </li>
                   <li class="right-menu cat-mega-title">
                     <a href="shop-left-sidebar.html">Electronics</a>
                     <ul>
                       <li><a href="#">Adpters</a></li>
-                      <li><a href="#">HDMI Cables</a></li>
-                      <li><a href="#"></a></li>
-                      <li><a href="#">Bed & Bath</a></li>
-                      <li><a href="#">Appliances</a></li>
+                      <li><a href="#">Dispay Cables</a></li>
+                      <li><a href="#">HDMI Switches</a></li>
+                      <li><a href="#">HDMI Splitters</a></li>
+                      <li><a href="#">Tools</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -60,38 +60,38 @@ include 'header.php'; // Includes the header file
                 <a href="shop-left-sidebar.html">Stationery </a>
                 <ul class="cat-mega-menu">
                   <li class="right-menu cat-mega-title">
-                    <a href="shop-left-sidebar.html"></a>
+                    <a href="shop-left-sidebar.html">Papers</a>
                     <ul>
                       <li><a href="#">Rim Papers</a></li>
                       <li><a href="#">Envelops</a></li>
                       <li><a href="#">Exercise Books</a></li>
+                      <li><a href="#">Embossed Papers</a></li>
+                      <li><a href="#">PVC Papers</a></li>
+                      <li><a href="#">Sticker Papers</a></li>
                       <li><a href="#"></a></li>
-                      <li><a href="#">BNC</a></li>
-                      <li><a href="#">Power Jack</a></li>
-                      <li><a href="#">Video Baloon</a></li>
                     </ul>
                   </li>
                   <li class="right-menu cat-mega-title">
-                    <a href="shop-left-sidebar.html">Meito</a>
+                    <a href="shop-left-sidebar.html">Computer</a>
                     <ul>
                       <li><a href="#">Hard Drives</a></li>
-                      <li><a href="#">Graphic Cards</a></li>
-                      <li><a href="#">Processors (CPU)</a></li>
-                      <li><a href="#">Memory</a></li>
-                      <li><a href="#">Motherboards</a></li>
-                      <li><a href="#">Fans & Cooling</a></li>
-                      <li><a href="#">CD/DVD Drives</a></li>
+                      <li><a href="#">Keyboards</a></li>
+                      <li><a href="#">Mouse</a></li>
+                      <li><a href="#">TFT's</a></li>
+                      <li><a href="#">Gaming</a></li>
+                      <li><a href="#">Adroid Box</a></li>
+                      <li><a href="#">Ethernet Adapter</a></li>
                     </ul>
                   </li>
                   <li class="right-menu cat-mega-title">
-                    <a href="shop-left-sidebar.html">Sony Bravia</a>
+                    <a href="shop-left-sidebar.html">Mobile Accessories</a>
                     <ul>
-                      <li><a href="#">Sound Cards</a></li>
-                      <li><a href="#">Cases & Towers</a></li>
-                      <li><a href="#">Casual Dresses</a></li>
-                      <li><a href="#">Evening Dresses</a></li>
-                      <li><a href="#">T-shirts</a></li>
-                      <li><a href="#">Tops</a></li>
+                      <li><a href="#">Pod's</a></li>
+                      <li><a href="#">EarPhones</a></li>
+                      <li><a href="#">HeadPhones</a></li>
+                      <li><a href="#">Chargers</a></li>
+                      <li><a href="#">Data Cables</a></li>
+                      <li><a href="#">Memory Cards</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -112,24 +112,24 @@ include 'header.php'; // Includes the header file
                     </ul>
                   </li>
                   <li class="right-menu cat-mega-title">
-                    <a href="shop-left-sidebar.html">XailStation</a>
+                    <a href="shop-left-sidebar.html"></a>
                     <ul>
-                      <li><a href="#">Batteries</a></li>
-                      <li><a href="#">Microphones</a></li>
-                      <li><a href="#">Stabilizers</a></li>
-                      <li><a href="#">Video Tapes</a></li>
-                      <li><a href="#">Memory Card Readers</a></li>
-                      <li><a href="#">Tripods</a></li>
+                      <li><a href="#">Adapter Boxs</a></li>
+                      <li><a href="#">RG59 Cable</a></li>
+                      <li><a href="#">Cable Clips</a></li>
+                      <li><a href="#">Cable Ties</a></li>
+                      <li><a href="#"></a></li>
+                      <li><a href="#"></a></li>
                     </ul>
                   </li>
                 </ul>
               </li>
-              <li><a href="#">Cameras</a></li>
-              <li><a href="#">Headphone</a></li>
-              <li><a href="#">Smartwatch</a></li>
-              <li><a href="#">Out Door Room</a></li>
-              <li><a href="#">Chamcham</a></li>
-              <li class="rx-child"><a href="#">Mobile & Tablets</a></li>
+              <li><a href="#">Electronics</a></li>
+              <li><a href="#">Mikrotik</a></li>
+              <li><a href="#">CAT-6 Cables</a></li>
+              <li><a href="#">Computer Accessories</a></li>
+              <li><a href="#"></a></li>
+              <li class="rx-child"><a href="#">Access Points</a></li>
               <li class="rx-child"><a href="#">Accessories</a></li>
               <li class="rx-parent">
                 <a class="rx-default">More Categories</a>
@@ -488,6 +488,65 @@ include 'header.php'; // Includes the header file
               </div>
               <!-- single-product-wrap end -->
             </div>
+            <div class="col-lg-12">
+              <!-- single-product-wrap start -->
+              <div class="single-product-wrap">
+                <div class="product-image">
+                  <a href="tenda-4g.php">
+                    <img
+                      src="images/product/small-size/tenda 4g front.png"
+                      alt="Li's Product Image" />
+                  </a>
+                  <span class="sticker">New</span>
+                </div>
+                <div class="product_desc">
+                  <div class="product_desc_info">
+                    <div class="product-review">
+                      <h5 class="manufacturer">
+                        <a href="routers.php">Router</a>
+                      </h5>
+                      <div class="rating-box">
+                        <ul class="rating">
+                          <li><i class="fa fa-star-o"></i></li>
+                          <li><i class="fa fa-star-o"></i></li>
+                          <li><i class="fa fa-star-o"></i></li>
+                          <li class="no-star">
+                            <i class="fa fa-star-o"></i>
+                          </li>
+                          <li class="no-star">
+                            <i class="fa fa-star-o"></i>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h4>
+                      <a class="product_name" href="tenda-4g.php">Tenda 4G03 Pro</a>
+                    </h4>
+                    <div class="price-box">
+                      <span class="new-price">Ksh. 1,750</span>
+                    </div>
+                  </div>
+                  <div class="add-actions">
+                    <ul class="add-actions-link">
+                      <li class="add-cart active">
+                        <a href="#">Add to cart</a>
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          title="quick view"
+                          class="quick-view-btn"
+                          data-toggle="modal"
+                          data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
+                      </li>
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              </div>
             <div class="col-lg-12">
               <!-- single-product-wrap start -->
               <div class="single-product-wrap">
