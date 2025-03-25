@@ -298,16 +298,16 @@
                           <a href="shop-left-sidebar.html">Networking</a>
                           <ul>
                             <li>
-                              <a href="shop-3-column.html">Routers</a>
+                              <a href="routers.php">Routers</a>
                             </li>
                             <li>
-                              <a href="shop-4-column.html">Switches</a>
+                              <a href="switch.php">Switches</a>
                             </li>
                             <li>
                               <a href="shop-left-sidebar.html">Access Points</a>
                             </li>
                             <li>
-                              <a href="shop-right-sidebar.html">Mikrotik</a>
+                              <a href="miktrotik.php">Mikrotik</a>
                             </li>
                             <li><a href="shop-list.html">Climbers</a></li>
                             <li>
