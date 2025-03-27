@@ -92,7 +92,7 @@
                     <div class="setting ht-setting">
                       <ul class="ht-setting-list">
                         <li><a href="login-register.html">My Account</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
+                        <li><a href="checkout.php">Checkout</a></li>
                         <li><a href="login-register.html">Sign In</a></li>
                       </ul>
                     </div>
@@ -124,86 +124,20 @@
             </div>
             <!-- Header Logo Area End Here -->
             <!-- Begin Header Middle Right Area -->
-            <div class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
+            <di class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
               <!-- Begin Header Middle Searchbox Area -->
-              <form action="#" class="hm-searchbox">
-                <select class="nice-select select-search-category">
-                  <option value="0">All</option>
-                  <option value="10">NetWorking</option>
-                  <option value="17">- - Prime Video</option>
-                  <option value="20">- - - - All Videos</option>
-                  <option value="21">- - - - Blouses</option>
-                  <option value="22">- - - - Evening Dresses</option>
-                  <option value="23">- - - - Summer Dresses</option>
-                  <option value="24">- - - - T-shirts</option>
-                  <option value="25">- - - - Rent or Buy</option>
-                  <option value="26">- - - - Your Watchlist</option>
-                  <option value="27">- - - - Watch Anywhere</option>
-                  <option value="28">- - - - Getting Started</option>
-                  <option value="18">- - - - Computers</option>
-                  <option value="29">- - - - More to Explore</option>
-                  <option value="30">- - - - TV &amp; Video</option>
-                  <option value="31">- - - - Audio &amp; Theater</option>
-                  <option value="32">- - - - Camera, Photo</option>
-                  <option value="33">- - - - Cell Phones</option>
-                  <option value="34">- - - - Headphones</option>
-                  <option value="35">- - - - Video Games</option>
-                  <option value="36">- - - - Wireless Speakers</option>
-                  <option value="19">- - - - Electronics</option>
-                  <option value="37">- - - - Amazon Home</option>
-                  <option value="38">- - - - Kitchen &amp; Dining</option>
-                  <option value="39">- - - - Furniture</option>
-                  <option value="40">- - - - Bed &amp; Bath</option>
-                  <option value="41">- - - - Appliances</option>
-                  <option value="11">TV &amp; Audio</option>
-                  <option value="42">- - Chamcham</option>
-                  <option value="45">- - - - Office</option>
-                  <option value="47">- - - - Gaming</option>
-                  <option value="48">- - - - Chromebook</option>
-                  <option value="49">- - - - Refurbished</option>
-                  <option value="50">- - - - Touchscreen</option>
-                  <option value="51">- - - - Ultrabooks</option>
-                  <option value="52">- - - - Blouses</option>
-                  <option value="43">- - Meito</option>
-                  <option value="53">- - - - Hard Drives</option>
-                  <option value="54">- - - - Graphic Cards</option>
-                  <option value="55">- - - - Processors (CPU)</option>
-                  <option value="56">- - - - Memory</option>
-                  <option value="57">- - - - Motherboards</option>
-                  <option value="58">- - - - Fans &amp; Cooling</option>
-                  <option value="59">- - - - CD/DVD Drives</option>
-                  <option value="44">- - Sony Bravia</option>
-                  <option value="60">- - - - Sound Cards</option>
-                  <option value="61">- - - - Cases &amp; Towers</option>
-                  <option value="62">- - - - Casual Dresses</option>
-                  <option value="63">- - - - Evening Dresses</option>
-                  <option value="64">- - - - T-shirts</option>
-                  <option value="65">- - - - Tops</option>
-                  <option value="12">Smartphone</option>
-                  <option value="66">- - Camera Accessories</option>
-                  <option value="68">- - - - Octa Core</option>
-                  <option value="69">- - - - Quad Core</option>
-                  <option value="70">- - - - Dual Core</option>
-                  <option value="71">- - - - 7.0 Screen</option>
-                  <option value="72">- - - - 9.0 Screen</option>
-                  <option value="73">- - - - Bags &amp; Cases</option>
-                  <option value="67">- - XailStation</option>
-                  <option value="74">- - - - Batteries</option>
-                  <option value="75">- - - - Microphones</option>
-                  <option value="76">- - - - Stabilizers</option>
-                  <option value="77">- - - - Video Tapes</option>
-                  <option value="78">- - - - Memory Card Readers</option>
-                  <option value="79">- - - - Tripods</option>
-                  <option value="13">Cameras</option>
-                  <option value="14">headphone</option>
-                  <option value="15">Smartwatch</option>
-                  <option value="16">Accessories</option>
-                </select>
-                <input type="text" placeholder="Enter your search key ..." />
+              <form action="#" class="hm-searchbox" onsubmit="return false;">
+                
+                <input type="text" id="search-box" placeholder="Enter your search key ..." autocomplete="off" />
                 <button class="li-btn" type="submit">
                   <i class="fa fa-search"></i>
                 </button>
+                <ul id="search-results"></ul>
               </form>
+
+              <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
               <!-- Header Middle Searchbox Area End Here -->
               <!-- Begin Header Middle Right Area -->
               <div class="header-middle-right">
@@ -217,244 +151,461 @@
                   </li>
                   <!-- Header Middle Wishlist Area End Here -->
                   <!-- Begin Header Mini Cart Area -->
-                  <li class="hm-minicart">
-                    <div class="hm-minicart-trigger">
-                      <span class="item-icon"></span>
-                      <span class="item-text">£160
-                        <span class="cart-item-count">2</span>
-                      </span>
-                    </div>
-                    <span></span>
-                    <div class="minicart">
-                      <ul class="minicart-product-list">
-                        <li>
-                          <a href="single-product.html" class="minicart-product-image">
-                            <img src="images/product/small-size/3.jpg" alt="cart products" />
-                          </a>
-                          <div class="minicart-product-details">
-                            <h6>
-                              <a href="single-product.html">Aenean eu tristique</a>
-                            </h6>
-                            <span>£80 x 1</span>
-                          </div>
-                          <button class="close">
-                            <i class="fa fa-close"></i>
-                          </button>
-                        </li>
-                        <li>
-                          <a href="single-product.html" class="minicart-product-image">
-                            <img src="images/product/small-size/4.jpg" alt="cart products" />
-                          </a>
-                          <div class="minicart-product-details">
-                            <h6>
-                              <a href="single-product.html">Aenean eu tristique</a>
-                            </h6>
-                            <span>£80 x 1</span>
-                          </div>
-                          <button class="close">
-                            <i class="fa fa-close"></i>
-                          </button>
-                        </li>
-                      </ul>
-                      <p class="minicart-total">
-                        SUBTOTAL: <span>£160</span>
-                      </p>
-                      <div class="minicart-button">
-                        <a href="checkout.html" class="li-button li-button-dark li-button-fullwidth li-button-sm">
-                          <span>View Full Cart</span>
-                        </a>
-                        <a href="checkout.html" class="li-button li-button-fullwidth li-button-sm">
-                          <span>Checkout</span>
-                        </a>
-                      </div>
-                    </div>
-                  </li>
-                  <!-- Header Mini Cart Area End Here -->
+<li class="hm-minicart">
+    <div class="hm-minicart-trigger">
+        <span class="item-icon"></span>
+        <span class="item-text">
+            Ksh. <span id="cart-total">0</span>
+            <span class="cart-item-count">0</span>
+        </span>
+    </div>
+    <div class="minicart">
+        <ul class="minicart-product-list" id="cart-items">
+            <!-- Items will be dynamically added here -->
+        </ul>
+        <p class="minicart-total">
+            SUBTOTAL: <span>Ksh. <span id="cart-subtotal">0</span></span>
+        </p>
+        <div class="minicart-button">
+            <a href="shopping-cart.php" id="view-full-cart" class="li-button li-button-dark li-button-fullwidth li-button-sm">
+                <span>View Full Cart</span>
+            </a>
+            <a href="checkout.php" id="view-full-cart" class="li-button li-button-fullwidth li-button-sm">
+                <span>Checkout</span>
+            </a>
+        </div>
+    </div>
+</li>
+<!-- Header Mini Cart Area End Here -->
                 </ul>
               </div>
               <!-- Header Middle Right Area End Here -->
-            </div>
-            <!-- Header Middle Right Area End Here -->
           </div>
+          <!-- Header Middle Right Area End Here -->
         </div>
       </div>
-      <!-- Header Middle Area End Here -->
-      <!-- Begin Header Bottom Area -->
-      <div class="header-bottom header-sticky d-none d-lg-block">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <!-- Begin Header Bottom Menu Area -->
-              <div class="hb-menu hb-menu-2 d-xl-block">
-                <nav>
-                  <ul>
-                    <li class="">
-                      <a href="index.php">Home</a>
-                    </li>
-                    <li class="megamenu-holder">
-                      <a href="shop-left-sidebar.html">Shop</a>
-                      <ul class="megamenu hb-megamenu">
+  </div>
+  <!-- Header Middle Area End Here -->
+  <!-- Begin Header Bottom Area -->
+  <div class="header-bottom header-sticky d-none d-lg-block">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Begin Header Bottom Menu Area -->
+          <div class="hb-menu hb-menu-2 d-xl-block">
+            <nav>
+              <ul>
+                <li class="">
+                  <a href="index.php">Home</a>
+                </li>
+                <li class="megamenu-holder">
+                  <a href="shop-left-sidebar.html">Shop</a>
+                  <ul class="megamenu hb-megamenu">
+                    <li>
+                      <a href="shop-left-sidebar.html">Networking</a>
+                      <ul>
                         <li>
-                          <a href="shop-left-sidebar.html">Networking</a>
-                          <ul>
-                            <li>
-                              <a href="routers.php">Routers</a>
-                            </li>
-                            <li>
-                              <a href="switch.php">Switches</a>
-                            </li>
-                            <li>
-                              <a href="shop-left-sidebar.html">Access Points</a>
-                            </li>
-                            <li>
-                              <a href="miktrotik.php">Mikrotik</a>
-                            </li>
-                            <li><a href="shop-list.html">Climbers</a></li>
-                            <li>
-                              <a href="shop-list-left-sidebar.html">Patch-Codes</a>
-                            </li>
-                            <li>
-                              <a href="shop-list-right-sidebar.html">Safety Tools</a>
-                            </li>
-                          </ul>
+                          <a href="routers.php">Routers</a>
                         </li>
                         <li>
-                          <a href="single-product-gallery-left.html">Accessories</a>
-                          <ul>
-                            <li>
-                              <a href="single-product-carousel.html">Mobile Accessories</a>
-                            </li>
-                            <li>
-                              <a href="single-product-gallery-left.html">Computer Accessories</a>
-                            </li>
-                            <li>
-                              <a href="single-product-gallery-right.html">CCTV Devices</a>
-                            </li>
-                            <li>
-                              <a href="single-product-gallery-right.html">Tools</a>
-                            </li>
-                            <li>
-                              <a href="single-product-gallery-right.html">Gaming</a>
-                            </li>
-                          </ul>
+                          <a href="switch.php">Switches</a>
                         </li>
                         <li>
-                          <a href="single-product.html">Stationery</a>
-                          <ul>
-                            <li>
-                              <a href="single-product.html">Envelops</a>
-                            </li>
-                            <li>
-                              <a href="single-product-sale.html">Exercise Books</a>
-                            </li>
-                            <li>
-                              <a href="single-product-group.html">Rim Papers</a>
-                            </li>
-                            <li>
-                              <a href="single-product-normal.html">Sticker Papers</a>
-                            </li>
-                            <li>
-                              <a href="single-product-affiliate.html">PVC Papers</a>
-                            </li>
-                          </ul>
+                          <a href="shop-left-sidebar.html">Access Points</a>
+                        </li>
+                        <li>
+                          <a href="miktrotik.php">Mikrotik</a>
+                        </li>
+                        <li><a href="shop-list.html">Climbers</a></li>
+                        <li>
+                          <a href="shop-list-left-sidebar.html">Patch-Codes</a>
+                        </li>
+                        <li>
+                          <a href="shop-list-right-sidebar.html">Safety Tools</a>
                         </li>
                       </ul>
                     </li>
-                    <li class=""><a href="blog-left-sidebar.html">Blog</a></li>
-                    <li class="megamenu-static-holder">
-                      <a href="index.html">Pages</a>
-                      <ul class="megamenu hb-megamenu">
+                    <li>
+                      <a href="single-product-gallery-left.html">Accessories</a>
+                      <ul>
                         <li>
-                          <a href="blog-left-sidebar.html">Networking</a>
-                          <ul>
-                            <li>
-                              <a href="blog-2-column.html">Mikrotik</a>
-                            </li>
-                            <li>
-                              <a href="blog-3-column.html">Access Points</a>
-                            </li>
-                            <li>
-                              <a href="blog-left-sidebar.html">Routers</a>
-                            </li>
-                            <li>
-                              <a href="blog-right-sidebar.html">CAT-6 Cables</a>
-                            </li>
-                            <li><a href="blog-list.html">Climbers</a></li>
-                            <li>
-                              <a href="blog-list-left-sidebar.html">Closures</a>
-                            </li>
-                            <li>
-                              <a href="blog-list-right-sidebar.html">Switches</a>
-                            </li>
-                          </ul>
+                          <a href="single-product-carousel.html">Mobile Accessories</a>
                         </li>
                         <li>
-                          <a href="blog-details-left-sidebar.html">Stationaries</a>
-                          <ul>
-                            <li>
-                              <a href="blog-details-left-sidebar.html">Mobile Accessories</a>
-                            </li>
-                            <li>
-                              <a href="blog-details-right-sidebar.html">Computer Accessories </a>
-                            </li>
-                            <li>
-                              <a href="blog-audio-format.html">Rim Papers</a>
-                            </li>
-                            <li>
-                              <a href="blog-video-format.html">Envelops</a>
-                            </li>
-                            <li>
-                              <a href="blog-gallery-format.html">Gaming</a>
-                            </li>
-                          </ul>
+                          <a href="single-product-gallery-left.html">Computer Accessories</a>
                         </li>
                         <li>
-                          <a href="index.php">Account</a>
-                          <ul>
-                            <li>
-                              <a href="login-register.html">My Account</a>
-                            </li>
-                            <li><a href="checkout.html">Blog</a></li>
-                            <li><a href="compare.html">Checkout</a></li>
-                            <li><a href="wishlist.html">Wishlist</a></li>
-                            <li>
-                              <a href="shopping-cart.html">Shopping Cart</a>
-                            </li>
-                          </ul>
+                          <a href="single-product-gallery-right.html">CCTV Devices</a>
                         </li>
                         <li>
-                          <a href="index.php">Profile</a>
-                          <ul>
-                            <li><a href="contact.php">Contact</a></li>
-                            <li><a href="about-us.php">About Us</a></li>
-                            <li><a href="faq.php">FAQ</a></li>
-                            <li><a href="404.php">404 Error</a></li>
-                          </ul>
+                          <a href="single-product-gallery-right.html">Tools</a>
+                        </li>
+                        <li>
+                          <a href="single-product-gallery-right.html">Gaming</a>
                         </li>
                       </ul>
                     </li>
-                    <li><a href="about-us.php">About Us</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <!-- Begin Header Bottom Menu Information Area -->
-                    <!-- Header Bottom Menu Information Area End Here -->
+                    <li>
+                      <a href="single-product.html">Stationery</a>
+                      <ul>
+                        <li>
+                          <a href="single-product.html">Envelops</a>
+                        </li>
+                        <li>
+                          <a href="single-product-sale.html">Exercise Books</a>
+                        </li>
+                        <li>
+                          <a href="single-product-group.html">Rim Papers</a>
+                        </li>
+                        <li>
+                          <a href="single-product-normal.html">Sticker Papers</a>
+                        </li>
+                        <li>
+                          <a href="single-product-affiliate.html">PVC Papers</a>
+                        </li>
+                      </ul>
+                    </li>
                   </ul>
-                </nav>
-              </div>
-              <!-- Header Bottom Menu Area End Here -->
-            </div>
+                </li>
+                <li class=""><a href="blog-left-sidebar.html">Blog</a></li>
+                <li class="megamenu-static-holder">
+                  <a href="index.html">Pages</a>
+                  <ul class="megamenu hb-megamenu">
+                    <li>
+                      <a href="blog-left-sidebar.html">Networking</a>
+                      <ul>
+                        <li>
+                          <a href="blog-2-column.html">Mikrotik</a>
+                        </li>
+                        <li>
+                          <a href="blog-3-column.html">Access Points</a>
+                        </li>
+                        <li>
+                          <a href="blog-left-sidebar.html">Routers</a>
+                        </li>
+                        <li>
+                          <a href="blog-right-sidebar.html">CAT-6 Cables</a>
+                        </li>
+                        <li><a href="blog-list.html">Climbers</a></li>
+                        <li>
+                          <a href="blog-list-left-sidebar.html">Closures</a>
+                        </li>
+                        <li>
+                          <a href="blog-list-right-sidebar.html">Switches</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="blog-details-left-sidebar.html">Stationaries</a>
+                      <ul>
+                        <li>
+                          <a href="blog-details-left-sidebar.html">Mobile Accessories</a>
+                        </li>
+                        <li>
+                          <a href="blog-details-right-sidebar.html">Computer Accessories </a>
+                        </li>
+                        <li>
+                          <a href="blog-audio-format.html">Rim Papers</a>
+                        </li>
+                        <li>
+                          <a href="blog-video-format.html">Envelops</a>
+                        </li>
+                        <li>
+                          <a href="blog-gallery-format.html">Gaming</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="index.php">Account</a>
+                      <ul>
+                        <li>
+                          <a href="login-register.html">My Account</a>
+                        </li>
+                        <li><a href="checkout.html">Blog</a></li>
+                        <li><a href="checkout.php">Checkout</a></li>
+                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li>
+                          <a href="shopping-cart.html">Shopping Cart</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="index.php">Profile</a>
+                      <ul>
+                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="about-us.php">About Us</a></li>
+                        <li><a href="faq.php">FAQ</a></li>
+                        <li><a href="404.php">404 Error</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="about-us.php">About Us</a></li>
+                <li><a href="contact.php">Contact</a></li>
+                <!-- Begin Header Bottom Menu Information Area -->
+                <!-- Header Bottom Menu Information Area End Here -->
+              </ul>
+            </nav>
           </div>
+          <!-- Header Bottom Menu Area End Here -->
         </div>
       </div>
-      <!-- Header Bottom Area End Here -->
-      <!-- Begin Mobile Menu Area -->
-      <div class="mobile-menu-area d-lg-none d-xl-none col-12">
-        <div class="container">
-          <div class="row">
-            <div class="mobile-menu"></div>
-          </div>
-        </div>
+    </div>
+  </div>
+  <!-- Header Bottom Area End Here -->
+  <!-- Begin Mobile Menu Area -->
+  <div class="mobile-menu-area d-lg-none d-xl-none col-12">
+    <div class="container">
+      <div class="row">
+        <div class="mobile-menu"></div>
       </div>
-      <!-- Mobile Menu Area End Here -->
-    </header>
-    <!-- Header Area End Here -->
-    <!-- Begin Slider With Category Menu Area -->
+    </div>
+  </div>
+  <!-- Mobile Menu Area End Here -->
+  </header>
+  <!-- Header Area End Here -->
+  <!-- Begin Slider With Category Menu Area -->
+  <script>
+    $(document).ready(function () {
+      let items = [
+        { name: "Routers", url: "routers.php" },
+        { name: "Tenda-F3", url: "tenda-f3.php" },
+        { name: "Tenda-F6", url: "tenda-f6.php" },
+        { name: "Tenda-AC5", url: "tenda-ac5.php" },
+        { name: "Tenda-AC8", url: "tenda-ac8.php" },
+        { name: "Tenda-AC10", url: "tenda-ac10.php" },
+        { name: "Tenda-4G Lite", url: "tenda-4g-lite.php" },
+        { name: "D-Link Router", url: "d-link.php" },
+        { name: "Tp-Link 844N", url: "tp-link-844n.php" },
+        { name: "Tp-Link 840N", url: "tp-link-840n.php" },
+        { name: "Huawei-Gpon", url: "huawei-gpon.php" },
+        { name: "Huawei EPon", url: "huawei-epon.php" },
+        { name: "Mikrotik RB951", url: "rb951.php" },
+        { name: "Mikrotik RB941-Hap-Lite", url: "rb941.php" },
+        { name: "Mikrotik RB760-IGS", url: "rb760-igs.php" },
+        { name: "Mikrotik RB4011", url: "rb4011.php" },
+        { name: "Mikrotik RB260GS", url: "rbs60gs.php" },
+        { name: "Mikrotik SXTSQ Series", url: "ssxtsq-series.php" },
+        { name: "Mikrotiks", url: "mikrotik.php" },
+        { name: "Mikrotik L009", url: "mikrotik-l009.php" }
+      ];
+
+      function showResults(query = "") {
+        let resultsContainer = $("#search-results");
+        resultsContainer.empty();
+
+        // Always sort alphabetically before displaying
+        let sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
+        let filteredItems = sortedItems.filter(item => item.name.toLowerCase().includes(query));
+
+        if (filteredItems.length > 0) {
+          filteredItems.forEach(item => {
+            resultsContainer.append(`<li class="search-item" data-url="${item.url}">${item.name}</li>`);
+          });
+          resultsContainer.show();
+        } else {
+          resultsContainer.hide();
+        }
+      }
+
+      // Show all items in alphabetical order when clicking inside search box
+      $("#search-box").on("focus", function () {
+        showResults();
+      });
+
+      // Filter results while typing, still in alphabetical order
+      $("#search-box").on("input", function () {
+        let query = $(this).val().toLowerCase();
+        showResults(query);
+      });
+
+      // Navigate when clicking a search result
+      $(document).on("click", ".search-item", function () {
+        window.location.href = $(this).data("url");
+      });
+
+      // Hide search results when clicking outside
+      $(document).click(function (event) {
+        if (!$(event.target).closest("#search-box, #search-results").length) {
+          $("#search-results").hide();
+        }
+      });
+    });
+
+  </script>
+  <style>
+    .hm-searchbox {
+      position: relative;
+      width: 60%;
+      max-width: 400px;
+    }
+
+    #search-results {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: white;
+      border: 1px solid #ccc;
+      display: none;
+      max-height: 200px;
+      overflow-y: auto;
+      z-index: 1000;
+      border-radius: 5px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .search-item {
+      padding: 10px;
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .search-item:hover {
+      background: #5ccdf0;
+      color: white;
+    }
+  </style>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    function saveCart() {
+        localStorage.setItem("cart", JSON.stringify(cart));
+    }
+
+    function updateMiniCart() {
+        let cartContainer = $("#cart-items");
+        let cartTotal = $("#cart-total");
+        let cartSubtotal = $("#cart-subtotal");
+        let cartCount = $(".cart-item-count");
+
+        cartContainer.empty();
+
+        if (cart.length === 0) {
+            cartContainer.append('<li><p>Your cart is empty.</p></li>');
+            cartTotal.text("0");
+            cartSubtotal.text("0");
+            cartCount.text("0");
+            return;
+        }
+
+        let totalCost = 0;
+        let totalItems = 0;
+        cart.forEach((item, index) => {
+            let itemTotal = item.price * item.quantity;
+            totalCost += itemTotal;
+            totalItems += item.quantity;
+
+            cartContainer.append(`
+                <li>
+                    <div class="minicart-product-details">
+                        <h6>${item.name}</h6>
+                        <span>Ksh. ${item.price.toLocaleString()} x ${item.quantity}</span>
+                    </div>
+                    <button class="close remove-item" data-index="${index}">
+                        <i class="fa fa-close"></i>
+                    </button>
+                </li>
+            `);
+        });
+
+        cartTotal.text(totalCost.toLocaleString());
+        cartSubtotal.text(totalCost.toLocaleString());
+        cartCount.text(totalItems);
+    }
+
+    function updateFullCart() {
+        let cartBody = $("#cart-body");
+        let fullSubtotal = $("#cart-subtotal"); // ✅ links with view page
+        let fullTotal = $("#full-cart-total");  // ✅ links with view page
+
+        cartBody.empty();
+
+        if (cart.length === 0) {
+            cartBody.append('<tr><td colspan="6" class="text-center">Your cart is empty.</td></tr>');
+            fullSubtotal.text("0");
+            fullTotal.text("0");
+            return;
+        }
+
+        let totalCost = 0;
+        cart.forEach((item, index) => {
+            let itemTotal = item.price * item.quantity;
+            totalCost += itemTotal;
+
+            cartBody.append(`
+                <tr>
+                    <td>${index + 1}</td> <!-- ✅ Number -->                    
+                    <td class="li-product-thumbnail"><img src="${item.image || 'assets/images/default.png'}" alt="${item.name}" style="width:50px; height:50px; object-fit:cover; border-radius:5px;"></td>
+                    <td class="cart-product-name">${item.name}</td>
+                    <td class="li-product-price">Ksh. ${item.price.toLocaleString()}</td>
+                    <td class="quantity">
+                        <input type="number" min="1" value="${item.quantity}" data-index="${index}" class="form-control quantity-input" />
+                    </td>
+                    <td class="product-subtotal">Ksh. ${(itemTotal).toLocaleString()}</td>
+                    <td class="li-product-remove"><button class="remove-item btn btn-sm btn-danger" data-index="${index}"><i class="fa fa-times"></i></button></td>
+                </tr>
+            `);
+        });
+
+        fullSubtotal.text(totalCost.toLocaleString());
+        fullTotal.text(totalCost.toLocaleString());
+    }
+
+    function updateAllCarts() {
+        updateMiniCart();
+        updateFullCart();
+        saveCart();
+    }
+
+    $(".add-to-cart").on("click", function (e) {
+        e.preventDefault();
+
+        let itemContainer = $(this).closest(".single-product-wrap");
+        let itemName = itemContainer.find(".product_name").first().text().trim();
+        let itemPriceText = itemContainer.find(".new-price").first().text().replace("Ksh.", "").replace(",", "").trim();
+        let itemImage = itemContainer.find("img").attr("src") || 'assets/images/default.png';
+        let itemPrice = parseInt(itemPriceText);
+
+        if (!itemName || isNaN(itemPrice)) {
+            alert("Error: Unable to add item to cart.");
+            return;
+        }
+
+        let existingItem = cart.find(item => item.name === itemName);
+        if (existingItem) {
+            existingItem.quantity += 1;
+        } else {
+            cart.push({ name: itemName, price: itemPrice, quantity: 1, image: itemImage });
+        }
+
+        updateAllCarts();
+        $("html, body").animate({ scrollTop: 0 }, 800);
+    });
+
+    $(document).on("click", ".remove-item", function () {
+        let index = $(this).data("index");
+        cart.splice(index, 1);
+        updateAllCarts();
+    });
+
+    $(document).on("change", ".quantity-input", function () {
+        let index = $(this).data("index");
+        let newQuantity = parseInt($(this).val());
+
+        if (newQuantity <= 0 || isNaN(newQuantity)) {
+            alert("Invalid quantity! Minimum is 1.");
+            $(this).val(cart[index].quantity);
+            return;
+        }
+
+        cart[index].quantity = newQuantity;
+        updateAllCarts();
+    });
+
+    updateAllCarts();
+});
+</script>
+

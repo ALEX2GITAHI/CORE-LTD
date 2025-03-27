@@ -89,10 +89,10 @@ include 'header.php'; // Includes the header file
                           </div>
                           <div class="add-actions">
                             <ul class="add-actions-link">
-                              <li class="add-cart active">
-                                <a href="shopping-cart.html">Add to cart</a>
+                              <li class="add-to-cart">
+                              <a href="#" class="add-to-cart-link">
+                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                              <li>
                                 <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
                                   data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
                               </li>
@@ -143,10 +143,10 @@ include 'header.php'; // Includes the header file
                           </div>
                           <div class="add-actions">
                             <ul class="add-actions-link">
-                              <li class="add-cart active">
-                                <a href="shopping-cart.html">Add to cart</a>
+                              <li class="add-to-cart">
+                              <a href="#" class="add-to-cart-link">
+                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                              <li>
                                 <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
                                   data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
                               </li>
@@ -199,10 +199,10 @@ include 'header.php'; // Includes the header file
                           </div>
                           <div class="add-actions">
                             <ul class="add-actions-link">
-                              <li class="add-cart active">
-                                <a href="shopping-cart.html">Add to cart</a>
+                              <li class="add-to-cart">
+                              <a href="#" class="add-to-cart-link">
+                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                              <li>
                                 <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
                                   data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
                               </li>
@@ -253,10 +253,10 @@ include 'header.php'; // Includes the header file
                           </div>
                           <div class="add-actions">
                             <ul class="add-actions-link">
-                              <li class="add-cart active">
-                                <a href="shopping-cart.html">Add to cart</a>
+                              <li class="add-to-cart">
+                              <a href="#" class="add-to-cart-link">
+                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                              <li>
                                 <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
                                   data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
                               </li>
