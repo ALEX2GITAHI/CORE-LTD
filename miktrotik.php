@@ -92,10 +92,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -146,10 +143,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -202,10 +196,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -256,10 +247,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -310,10 +298,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -367,10 +352,7 @@ include 'header.php'; // Includes the header file
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                              <li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                            
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -422,10 +404,7 @@ include 'header.php'; // Includes the header file
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                              <li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                            
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -478,10 +457,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -532,10 +508,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>
@@ -586,10 +559,7 @@ include 'header.php'; // Includes the header file
                               <li class="add-to-cart">
                               <a href="#" class="add-to-cart-link">
                               <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                                <a href="#" title="quick view" class="quick-view-btn" data-toggle="modal"
-                                  data-target="#exampleModalCenter"><i class="fa fa-eye"></i></a>
-                              </li>
+                              
                               <li>
                                 <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
                               </li>

@@ -39,7 +39,7 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name" href="rb941-hap-lite.php">Easenet Cat 6 Indoor Cable</a>
+                            <a class="product_name">Easenet Cat 6 Indoor Cable</a>
                         </h4>
                         <span class="product-details-ref">Reference: CAT-6</span>
                         <div class="rating-box pt-20">
@@ -73,68 +73,68 @@ include 'header.php'; // Includes the header file
                                     </ul>
                                 </span>
                             </p>
-                        </div>                    
-                        <div class="single-add-to-cart">
-                            <li class="add-to-cart">
-                                <a href="#" class="add-to-cart-link">
-                                    <div class="cart-box">
-                                        <h2>🛒 Add to Cart</h2>
-                                    </div>
-                            </li>
                         </div>
+                        <!-- ✅ Add to Cart Button -->
+                        <div class="add-to-cart-area pt-30">
+                            <button class="single-product-add-to-cart">
+                                <a href="#" class="add-to-cart-link">
+                                    <i class="fa fa-shopping-cart"></i> Add to Cart
+                            </button>
+                        </div>                     
+                    </div>
+                    <div class="single-add-to-cart">
+                        <div class="product-additional-info pt-25">
+                            <a id="whatsapp-link" target="_blank"
+                                style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+                                Click to Order on WhatsApp
+                            </a> <br><br>
+                            <script>
+                            // Your WhatsApp number (without + or 0)
+                            const phoneNumber = "254792570000";
 
-                            <div class="product-additional-info pt-25">
-                                <a id="whatsapp-link" target="_blank"
-                                    style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
-                                    Click to Order on WhatsApp
-                                </a> <br><br>
-                                <script>
-                                // Your WhatsApp number (without + or 0)
-                                const phoneNumber = "254792570000";
+                            // Get the current page URL
+                            const currentPageURL = encodeURIComponent(window.location.href);
 
-                                // Get the current page URL
-                                const currentPageURL = encodeURIComponent(window.location.href);
+                            // Get product details dynamically (if available)
+                            const productName = document.querySelector("#product-name")?.innerText ||
+                                "this product";
+                            const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                                // Get product details dynamically (if available)
-                                const productName = document.querySelector("#product-name")?.innerText ||
-                                    "this product";
-                                const productPrice = document.querySelector("#product-price")?.innerText || "";
+                            // Encode message
+                            const message = encodeURIComponent(
+                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                            );
 
-                                // Encode message
-                                const message = encodeURIComponent(
-                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                                );
+                            // Set the WhatsApp link dynamically
+                            document.getElementById("whatsapp-link").href =
+                                `https://wa.me/${phoneNumber}?text=${message}`;
+                            </script>
 
-                                // Set the WhatsApp link dynamically
-                                document.getElementById("whatsapp-link").href =
-                                    `https://wa.me/${phoneNumber}?text=${message}`;
-                                </script>
-
-                            </div>
-                            <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to
-                                wishlist</a>
-                            <div class="product-social-sharing pt-25">
-                                <ul>
-                                    <li class="facebook">
-                                        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                                    </li>
-                                    <li class="google-plus">
-                                        <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
-                                    </li>
-                                    <li class="instagram">
-                                        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-                                    </li>
-                                </ul>
-                            </div>
+                        </div>
+                        <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to
+                            wishlist</a>
+                        <div class="product-social-sharing pt-25">
+                            <ul>
+                                <li class="facebook">
+                                    <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                                </li>
+                                <li class="google-plus">
+                                    <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <!-- content-wraper end -->
 <!-- Begin Product Area -->
@@ -352,11 +352,7 @@ include 'header.php'; // Includes the header file
                                                 <a href="#" class="add-to-cart-link">
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                                             </li>
-                                            <li>
-                                                <a href="#" title="quick view" class="quick-view-btn"
-                                                    data-toggle="modal" data-target="#exampleModalCenter"><i
-                                                        class="fa fa-eye"></i></a>
-                                            </li>
+
                                             <li>
                                                 <a class="links-details" href="wishlist.html"><i
                                                         class="fa fa-heart-o"></i></a>
@@ -410,11 +406,7 @@ include 'header.php'; // Includes the header file
                                                 <a href="#" class="add-to-cart-link">
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                                             </li>
-                                            <li>
-                                                <a href="#" title="quick view" class="quick-view-btn"
-                                                    data-toggle="modal" data-target="#exampleModalCenter"><i
-                                                        class="fa fa-eye"></i></a>
-                                            </li>
+
                                             <li>
                                                 <a class="links-details" href="wishlist.html"><i
                                                         class="fa fa-heart-o"></i></a>
@@ -470,11 +462,7 @@ include 'header.php'; // Includes the header file
                                                 <a href="#" class="add-to-cart-link">
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                                             </li>
-                                            <li>
-                                                <a href="#" title="quick view" class="quick-view-btn"
-                                                    data-toggle="modal" data-target="#exampleModalCenter"><i
-                                                        class="fa fa-eye"></i></a>
-                                            </li>
+
                                             <li>
                                                 <a class="links-details" href="wishlist.html"><i
                                                         class="fa fa-heart-o"></i></a>
@@ -530,11 +518,7 @@ include 'header.php'; // Includes the header file
                                                 <a href="#" class="add-to-cart-link">
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                                             </li>
-                                            <li>
-                                                <a href="#" title="quick view" class="quick-view-btn"
-                                                    data-toggle="modal" data-target="#exampleModalCenter"><i
-                                                        class="fa fa-eye"></i></a>
-                                            </li>
+
                                             <li>
                                                 <a class="links-details" href="wishlist.html"><i
                                                         class="fa fa-heart-o"></i></a>
@@ -588,11 +572,7 @@ include 'header.php'; // Includes the header file
                                                 <a href="#" class="add-to-cart-link">
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                                             </li>
-                                            <li>
-                                                <a href="#" title="quick view" class="quick-view-btn"
-                                                    data-toggle="modal" data-target="#exampleModalCenter"><i
-                                                        class="fa fa-eye"></i></a>
-                                            </li>
+
                                             <li>
                                                 <a class="links-details" href="wishlist.html"><i
                                                         class="fa fa-heart-o"></i></a>
@@ -648,11 +628,7 @@ include 'header.php'; // Includes the header file
                                                 <a href="#" class="add-to-cart-link">
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                                             </li>
-                                            <li>
-                                                <a href="#" title="quick view" class="quick-view-btn"
-                                                    data-toggle="modal" data-target="#exampleModalCenter"><i
-                                                        class="fa fa-eye"></i></a>
-                                            </li>
+
                                             <li>
                                                 <a class="links-details" href="wishlist.html"><i
                                                         class="fa fa-heart-o"></i></a>

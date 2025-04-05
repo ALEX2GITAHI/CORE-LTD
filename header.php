@@ -284,7 +284,7 @@
                           <a href="blog-left-sidebar.html">Routers</a>
                         </li>
                         <li>
-                          <a href="blog-right-sidebar.html">CAT-6 Cables</a>
+                          <a href="cat6-cables.php">CAT-6 Cables</a>
                         </li>
                         <li><a href="blog-list.html">Climbers</a></li>
                         <li>
@@ -518,8 +518,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function updateFullCart() {
         let cartBody = $("#cart-body");
-        let fullSubtotal = $("#cart-subtotal"); // ✅ links with view page
-        let fullTotal = $("#full-cart-total");  // ✅ links with view page
+        let fullSubtotal = $("#cart-subtotal");
+        let fullTotal = $("#full-cart-total");
 
         cartBody.empty();
 
@@ -537,15 +537,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
             cartBody.append(`
                 <tr>
-                    <td>${index + 1}</td> <!-- ✅ Number -->                    
-                    <td class="li-product-thumbnail"><img src="${item.image || 'assets/images/default.png'}" alt="${item.name}" style="width:50px; height:50px; object-fit:cover; border-radius:5px;"></td>
+                    <td>${index + 1}</td>
+                    <td class="li-product-thumbnail">
+                        <img src="${item.image || 'assets/images/default.png'}" alt="${item.name}" style="width:50px; height:50px; object-fit:cover; border-radius:5px;">
+                    </td>
                     <td class="cart-product-name">${item.name}</td>
                     <td class="li-product-price">Ksh. ${item.price.toLocaleString()}</td>
                     <td class="quantity">
                         <input type="number" min="1" value="${item.quantity}" data-index="${index}" class="form-control quantity-input" />
                     </td>
                     <td class="product-subtotal">Ksh. ${(itemTotal).toLocaleString()}</td>
-                    <td class="li-product-remove"><button class="remove-item btn btn-sm btn-danger" data-index="${index}"><i class="fa fa-times"></i></button></td>
+                    <td class="li-product-remove">
+                        <button class="remove-item btn btn-sm btn-danger" data-index="${index}">
+                            <i class="fa fa-times"></i>
+                        </button>
+                    </td>
                 </tr>
             `);
         });
@@ -560,6 +566,7 @@ document.addEventListener("DOMContentLoaded", function () {
         saveCart();
     }
 
+    // ✅ Add to cart from product list
     $(".add-to-cart").on("click", function (e) {
         e.preventDefault();
 
@@ -585,12 +592,40 @@ document.addEventListener("DOMContentLoaded", function () {
         $("html, body").animate({ scrollTop: 0 }, 800);
     });
 
+    // ✅ Add to cart from product details view
+    $(".single-product-add-to-cart").on("click", function (e) {
+        e.preventDefault();
+
+        let productContainer = $(this).closest(".product-details-view-content");
+        let itemName = productContainer.find(".product_name").text().trim();
+        let itemPriceText = productContainer.find(".new-price").text().replace("Ksh.", "").replace(",", "").trim();
+        let itemImage = productContainer.find(".product-details-image img").attr("src") || 'assets/images/default.png';
+        let itemPrice = parseInt(itemPriceText);
+
+        if (!itemName || isNaN(itemPrice)) {
+            alert("Error: Unable to add item to cart.");
+            return;
+        }
+
+        let existingItem = cart.find(item => item.name === itemName);
+        if (existingItem) {
+            existingItem.quantity += 1;
+        } else {
+            cart.push({ name: itemName, price: itemPrice, quantity: 1, image: itemImage });
+        }
+
+        updateAllCarts();
+        $("html, body").animate({ scrollTop: 0 }, 800);
+    });
+
+    // ✅ Remove item
     $(document).on("click", ".remove-item", function () {
         let index = $(this).data("index");
         cart.splice(index, 1);
         updateAllCarts();
     });
 
+    // ✅ Update quantity
     $(document).on("change", ".quantity-input", function () {
         let index = $(this).data("index");
         let newQuantity = parseInt($(this).val());
@@ -605,6 +640,7 @@ document.addEventListener("DOMContentLoaded", function () {
         updateAllCarts();
     });
 
+    // ✅ Load cart on page load
     updateAllCarts();
 });
 </script>
