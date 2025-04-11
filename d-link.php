@@ -39,8 +39,9 @@ include 'header.php'; // Includes the header file
             <div class="col-lg-7 col-md-6">
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
-                        <h3>D-link DWR-M960 4G AC1200 LTE Simcard Router
-                        </h3>
+                        <h4>
+                            <a class="product_name">D-link DWR-M960 4G AC1200 LTE Simcard Router</a>
+                        </h4>
                         <span class="product-details-ref">Reference: D.L</span>
                         <div class="rating-box pt-20">
                             <ul class="rating rating-with-review-item">
@@ -65,7 +66,7 @@ include 'header.php'; // Includes the header file
                                         <li>SIM card slot for a mobile broadband connection</li>
                                         <li>It lets you connect to your 4G/5G mobile connection with fast downlink
                                             speeds of up to 150 Mbps and uplink speeds up to 50 Mbps, giving you the
-                                            speed you need</li>                                        
+                                            speed you need</li>
                                     </ol>
                                 </span>
                             </p>
@@ -107,23 +108,25 @@ include 'header.php'; // Includes the header file
                                     Click to Order on WhatsApp
                                 </a> <br><br>
                                 <script>
-                                    // Your WhatsApp number (without + or 0)
-                                    const phoneNumber = "254792570000";
+                                // Your WhatsApp number (without + or 0)
+                                const phoneNumber = "254792570000";
 
-                                    // Get the current page URL
-                                    const currentPageURL = encodeURIComponent(window.location.href);
+                                // Get the current page URL
+                                const currentPageURL = encodeURIComponent(window.location.href);
 
-                                    // Get product details dynamically (if available)
-                                    const productName = document.querySelector("#product-name")?.innerText || "this product";
-                                    const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                // Get product details dynamically (if available)
+                                const productName = document.querySelector("#product-name")?.innerText ||
+                                "this product";
+                                const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                                    // Encode message
-                                    const message = encodeURIComponent(
-                                        `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                                    );
+                                // Encode message
+                                const message = encodeURIComponent(
+                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                                );
 
-                                    // Set the WhatsApp link dynamically
-                                    document.getElementById("whatsapp-link").href = `https://wa.me/${phoneNumber}?text=${message}`;
+                                // Set the WhatsApp link dynamically
+                                document.getElementById("whatsapp-link").href =
+                                    `https://wa.me/${phoneNumber}?text=${message}`;
                                 </script>
 
                             </div>

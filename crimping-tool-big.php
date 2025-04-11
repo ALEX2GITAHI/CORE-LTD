@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li class="active">Tenda-AC8</li>
+                <li class="active">Easenet Cat 6 Indoor Cable</li>
             </ul>
         </div>
     </div>
@@ -25,45 +25,10 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/tenda ac8.jpg"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/crimbing too big.webp"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/tenda ac8.jpg" alt="product image" />
+                                <img src="images/product/small-size/crimbing too big.webp" alt="product image" />
                             </a>
-                        </div>
-                        <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/tenda ac 8 front.jpg"
-                                data-gall="myGallery">
-                                <img src="images/product/small-size/tenda ac 8 front.jpg" alt="product image" />
-                            </a>
-                        </div>
-                        <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/tenda ac8 back.jpg"
-                                data-gall="myGallery">
-                                <img src="images/product/small-size/tenda ac8 back.jpg" alt="product image" />
-                            </a>
-                        </div>
-                        <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/tenda ac8 all.jpg"
-                                data-gall="myGallery">
-                                <img src="images/product/small-size/tenda ac8 all.jpg" alt="product image" />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="product-details-thumbs slider-thumbs-1">
-                        <div class="sm-image">
-                            <img src="images/product/small-size/tenda ac8.jpg" alt="product image thumb" />
-                        </div>
-                        <div class="sm-image">
-                            <img src="images/product/small-size/tenda ac 8 front.jpg" alt="product image thumb" />
-                        </div>
-                        <div class="sm-image">
-                            <img src="images/product/small-size/tenda ac8 back.jpg" alt="product image thumb" />
-                        </div>
-                        <div class="sm-image">
-                            <img src="images/product/small-size/tenda ac8 all.jpg" alt="product image thumb" />
-                        </div>
-                        <div class="sm-image">
-                            <img src="images/product/small-size/tenda ac8 all.jpg" alt="product image thumb" />
                         </div>
                     </div>
                 </div>
@@ -74,9 +39,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Tenda AC8 V3 AC1200 Wireless Dual Band Wi-Fi Router</a>
+                            <a class="product_name">RJ45 Crimp Tool Pass Through Cat5 Cat5e Cat6 </a>
                         </h4>
-                        <span class="product-details-ref">Reference: AC</span>
+                        <span class="product-details-ref">Reference: RJ45</span>
                         <div class="rating-box pt-20">
                             <ul class="rating rating-with-review-item">
                                 <li><i class="fa fa-star-o"></i></li>
@@ -88,19 +53,22 @@ include 'header.php'; // Includes the header file
                                 <li class="review-item"><a href="#">Write Review</a></li>
                             </ul>
                         </div>
-                        <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 1,350</span>
+                        <div class="price-box">
+                            <span class="new-price">Ksh. 1,000</span>
                         </div>
                         <div class="product-desc">
                             <p>
                                 <span>
-                                    <ol>
-                                        <li>Wireless rate up to 300Mbps</li>
-                                        <li>Supports WPA, WPA2, WPA-PSK/WPA2-PSK security</li>
-                                        <li>IP based bandwidth control</li>
-                                        <li>Super simple setup</li>
-                                        <li>3* 5dBi external antennas boost WiFi</li>
-                                    </ol>
+                                <h4><b>Features</b></h4>
+    <ul>
+        <li><b>Pass-Through Design:</b> Allows wires to pass through the connector for easy alignment and precise crimping.</li>
+        <li><b>Versatile Compatibility:</b> Works with RJ45, RJ12, and RJ11 connectors on Cat5, Cat5e, and Cat6 cables.</li>
+        <li><b>Clean & Consistent Cuts:</b> Built-in blade trims excess wires neatly for professional results.</li>
+        <li><b>Durable Construction:</b> Made of high-carbon steel for long-lasting performance and reliability.</li>
+        <li><b>Comfortable Grip:</b> Ergonomic non-slip handles reduce hand fatigue during extended use.</li>
+        <li><b>Multi-Function Tool:</b> Crimps, strips, and cuts cable all in one tool for added convenience.</li>
+        <li><b>Ideal for Networking:</b> Perfect for IT professionals, electricians, and DIY network installers.</li>
+    </ul>
                                 </span>
                             </p>
                         </div>
@@ -113,35 +81,36 @@ include 'header.php'; // Includes the header file
                         </div>
                     </div>
                     <div class="single-add-to-cart">
-
                         <div class="product-additional-info pt-25">
                             <a id="whatsapp-link" target="_blank"
                                 style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                            // Your WhatsApp number (without + or 0)
-                            const phoneNumber = "254792570000";
+                                // Your WhatsApp number (without + or 0)
+                                const phoneNumber = "254792570000";
 
-                            // Get the current page URL
-                            const currentPageURL = encodeURIComponent(window.location.href);
+                                // Get the current page URL
+                                const currentPageURL = encodeURIComponent(window.location.href);
 
-                            // Get product details dynamically (if available)
-                            const productName = document.querySelector("#product-name")?.innerText || "this product";
-                            const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                // Get product details dynamically (if available)
+                                const productName = document.querySelector("#product-name")?.innerText ||
+                                    "this product";
+                                const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                            // Encode message
-                            const message = encodeURIComponent(
-                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                            );
+                                // Encode message
+                                const message = encodeURIComponent(
+                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                                );
 
-                            // Set the WhatsApp link dynamically
-                            document.getElementById("whatsapp-link").href =
-                                `https://wa.me/${phoneNumber}?text=${message}`;
+                                // Set the WhatsApp link dynamically
+                                document.getElementById("whatsapp-link").href =
+                                    `https://wa.me/${phoneNumber}?text=${message}`;
                             </script>
 
                         </div>
-                        <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
+                        <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to
+                            wishlist</a>
                         <div class="product-social-sharing pt-25">
                             <ul>
                                 <li class="facebook">
@@ -346,7 +315,7 @@ include 'header.php'; // Includes the header file
                                     <a href="tenda-f3.php">
                                         <img src="images/product/small-size/Tenda F3.jpg" alt="Li's Product Image" />
                                     </a>
-                                    <span class="sticker">New</span>
+
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -400,7 +369,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tenda-f6 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-                                    <span class="sticker">New</span>
+
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -454,7 +423,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/Tenda-AC5-front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-                                    <span class="sticker">New</span>
+
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -480,7 +449,7 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="tenda-ac5.php">Tenda AC5</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 3,500</span>
+                                            <span class="new-price">Ksh. 3,500</span>
                                             <span class="old-price">Ksh. 4,000</span>
                                             <span class="discount-percentage">-7%</span>
                                         </div>
@@ -510,7 +479,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tenda ac10 all.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-                                    <span class="sticker">New</span>
+
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -536,7 +505,7 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="tenda-ac10.php">Tenda-AC10</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 4,500</span>
+                                            <span class="new-price">Ksh. 4,500</span>
                                             <span class="old-price">Ksh. 5,000</span>
                                             <span class="discount-percentage">-8%</span>
                                         </div>
@@ -566,7 +535,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tplink front.webp"
                                             alt="Li's Product Image" />
                                     </a>
-                                    <span class="sticker">New</span>
+
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -620,7 +589,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tp link844 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-                                    <span class="sticker">New</span>
+
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -646,7 +615,7 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="tp-link-844.php">TP-Link 844N</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 1450</span>
+                                            <span class="new-price">Ksh. 1,450</span>
                                             <span class="old-price">Ksh. 1,550</span>
                                             <span class="discount-percentage">-5%</span>
                                         </div>

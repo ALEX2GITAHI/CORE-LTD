@@ -384,12 +384,13 @@
         { name: "Mikrotik RB941-Hap-Lite", url: "rb941.php" },
         { name: "Mikrotik RB760-IGS", url: "rb760-igs.php" },
         { name: "Mikrotik RB4011", url: "rb4011.php" },
+        { name: "Crimping Tools", url: "crimping-tools.php" },
         { name: "Mikrotik RB260GS", url: "rbs60gs.php" },
         { name: "Mikrotik SXTSQ Series", url: "ssxtsq-series.php" },
         { name: "Mikrotiks", url: "mikrotik.php" },
         { name: "Mikrotik L009", url: "mikrotik-l009.php" }
       ];
-
+      
       function showResults(query = "") {
         let resultsContainer = $("#search-results");
         resultsContainer.empty();
@@ -476,45 +477,49 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function updateMiniCart() {
-        let cartContainer = $("#cart-items");
-        let cartTotal = $("#cart-total");
-        let cartSubtotal = $("#cart-subtotal");
-        let cartCount = $(".cart-item-count");
+    let cartContainer = $("#cart-items");
+    let cartTotal = $("#cart-total");
+    let cartSubtotal = $("#cart-subtotal");
+    let cartCount = $(".cart-item-count");
 
-        cartContainer.empty();
+    cartContainer.empty();
 
-        if (cart.length === 0) {
-            cartContainer.append('<li><p>Your cart is empty.</p></li>');
-            cartTotal.text("0");
-            cartSubtotal.text("0");
-            cartCount.text("0");
-            return;
-        }
-
-        let totalCost = 0;
-        let totalItems = 0;
-        cart.forEach((item, index) => {
-            let itemTotal = item.price * item.quantity;
-            totalCost += itemTotal;
-            totalItems += item.quantity;
-
-            cartContainer.append(`
-                <li>
-                    <div class="minicart-product-details">
-                        <h6>${item.name}</h6>
-                        <span>Ksh. ${item.price.toLocaleString()} x ${item.quantity}</span>
-                    </div>
-                    <button class="close remove-item" data-index="${index}">
-                        <i class="fa fa-close"></i>
-                    </button>
-                </li>
-            `);
-        });
-
-        cartTotal.text(totalCost.toLocaleString());
-        cartSubtotal.text(totalCost.toLocaleString());
-        cartCount.text(totalItems);
+    if (cart.length === 0) {
+        cartContainer.append('<li><p>Your cart is empty.</p></li>');
+        cartTotal.text("0");
+        cartSubtotal.text("0");
+        cartCount.text("0");
+        return;
     }
+
+    let totalCost = 0;
+    let totalItems = 0;
+    cart.forEach((item, index) => {
+        let itemTotal = item.price * item.quantity;
+        totalCost += itemTotal;
+        totalItems += item.quantity;
+
+        // ✅ Use fallback image if undefined
+        let imageUrl = item.image || 'assets/images/default.png';
+
+        cartContainer.append(`
+            <li style="display: flex; align-items: center; gap: 10px;">
+                <img src="${imageUrl}" alt="${item.name}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 5px;">
+                <div class="minicart-product-details" style="flex-grow: 1;">
+                    <h6>${item.name}</h6>
+                    <span>Ksh. ${item.price.toLocaleString()} x ${item.quantity}</span>
+                </div>
+                <button class="close remove-item" data-index="${index}">
+                    <i class="fa fa-close"></i>
+                </button>
+            </li>
+        `);
+    });
+
+    cartTotal.text(totalCost.toLocaleString());
+    cartSubtotal.text(totalCost.toLocaleString());
+    cartCount.text(totalItems);
+}
 
     function updateFullCart() {
         let cartBody = $("#cart-body");
@@ -539,7 +544,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <tr>
                     <td>${index + 1}</td>
                     <td class="li-product-thumbnail">
-                        <img src="${item.image || 'assets/images/default.png'}" alt="${item.name}" style="width:50px; height:50px; object-fit:cover; border-radius:5px;">
+                        <img src="${item.image || 'assets/images/default.png'}" alt="" style="width:50px; height:50px; object-fit:cover; border-radius:5px;">
                     </td>
                     <td class="cart-product-name">${item.name}</td>
                     <td class="li-product-price">Ksh. ${item.price.toLocaleString()}</td>
@@ -592,31 +597,33 @@ document.addEventListener("DOMContentLoaded", function () {
         $("html, body").animate({ scrollTop: 0 }, 800);
     });
 
-    // ✅ Add to cart from product details view
     $(".single-product-add-to-cart").on("click", function (e) {
-        e.preventDefault();
+    e.preventDefault();
 
-        let productContainer = $(this).closest(".product-details-view-content");
-        let itemName = productContainer.find(".product_name").text().trim();
-        let itemPriceText = productContainer.find(".new-price").text().replace("Ksh.", "").replace(",", "").trim();
-        let itemImage = productContainer.find(".product-details-image img").attr("src") || 'assets/images/default.png';
-        let itemPrice = parseInt(itemPriceText);
+    let productContainer = $(this).closest(".product-details-view-content");
+    let itemName = productContainer.find(".product_name").text().trim();
+    let itemPriceText = productContainer.find(".new-price").text().replace("Ksh.", "").replace(",", "").trim();
+    let itemPrice = parseInt(itemPriceText);
 
-        if (!itemName || isNaN(itemPrice)) {
-            alert("Error: Unable to add item to cart.");
-            return;
-        }
+    let itemImage = $(".product-details-left .lg-image img").attr("src") || 'assets/images/default.png';
 
-        let existingItem = cart.find(item => item.name === itemName);
-        if (existingItem) {
-            existingItem.quantity += 1;
-        } else {
-            cart.push({ name: itemName, price: itemPrice, quantity: 1, image: itemImage });
-        }
+    console.log("💥 Add to Cart Debug →", { itemName, itemPrice, itemImage });
 
-        updateAllCarts();
-        $("html, body").animate({ scrollTop: 0 }, 800);
-    });
+    if (!itemName || isNaN(itemPrice)) {
+        alert("Error: Unable to add item to cart.");
+        return;
+    }
+
+    let existingItem = cart.find(item => item.name === itemName);
+    if (existingItem) {
+        existingItem.quantity += 1;
+    } else {
+        cart.push({ name: itemName, price: itemPrice, quantity: 1, image: itemImage });
+    }
+
+    updateAllCarts();
+    $("html, body").animate({ scrollTop: 0 }, 800);
+});
 
     // ✅ Remove item
     $(document).on("click", ".remove-item", function () {
@@ -643,5 +650,6 @@ document.addEventListener("DOMContentLoaded", function () {
     // ✅ Load cart on page load
     updateAllCarts();
 });
+
 </script>
 

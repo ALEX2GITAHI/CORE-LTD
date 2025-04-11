@@ -25,81 +25,51 @@ include 'header.php'; // Includes the header file
         <div class="product-details-left">
           <div class="product-details-images slider-navigation-1">
             <div class="lg-image">
-              <a
-                class="popup-img venobox vbox-item"
-                href="images/product/small-size/Tenda-F6-.jpg"
+              <a class="popup-img venobox vbox-item" href="images/product/small-size/Tenda-F6-.jpg"
                 data-gall="myGallery">
-                <img
-                  src="images/product/small-size/Tenda-F6-.jpg"
-                  alt="product image" />
+                <img src="images/product/small-size/Tenda-F6-.jpg" alt="product image" />
               </a>
             </div>
             <div class="lg-image">
-              <a
-                class="popup-img venobox vbox-item"
-                href="images/product/small-size/tenda-f6 front.jpg"
+              <a class="popup-img venobox vbox-item" href="images/product/small-size/tenda-f6 front.jpg"
                 data-gall="myGallery">
-                <img
-                  src="images/product/small-size/tenda-f6 front.jpg"
-                  alt="product image" />
+                <img src="images/product/small-size/tenda-f6 front.jpg" alt="product image" />
               </a>
             </div>
             <div class="lg-image">
-              <a
-                class="popup-img venobox vbox-item"
-                href="images/product/small-size/Tenda-F6-side.webp"
+              <a class="popup-img venobox vbox-item" href="images/product/small-size/Tenda-F6-side.webp"
                 data-gall="myGallery">
-                <img
-                  src="images/product/small-size/Tenda-F6-side.webp"
-                  alt="product image" />
+                <img src="images/product/small-size/Tenda-F6-side.webp" alt="product image" />
               </a>
             </div>
             <div class="lg-image">
-              <a
-                class="popup-img venobox vbox-item"
-                href="images/product/small-size/Tenda-F6-back.jpg"
+              <a class="popup-img venobox vbox-item" href="images/product/small-size/Tenda-F6-back.jpg"
                 data-gall="myGallery">
-                <img
-                  src="images/product/small-size/Tenda-F6-back.jpg"
-                  alt="product image" />
+                <img src="images/product/small-size/Tenda-F6-back.jpg" alt="product image" />
               </a>
             </div>
             <div class="lg-image">
-              <a
-                class="popup-img venobox vbox-item"
-                href="images/product/small-size/TendaF6 all.jpg"
+              <a class="popup-img venobox vbox-item" href="images/product/small-size/TendaF6 all.jpg"
                 data-gall="myGallery">
-                <img
-                  src="images/product/small-size/TendaF6 all.jpg"
-                  alt="product image" />
+                <img src="images/product/small-size/TendaF6 all.jpg" alt="product image" />
               </a>
             </div>
           </div>
           <div class="product-details-thumbs slider-thumbs-1">
             <div class="sm-image">
-              <img
-                src="images/product/small-size/Tenda-F6-.jpg"
-                alt="product image thumb" />
+              <img src="images/product/small-size/Tenda-F6-.jpg" alt="product image thumb" />
             </div>
             <div class="sm-image">
-              <img
-                src="images/product/small-size/tenda-f6 front.jpg"
-                alt="product image thumb" />
+              <img src="images/product/small-size/tenda-f6 front.jpg" alt="product image thumb" />
             </div>
             <div class="sm-image">
-              <img
-                src="images/product/small-size/Tenda-F6-side.webp"
-                alt="product image thumb" />
+              <img src="images/product/small-size/Tenda-F6-side.webp" alt="product image thumb" />
             </div>
             <div class="sm-image">
-              <img
-                src="images/product/small-size/Tenda-F6-back.jpg"
-                alt="product image thumb" />
+              <img src="images/product/small-size/Tenda-F6-back.jpg" alt="product image thumb" />
             </div>
             <div class="sm-image">
-              <img
-                src="images/product/small-size/TendaF6 all.jpg"
-                alt="product image thumb" />
+              <img src="images/product/small-size/TendaF6 all.jpg" alt="product image thumb" />
             </div>
           </div>
         </div>
@@ -109,7 +79,9 @@ include 'header.php'; // Includes the header file
       <div class="col-lg-7 col-md-6">
         <div class="product-details-view-content pt-60">
           <div class="product-info">
-            <h3>Tenda F6 N300 Wireless Wi-Fi Router</h3>
+            <h4>
+              <a class="product_name">Tenda F6 N300 Wireless Wi-Fi Router</a>
+            </h4>
             <span class="product-details-ref">Reference: N300</span>
             <div class="rating-box pt-20">
               <ul class="rating rating-with-review-item">
@@ -139,17 +111,18 @@ include 'header.php'; // Includes the header file
               </p>
             </div>
             <!-- ✅ Add to Cart Button -->
-                        <div class="add-to-cart-area pt-30">
-                            <button class="single-product-add-to-cart">
-                                <a href="#" class="add-to-cart-link">
-                                    <i class="fa fa-shopping-cart"></i> Add to Cart
-                            </button>
-                        </div>                     
-                    </div>
-                    <div class="single-add-to-cart">   
-                         
+            <div class="add-to-cart-area pt-30">
+              <button class="single-product-add-to-cart">
+                <a href="#" class="add-to-cart-link">
+                  <i class="fa fa-shopping-cart"></i> Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="single-add-to-cart">
+
             <div class="product-additional-info pt-25">
-            <a id="whatsapp-link" target="_blank" style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+              <a id="whatsapp-link" target="_blank"
+                style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
                 Click to Order on WhatsApp
               </a> <br><br>
               <script>
@@ -173,29 +146,29 @@ include 'header.php'; // Includes the header file
               </script>
 
             </div>
-              <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
-              <div class="product-social-sharing pt-25">
-                <ul>
-                  <li class="facebook">
-                    <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
-                  </li>
-                  <li class="twitter">
-                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                  </li>
-                  <li class="google-plus">
-                    <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
-                  </li>
-                  <li class="instagram">
-                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-                  </li>
-                </ul>
-              </div>
-            </div>           
+            <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
+            <div class="product-social-sharing pt-25">
+              <ul>
+                <li class="facebook">
+                  <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                </li>
+                <li class="twitter">
+                  <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                </li>
+                <li class="google-plus">
+                  <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
+                </li>
+                <li class="instagram">
+                  <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+</div>
 </div>
 <!-- content-wraper end -->
 <!-- Begin Product Area -->
@@ -231,9 +204,7 @@ include 'header.php'; // Includes the header file
       <div id="product-details" class="tab-pane" role="tabpanel">
         <div class="product-details-manufacturer">
           <a href="#">
-            <img
-              src="images/product-details/1.jpg"
-              alt="Product Manufacturer Image" />
+            <img src="images/product-details/1.jpg" alt="Product Manufacturer Image" />
           </a>
           <p><span>Reference</span> demo_7</p>
           <p><span>Reference</span> demo_7</p>
@@ -261,26 +232,18 @@ include 'header.php'; // Includes the header file
               <p>Plaza</p>
             </div>
             <div class="review-btn">
-              <a
-                class="review-links"
-                href="#"
-                data-toggle="modal"
-                data-target="#mymodal">Write Your Review!</a>
+              <a class="review-links" href="#" data-toggle="modal" data-target="#mymodal">Write Your Review!</a>
             </div>
             <!-- Begin Quick View | Modal Area -->
             <div class="modal fade modal-wrapper" id="mymodal">
-              <div
-                class="modal-dialog modal-dialog-centered"
-                role="document">
+              <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                   <div class="modal-body">
                     <h3 class="review-page-title">Write Your Review</h3>
                     <div class="modal-inner-area row">
                       <div class="col-lg-6">
                         <div class="li-review-product">
-                          <img
-                            src="images/product/small-size/Tenda F3.jpg" width="400"
-                            height="300"
+                          <img src="images/product/small-size/Tenda F3.jpg" width="400" height="300"
                             alt="Li's Product" />
                           <div class="li-review-product-desc">
                             <p class="li-product-name">
@@ -320,44 +283,25 @@ include 'header.php'; // Includes the header file
                                 </p>
                                 <p class="feedback-form">
                                   <label for="feedback">Your Review</label>
-                                  <textarea
-                                    id="feedback"
-                                    name="comment"
-                                    cols="45"
-                                    rows="8"
+                                  <textarea id="feedback" name="comment" cols="45" rows="8"
                                     aria-required="true"></textarea>
                                 </p>
                                 <div class="feedback-input">
                                   <p class="feedback-form-author">
                                     <label for="author">Name<span class="required">*</span>
                                     </label>
-                                    <input
-                                      id="author"
-                                      name="author"
-                                      value=""
-                                      size="30"
-                                      aria-required="true"
+                                    <input id="author" name="author" value="" size="30" aria-required="true"
                                       type="text" />
                                   </p>
-                                  <p
-                                    class="feedback-form-author feedback-form-email">
+                                  <p class="feedback-form-author feedback-form-email">
                                     <label for="email">Email<span class="required">*</span>
                                     </label>
-                                    <input
-                                      id="email"
-                                      name="email"
-                                      value=""
-                                      size="30"
-                                      aria-required="true"
+                                    <input id="email" name="email" value="" size="30" aria-required="true"
                                       type="text" />
                                     <span class="required"><sub>*</sub> Required fields</span>
                                   </p>
                                   <div class="feedback-btn pb-15">
-                                    <a
-                                      href="#"
-                                      class="close"
-                                      data-dismiss="modal"
-                                      aria-label="Close">Close</a>
+                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">Close</a>
                                     <a href="#">Submit</a>
                                   </div>
                                 </div>
@@ -398,9 +342,7 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tenda-f3.php">
-                    <img
-                      src="images/product/small-size/Tenda F3.jpg"
-                      alt="Li's Product Image" />
+                    <img src="images/product/small-size/Tenda F3.jpg" alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -432,17 +374,17 @@ include 'header.php'; // Includes the header file
                     </div>
                   </div>
                   <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                    <ul class="add-actions-link">
+                      <li class="add-to-cart">
+                        <a href="#" class="add-to-cart-link">
+                          <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                      </li>
+
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <!-- single-product-wrap end -->
@@ -452,9 +394,7 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tenda-ac5.php">
-                    <img
-                      src="images/product/small-size/Tenda-AC5-front.jpg"
-                      alt="Li's Product Image" />
+                    <img src="images/product/small-size/Tenda-AC5-front.jpg" alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -488,17 +428,17 @@ include 'header.php'; // Includes the header file
                     </div>
                   </div>
                   <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                    <ul class="add-actions-link">
+                      <li class="add-to-cart">
+                        <a href="#" class="add-to-cart-link">
+                          <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                      </li>
+
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <!-- single-product-wrap end -->
@@ -508,9 +448,7 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tenda-ac8.php">
-                    <img
-                      src="images/product/small-size/tenda ac 8 front.jpg"
-                      alt="Li's Product Image" />
+                    <img src="images/product/small-size/tenda ac 8 front.jpg" alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -542,17 +480,17 @@ include 'header.php'; // Includes the header file
                     </div>
                   </div>
                   <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                    <ul class="add-actions-link">
+                      <li class="add-to-cart">
+                        <a href="#" class="add-to-cart-link">
+                          <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                      </li>
+
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <!-- single-product-wrap end -->
@@ -562,9 +500,7 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tenda-ac10.php">
-                    <img
-                      src="images/product/small-size/tenda ac10 all.jpg"
-                      alt="Li's Product Image" />
+                    <img src="images/product/small-size/tenda ac10 all.jpg" alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -598,17 +534,17 @@ include 'header.php'; // Includes the header file
                     </div>
                   </div>
                   <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                    <ul class="add-actions-link">
+                      <li class="add-to-cart">
+                        <a href="#" class="add-to-cart-link">
+                          <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                      </li>
+
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <!-- single-product-wrap end -->
@@ -618,9 +554,7 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tp-link-840.php">
-                    <img
-                      src="images/product/small-size/tplink front.webp"
-                      alt="Li's Product Image" />
+                    <img src="images/product/small-size/tplink front.webp" alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -652,17 +586,17 @@ include 'header.php'; // Includes the header file
                     </div>
                   </div>
                   <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                    <ul class="add-actions-link">
+                      <li class="add-to-cart">
+                        <a href="#" class="add-to-cart-link">
+                          <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                      </li>
+
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <!-- single-product-wrap end -->
@@ -672,9 +606,7 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tp-link-844.php">
-                    <img
-                      src="images/product/small-size/tp link844 front.jpg"
-                      alt="Li's Product Image" />
+                    <img src="images/product/small-size/tp link844 front.jpg" alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -708,17 +640,17 @@ include 'header.php'; // Includes the header file
                     </div>
                   </div>
                   <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                    <ul class="add-actions-link">
+                      <li class="add-to-cart">
+                        <a href="#" class="add-to-cart-link">
+                          <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                      </li>
+
+                      <li>
+                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <!-- single-product-wrap end -->
