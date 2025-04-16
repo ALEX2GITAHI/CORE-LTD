@@ -369,6 +369,13 @@
     $(document).ready(function () {
       let items = [
         { name: "Routers", url: "routers.php" },
+        { name: "Easenet Cat 6 Indoor Cable", url: "easenet.php" },
+        { name: "RDCOM Cat 6 Indoor Cable", url: "rdcom.php" },
+        { name: "CP Cat 6 Indoor Cable", url: "cp-cable.php" },
+        { name: "RDCOM Cat 6 Outdoor Cable", url: "rdcom-oudoor.php" },
+        { name: "SHK Cat 6 Indoor Cable", url: "shk-cable.php" },
+        { name: "Gigalan Cat 6 Indoor Cable", url: "gigalan-cable.php" },
+        { name: "Scoop Cat 6 Indoor Cable", url: "scoop-cable.php" },
         { name: "Tenda-F3", url: "tenda-f3.php" },
         { name: "Tenda-F6", url: "tenda-f6.php" },
         { name: "Tenda-AC5", url: "tenda-ac5.php" },
@@ -385,6 +392,8 @@
         { name: "Mikrotik RB760-IGS", url: "rb760-igs.php" },
         { name: "Mikrotik RB4011", url: "rb4011.php" },
         { name: "Crimping Tools", url: "crimping-tools.php" },
+        { name: "Jakemy Crimping Tool", url: "jakemy-crimping-tool.php" },
+        { name: "Dual-Modular Crimping Tool", url: "dual-modular-crimping-tool.php" },
         { name: "Mikrotik RB260GS", url: "rbs60gs.php" },
         { name: "Mikrotik SXTSQ Series", url: "ssxtsq-series.php" },
         { name: "Mikrotiks", url: "mikrotik.php" },

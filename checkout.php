@@ -219,11 +219,11 @@ include 'header.php'; // Includes the header file
                 <tfoot>
                     <tr class="cart-subtotal">
                         <th colspan="2" class="text-end">Subtotal</th>
-                        <td><span class="fw-semibold"  id="full-cart-subtotal">0</span></td>
+                        <td>Ksh. <span class="fw-semibold"  id="full-cart-subtotal">Ksh.0</span></td>
                     </tr>
                     <tr class="order-total">
                         <th colspan="2" class="text-end">Grand Total</th>
-                        <td><strong><span class="fw-bold fs-5" id="full-cart-total">0</span></strong></td>
+                        <td><strong> <span>Ksh.  </span><span class="fw-bold fs-5" id="full-cart-total">Ksh. 0</span></strong></td>
                     </tr>
                 </tfoot>
             </table>

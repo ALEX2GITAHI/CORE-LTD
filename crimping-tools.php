@@ -11,7 +11,7 @@ include 'header.php'; // Includes the header file
     <div class="breadcrumb-content">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li class="active">CAT6-CABLES</li>
+        <li class="active">CRIMPING TOOLS</li>
       </ul>
     </div>
   </div>
@@ -38,7 +38,7 @@ include 'header.php'; // Includes the header file
               <!-- shop-item-filter-list end -->
             </div>
             <div class="toolbar-amount">
-              <span id="pagination-info">CAT6-CABLES</span>
+              <span id="pagination-info">CRIMPING TOOLS</span>
             </div>
           </div>
 
@@ -56,7 +56,7 @@ include 'header.php'; // Includes the header file
                       <div class="single-product-wrap">
                         <div class="product-image">
                           <a href="easenet.php">
-                            <img src="images/product/small-size/easenet_1.png" alt="Li's Product Image" />
+                            <img src="images/product/small-size/jakemy.jpg" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -81,10 +81,10 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="easenet.php">Easenet Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="jakemy-crimping-tool.php">Jakemy JM-CT4-3 Crimping Tool</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 5,600</span>
+                              <span class="new-price">Ksh. 650</span>
                             </div>
                           </div>
                           <div class="add-actions">
@@ -106,8 +106,8 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="rb941-hap-lite.php">
-                            <img src="images/product/small-size/rdcom.webp" alt="Li's Product Image" />
+                          <a href="jakemy-crimping-tool.php">
+                            <img src="images/product/small-size/dual-m.JPG" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -132,10 +132,10 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="rb941-hap-lite.php">RDCOM Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="dual-modular-crimping-tool.php"> Dual Modular Crimping Tool</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 4,800</span>
+                              <span class="new-price">Ksh. 550</span>
                             </div>
                           </div>
                           <div class="add-actions">
@@ -210,8 +210,8 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="sxtsq-series.php">
-                            <img src="images/product/small-size/scoop cable.webp" alt="Li's Product Image" />
+                          <a href="with-lan-tester.php">
+                            <img src="images/product/small-size/with lan tester.jpg" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -236,10 +236,10 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="sxtsq-series.php">Scoop Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="with-lan-tester.php">Crimping Tool With LAN Tester</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 3,800</span>
+                              <span class="new-price">Ksh. 2,500</span>
                             </div>
                           </div>
                           <div class="add-actions">
@@ -255,161 +255,6 @@ include 'header.php'; // Includes the header file
                           </div>
                         </div>
                       </div>
-                      <!-- single-product-wrap end -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-40">
-                      <!-- single-product-wrap start -->
-                      <div class="single-product-wrap">
-                        <div class="product-image">
-                          <a href="rbs60gs.php">
-                            <img src="images/product/small-size/rb260gs 1.png" alt="Li's Product Image" />
-                          </a>
-
-                        </div>
-                        <div class="product_desc">
-                          <div class="product_desc_info">
-                            <div class="product-review">
-                              <h5 class="manufacturer">
-                                <a href="crimping-tools.php">CRIMPING TOOL</a>
-                              </h5>
-                              <div class="rating-box">
-                                <ul class="rating">
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li class="no-star">
-                                    <i class="fa fa-star-o"></i>
-                                  </li>
-                                  <li class="no-star">
-                                    <i class="fa fa-star-o"></i>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <h4>
-                              <a class="product_name" href="rbs60gs.php">Gigalan Cat 6 Indoor Cable</a>
-                            </h4>
-                            <div class="price-box">
-                              <span class="new-price">Ksh. 6,000</span>
-                            </div>
-                          </div>
-                          <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- single-product-wrap end -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-40">
-                      <!-- single-product-wrap start -->
-                      <div class="single-product-wrap">
-                        <div class="product-image">
-                          <a href="rb4011.php">
-                            <img src="images/product/small-size/rb40ll  2.jpg" alt="Li's Product Image" />
-                          </a>
-
-                        </div>
-                        <div class="product_desc">
-                          <div class="product_desc_info">
-                            <div class="product-review">
-                              <h5 class="manufacturer">
-                                <a href="crimping-tools.php">CRIMPING TOOL</a>
-                              </h5>
-                              <div class="rating-box">
-                                <ul class="rating">
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li class="no-star">
-                                    <i class="fa fa-star-o"></i>
-                                  </li>
-                                  <li class="no-star">
-                                    <i class="fa fa-star-o"></i>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <h4>
-                              <a class="product_name" href="rb4011.php">SHK Cat 6 Indoor Cable</a>
-                            </h4>
-                            <div class="price-box">
-                              <span class="new-price">Ksh. 4,000</span>                              
-                            </div>
-                          </div>
-                          <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <!-- single-product-wrap end -->
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-sm-6 mt-40">
-                      <!-- single-product-wrap start -->
-                      <div class="single-product-wrap">
-                        <div class="product-image">
-                          <a href="rb760-igs.php">
-                            <img src="images/product/small-size/RDCOM-OUTDOOR.webp" alt="Li's Product Image" />
-                          </a>
-
-                        </div>
-                        <div class="product_desc">
-                          <div class="product_desc_info">
-                            <div class="product-review">
-                              <h5 class="manufacturer">
-                                <a href="crimping-tools.php">CRIMPING TOOL</a>
-                              </h5>
-                              <div class="rating-box">
-                                <ul class="rating">
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li><i class="fa fa-star-o"></i></li>
-                                  <li class="no-star">
-                                    <i class="fa fa-star-o"></i>
-                                  </li>
-                                  <li class="no-star">
-                                    <i class="fa fa-star-o"></i>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                            <h4>
-                              <a class="product_name" href="rb760-igs.php">RDCOM Cat 6 Outdoor Cable</a>
-                            </h4>
-                            <div class="price-box">
-                              <span class="new-price">Ksh. 6,000</span>
-                            </div>
-                          </div>
-                          <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              </li>
-                            
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>                      
                       <!-- single-product-wrap end -->
                     </div>
                   </div>

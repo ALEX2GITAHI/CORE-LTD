@@ -106,7 +106,7 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="rb941-hap-lite.php">
+                          <a href="rdcom.php">
                             <img src="images/product/small-size/rdcom.webp" alt="Li's Product Image" />
                           </a>
 
@@ -132,7 +132,7 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="rb941-hap-lite.php">RDCOM Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="rdcom.php">RDCOM Cat 6 Indoor Cable</a>
                             </h4>
                             <div class="price-box">
                               <span class="new-price">Ksh. 4,800</span>
@@ -157,7 +157,7 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="l009.php">
+                          <a href="cp-cable.php">
                             <img src="images/product/small-size/cp cable.jpg" alt="Li's Product Image" />
                           </a>
 
@@ -183,7 +183,7 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="l009.php">CP Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="cp-cable.php">CP Cat 6 Indoor Cable</a>
                             </h4>
                             <div class="price-box">
                               <span class="new-price">Ksh. 4,000</span>
@@ -210,7 +210,7 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="sxtsq-series.php">
+                          <a href="scoop-cable.phpp">
                             <img src="images/product/small-size/scoop cable.webp" alt="Li's Product Image" />
                           </a>
 
@@ -236,7 +236,7 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="sxtsq-series.php">Scoop Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="scoop-cable.php">Scoop Cat 6 Indoor Cable</a>
                             </h4>
                             <div class="price-box">
                               <span class="new-price">Ksh. 3,800</span>
@@ -261,7 +261,7 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="rbs60gs.php">
+                          <a href="gigalan-cable.php">
                             <img src="images/product/small-size/rb260gs 1.png" alt="Li's Product Image" />
                           </a>
 
@@ -287,7 +287,7 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="rbs60gs.php">Gigalan Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="gigalan-cable.php">Gigalan Cat 6 Indoor Cable</a>
                             </h4>
                             <div class="price-box">
                               <span class="new-price">Ksh. 6,000</span>
@@ -312,7 +312,7 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="rb4011.php">
+                          <a href="shk-cable.php">
                             <img src="images/product/small-size/rb40ll  2.jpg" alt="Li's Product Image" />
                           </a>
 
@@ -338,7 +338,7 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="rb4011.php">SHK Cat 6 Indoor Cable</a>
+                              <a class="product_name" href="shk-cable.php">SHK Cat 6 Indoor Cable</a>
                             </h4>
                             <div class="price-box">
                               <span class="new-price">Ksh. 4,000</span>                              
@@ -364,7 +364,7 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="rb760-igs.php">
+                          <a href="rdcom-oudoor.php">
                             <img src="images/product/small-size/RDCOM-OUTDOOR.webp" alt="Li's Product Image" />
                           </a>
 
@@ -390,7 +390,7 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="rb760-igs.php">RDCOM Cat 6 Outdoor Cable</a>
+                              <a class="product_name" href="rdcom-oudoor.php">RDCOM Cat 6 Outdoor Cable</a>
                             </h4>
                             <div class="price-box">
                               <span class="new-price">Ksh. 6,000</span>
