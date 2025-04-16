@@ -59,16 +59,23 @@ include 'header.php'; // Includes the header file
                         <div class="product-desc">
                             <p>
                                 <span>
-                                <h4><b>Features: Modular Plug Crimping Tool</b></h4>
-    <ul>
-        <li><b>Pass-Through Design:</b> Allows wires to pass through the connector for easy alignment and precise crimping.</li>
-        <li><b>Versatile Compatibility:</b> Works with RJ45, RJ12, and RJ11 connectors on Cat5, Cat5e, and Cat6 cables.</li>
-        <li><b>Clean & Consistent Cuts:</b> Built-in blade trims excess wires neatly for professional results.</li>
-        <li><b>Durable Construction:</b> Made of high-carbon steel for long-lasting performance and reliability.</li>
-        <li><b>Comfortable Grip:</b> Ergonomic non-slip handles reduce hand fatigue during extended use.</li>
-        <li><b>Multi-Function Tool:</b> Crimps, strips, and cuts cable all in one tool for added convenience.</li>
-        <li><b>Ideal for Networking:</b> Perfect for IT professionals, electricians, and DIY network installers.</li>
-    </ul>
+                                    <h4><b>Features: Crimping Tool With LAN Tester</b></h4>
+                                    <ul>
+                                        <li><b>Integrated LAN Tester:</b> Built-in tester for verifying continuity,
+                                            opens, shorts, reversals, and miswires in network cables.</li>
+                                        <li><b>Multi-Connector Support:</b> Compatible with RJ45 (8P8C), RJ12 (6P6C),
+                                            RJ11 (6P4C), and RJ22 (4P4C) connectors.</li>
+                                        <li><b>Comprehensive Functionality:</b> Combines crimping, cutting, stripping,
+                                            and testing in one tool.</li>
+                                        <li><b>Durable Construction:</b> Made with heat-treated steel for enhanced
+                                            durability and longevity.</li>
+                                        <li><b>Ergonomic Design:</b> Features impact-resistant handles with protective
+                                            rubber overmold for comfortable use.</li>
+                                        <li><b>Removable Tester:</b> Includes a detachable remote unit for testing
+                                            cables in various locations.</li>
+                                        <li><b>Power Supply:</b> Operates on 9V or LR44 batteries (depending on the
+                                            model; batteries not included).</li>
+                                    </ul>
                                 </span>
                             </p>
                         </div>
@@ -87,25 +94,25 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                                // Your WhatsApp number (without + or 0)
-                                const phoneNumber = "254792570000";
+                            // Your WhatsApp number (without + or 0)
+                            const phoneNumber = "254792570000";
 
-                                // Get the current page URL
-                                const currentPageURL = encodeURIComponent(window.location.href);
+                            // Get the current page URL
+                            const currentPageURL = encodeURIComponent(window.location.href);
 
-                                // Get product details dynamically (if available)
-                                const productName = document.querySelector("#product-name")?.innerText ||
-                                    "this product";
-                                const productPrice = document.querySelector("#product-price")?.innerText || "";
+                            // Get product details dynamically (if available)
+                            const productName = document.querySelector("#product-name")?.innerText ||
+                                "this product";
+                            const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                                // Encode message
-                                const message = encodeURIComponent(
-                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                                );
+                            // Encode message
+                            const message = encodeURIComponent(
+                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                            );
 
-                                // Set the WhatsApp link dynamically
-                                document.getElementById("whatsapp-link").href =
-                                    `https://wa.me/${phoneNumber}?text=${message}`;
+                            // Set the WhatsApp link dynamically
+                            document.getElementById("whatsapp-link").href =
+                                `https://wa.me/${phoneNumber}?text=${message}`;
                             </script>
 
                         </div>
