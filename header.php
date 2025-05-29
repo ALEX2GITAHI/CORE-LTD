@@ -117,7 +117,7 @@
             <!-- Begin Header Logo Area -->
             <div class="col-lg-3">
               <div class="logo pb-sm-30 pb-xs-30">
-                <a href="index.html">
+                <a href="index.php">
                   <img src="images/core_logo.png" alt="Core Logo" width="100" height="50" />
                 </a>
               </div>
@@ -211,7 +211,7 @@
                           <a href="switch.php">Switches</a>
                         </li>
                         <li>
-                          <a href="shop-left-sidebar.html">Access Points</a>
+                          <a href="access-points.php">Access Points</a>
                         </li>
                         <li>
                           <a href="miktrotik.php">Mikrotik</a>
@@ -278,7 +278,7 @@
                           <a href="blog-2-column.html">Mikrotik</a>
                         </li>
                         <li>
-                          <a href="blog-3-column.html">Access Points</a>
+                          <a href="access-points.php">Access Points</a>
                         </li>
                         <li>
                           <a href="blog-left-sidebar.html">Routers</a>
@@ -373,14 +373,20 @@
         { name: "RDCOM Cat 6 Indoor Cable", url: "rdcom.php" },
         { name: "CP Cat 6 Indoor Cable", url: "cp-cable.php" },
         { name: "RDCOM Cat 6 Outdoor Cable", url: "rdcom-oudoor.php" },
+        { name: "TP-Link EAP-255 outdoor", url: "tp-link-eap255-outdoor.php" },
         { name: "SHK Cat 6 Indoor Cable", url: "shk-cable.php" },
         { name: "Gigalan Cat 6 Indoor Cable", url: "gigalan-cable.php" },
+        { name: "Tenda OAP-1200", url: "tenda-oap1200.php" },
         { name: "Scoop Cat 6 Indoor Cable", url: "scoop-cable.php" },
         { name: "Tenda-F3", url: "tenda-f3.php" },
         { name: "Tenda-F6", url: "tenda-f6.php" },
         { name: "Tenda-AC5", url: "tenda-ac5.php" },
         { name: "Tenda-AC8", url: "tenda-ac8.php" },
+        { name: "Lite Beam", url: "lite-beam-m5.php" },
+        { name: "Ruijie-RAP6262(G)", url: "ruijie-6262g.php" },
+        { name: "Power Beam", url: "power-beam.php" },
         { name: "Tenda-AC10", url: "tenda-ac10.php" },
+        { name: "Access Points", url: "access-points.php" },
         { name: "Tenda-4G Lite", url: "tenda-4g.php" },
         { name: "D-Link Router", url: "d-link.php" },
         { name: "Tp-Link 844N", url: "tp-link-844.php" },

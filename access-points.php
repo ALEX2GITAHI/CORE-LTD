@@ -11,7 +11,7 @@ include 'header.php'; // Includes the header file
     <div class="breadcrumb-content">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li class="active">Routers</li>
+        <li class="active">Access Points</li>
       </ul>
     </div>
   </div>
@@ -25,7 +25,7 @@ include 'header.php'; // Includes the header file
         <!-- Begin Li's Banner Area -->
         <div class="single-banner shop-page-banner">
           <a href="#">
-            <img src="images/bg-banner/2.jpg" alt="Li's Static Banner" />
+            <img src="images/bg-banner/banner_with_watermark_870x200.png" alt="Li's Static Banner" />
           </a>
         </div>
         <!-- Li's Banner Area End Here -->
@@ -38,7 +38,7 @@ include 'header.php'; // Includes the header file
               <!-- shop-item-filter-list end -->
             </div>
             <div class="toolbar-amount">
-              <span id="pagination-info">ROUTERS</span>
+              <span id="pagination-info">Access Points</span>
             </div>
           </div>
 
@@ -55,8 +55,8 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="tenda-f3.php">
-                            <img src="images/product/small-size/Tenda F3.jpg" alt="Li's Product Image" />
+                          <a href="lite-beam-m5.php">
+                            <img src="images/product/small-size/lite-beam-m5=front.webp" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -64,7 +64,7 @@ include 'header.php'; // Includes the header file
                           <div class="product_desc_info">
                             <div class="product-review">
                               <h5 class="manufacturer">
-                                <a href="routers.php">Router</a>
+                                <a href="access-points.php">Access Points</a>
                               </h5>
                               <div class="rating-box">
                                 <ul class="rating">
@@ -81,10 +81,10 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
+                              <a class="product_name" href="lite-beam-m5.php">LiteBeam M5</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 1,350</span>
+                              <span class="new-price">Ksh. 6,500</span>
                             </div>
                           </div>
                           <div class="add-actions">
@@ -106,8 +106,8 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="tenda-f6.php">
-                            <img src="images/product/small-size/tenda-f6 front.jpg" alt="Li's Product Image" />
+                          <a href="power-beam.php">
+                            <img src="images/product/small-size/power-beam-clear.webp" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -115,7 +115,7 @@ include 'header.php'; // Includes the header file
                           <div class="product_desc_info">
                             <div class="product-review">
                               <h5 class="manufacturer">
-                                <a href="routers.php">Router</a>
+                                <a href="access-points.php">Access Points</a>
                               </h5>
                               <div class="rating-box">
                                 <ul class="rating">
@@ -132,10 +132,10 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="tenda-f6.php">Tenda Tenda-F6</a>
+                              <a class="product_name" href="power-beam.php">Power Beam</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 1,550</span>
+                              <span class="new-price">Ksh. 15,000</span>
                             </div>
                           </div>
                           <div class="add-actions">
@@ -157,8 +157,8 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="huawei-expon.php">
-                            <img src="images/product/small-size/huawei expon.webp" alt="Li's Product Image" />
+                          <a href="ruijie-6262g.php">
+                            <img src="images/product/small-size/ruijie-front.jpg" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -166,7 +166,7 @@ include 'header.php'; // Includes the header file
                           <div class="product_desc_info">
                             <div class="product-review">
                               <h5 class="manufacturer">
-                                <a href="routers.php">Router</a>
+                                <a href="access-points.php">Access Points</a>
                               </h5>
                               <div class="rating-box">
                                 <ul class="rating">
@@ -183,11 +183,11 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="huawei-expon.php">Huawei-Expon</a>
+                              <a class="product_name" href="ruijie-6262g.php">Ruijie-RAP6262(G)</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price new-price-2">Ksh. 1,750</span>
-                              <span class="old-price">Ksh. 1,800</span>
+                              <span class="new-price new-price-2">Ksh. 23,000</span>
+                              <span class="old-price">Ksh. 23,500</span>
                               <span class="discount-percentage">-5%</span>
                             </div>
                           </div>
@@ -210,8 +210,8 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="tenda-ac5.php">
-                            <img src="images/product/small-size/Tenda-AC5-front.jpg" alt="Li's Product Image" />
+                          <a href="tenda-oap1200.php">
+                            <img src="images/product/small-size/tenda-aop-box.jpeg" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -219,7 +219,7 @@ include 'header.php'; // Includes the header file
                           <div class="product_desc_info">
                             <div class="product-review">
                               <h5 class="manufacturer">
-                                <a href="routers.php">Router</a>
+                                <a href="access-points.php">Access Points</a>
                               </h5>
                               <div class="rating-box">
                                 <ul class="rating">
@@ -236,10 +236,10 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="tenda-ac5.php">Tenda-AC5</a>
+                              <a class="product_name" href="tenda-oap1200.php">Tenda OAP-1200</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 3,500</span>
+                              <span class="new-price">Ksh. 4,500</span>
                             </div>
                           </div>
                           <div class="add-actions">
@@ -261,8 +261,8 @@ include 'header.php'; // Includes the header file
                       <!-- single-product-wrap start -->
                       <div class="single-product-wrap">
                         <div class="product-image">
-                          <a href="tenda-ac8.php">
-                            <img src="images/product/small-size/tenda ac 8 front.jpg" alt="Li's Product Image" />
+                          <a href="tp-link-eap255-outdoor.php">
+                            <img src="images/product/small-size/tp-link-eap255-box.jpg" alt="Li's Product Image" />
                           </a>
 
                         </div>
@@ -270,7 +270,7 @@ include 'header.php'; // Includes the header file
                           <div class="product_desc_info">
                             <div class="product-review">
                               <h5 class="manufacturer">
-                                <a href="routers.php">Router</a>
+                                <a href="access-points.php">Access Points</a>
                               </h5>
                               <div class="rating-box">
                                 <ul class="rating">
@@ -287,12 +287,10 @@ include 'header.php'; // Includes the header file
                               </div>
                             </div>
                             <h4>
-                              <a class="product_name" href="tenda-ac8.php""
-                                      >Tenda AC-8</a
-                                    >
+                              <a class="product_name" href="tp-link-eap255-outdoor.php">TP-Link EAP-255 Outdoor</a>
                                   </h4>
                                   <div class=" price-box">
-                                <span class="new-price">Ksh. 4,000</span>
+                                <span class="new-price">Ksh. 9,500</span>
                           </div>
                         </div>
                         <div class="add-actions">
@@ -324,7 +322,7 @@ include 'header.php'; // Includes the header file
                         <div class="product_desc_info">
                           <div class="product-review">
                             <h5 class="manufacturer">
-                              <a href="routers.php">Router</a>
+                              <a href="access-points.php">Access Points</a>
                             </h5>
                             <div class="rating-box">
                               <ul class="rating">
@@ -378,7 +376,7 @@ include 'header.php'; // Includes the header file
                         <div class="product_desc_info">
                           <div class="product-review">
                             <h5 class="manufacturer">
-                              <a href="routers.php">Router</a>
+                              <a href="access-points.php">Access Points</a>
                             </h5>
                             <div class="rating-box">
                               <ul class="rating">
@@ -430,7 +428,7 @@ include 'header.php'; // Includes the header file
                         <div class="product_desc_info">
                           <div class="product-review">
                             <h5 class="manufacturer">
-                              <a href="routers.php">Router</a>
+                              <a href="access-points.php">Access Points</a>
                             </h5>
                             <div class="rating-box">
                               <ul class="rating">
@@ -484,7 +482,7 @@ include 'header.php'; // Includes the header file
                         <div class="product_desc_info">
                           <div class="product-review">
                             <h5 class="manufacturer">
-                              <a href="routers.php">Router</a>
+                              <a href="access-points.php">Access Points</a>
                             </h5>
                             <div class="rating-box">
                               <ul class="rating">
@@ -536,7 +534,7 @@ include 'header.php'; // Includes the header file
                         <div class="product_desc_info">
                           <div class="product-review">
                             <h5 class="manufacturer">
-                              <a href="routers.php">Router</a>
+                              <a href="access-points.php">Access Points</a>
                             </h5>
                             <div class="rating-box">
                               <ul class="rating">
@@ -553,7 +551,7 @@ include 'header.php'; // Includes the header file
                             </div>
                           </div>
                           <h4>
-                            <a class="product_name" href="d-link.ph">D-Link 4G LTE Router DWR-M921</a>
+                            <a class="product_name" href="d-link.ph">D-Link 4G LTE Access Points DWR-M921</a>
                           </h4>
                           <div class="price-box">
                             <span class="new-price">Ksh. 2,000</span>
