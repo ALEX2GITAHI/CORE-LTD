@@ -339,7 +339,7 @@ include 'header.php'; // Includes the header file
                             </div>
                           </div>
                           <h4>
-                            <a class="product_name" href="tenda-ac10.php">Tenda AC-10</a>
+                            <a class="product_name" href="tenda-ac10.php">TP-Link EAP-255 Indoor</a>
                           </h4>
                           <div class="price-box">
                             <span class="new-price new-price-2">Ksh. 4,500</span>
@@ -393,7 +393,7 @@ include 'header.php'; // Includes the header file
                             </div>
                           </div>
                           <h4>
-                            <a class="product_name" href="tp-link-840.php">TP-Lnk 840N</a>
+                            <a class="product_name" href="tp-link-840.php">TP-Link CPE-220 Outdoor</a>
                           </h4>
                           <div class="price-box">
                             <span class="new-price">Ksh. 1.750</span>
@@ -445,7 +445,7 @@ include 'header.php'; // Includes the header file
                             </div>
                           </div>
                           <h4>
-                            <a class="product_name" href="tp-link-844.php">TP-Link 844N</a>
+                            <a class="product_name" href="tp-link-844.php">LiteBeam 5AC</a>
                           </h4>
                           <div class="price-box">
                             <span class="new-price new-price-2">Ksh. 1450</span>
