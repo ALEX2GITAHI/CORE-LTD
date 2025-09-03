@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li class="active">Mikrotik hAP Lite TC RB941-2nD-TC</li>
+                <li class="active">Ruijie RG-EW300N Router</li>
             </ul>
         </div>
     </div>
@@ -25,45 +25,45 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/RB941-.webpg"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/Ruijie_Router_ BOX.jpg"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/RB941-.webp" alt="product image" />
+                                <img src="images/product/small-size/Ruijie_Router_ BOX.jpg" alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/rb941 side.jpg"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/RUIJEE ROUTER FRONT.jpg"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/rb941 side.jpg" alt="product image" />
+                                <img src="images/product/small-size/RUIJEE ROUTER FRONT.jpg" alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/rb941 side 2.jpg"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/RUIJIEE ROUTEER SIDE.jpg"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/rb941 side 2.jpg" alt="product image" />
+                                <img src="images/product/small-size/RUIJIEE ROUTEER SIDE.jpg" alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/rb941 side.jpg"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/RUIJEE ROUTER FRONT.jpg"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/rb941 side.jpg" alt="product image" />
+                                <img src="images/product/small-size/RUIJEE ROUTER FRONT.jpg" alt="product image" />
                             </a>
                         </div>
                     </div>
                     <div class="product-details-thumbs slider-thumbs-1">
                         <div class="sm-image">
-                            <img src="images/product/small-size/RB941-.webp" alt="product image thumb" />
+                            <img src="images/product/small-size/Ruijie_Router_ BOX.jpg" alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/rb941 side.jpg" alt="product image thumb" />
+                            <img src="images/product/small-size/RUIJEE ROUTER FRONT.jpg" alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/rb941 side 2.jpg" alt="product image thumb" />
+                            <img src="images/product/small-size/RUIJIEE ROUTEER SIDE.jpg" alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/RB941-.webp" alt="product image thumb" />
+                            <img src="images/product/small-size/RUIJIEE ROUTER BACK.png" alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/rb941 side.jpg" alt="product image thumb" />
+                            <img src="images/product/small-size/RUIJEE ROUTER FRONT.jpg" alt="product image thumb" />
                         </div>
                     </div>
                 </div>
@@ -74,9 +74,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Mikrotik hAP Lite TC RB941-2nD-TC</a>
+                            <a class="product_name">Ruijie | Reyee RG-EW300N Router</a>
                         </h4>
-                        <span class="product-details-ref">Reference: Mik</span>
+                        <span class="product-details-ref">Reference: Ruijie</span>
                         <div class="rating-box pt-20">
                             <ul class="rating rating-with-review-item">
                                 <li><i class="fa fa-star-o"></i></li>
@@ -89,23 +89,84 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 3,500</span>
+                            <span class="new-price new-price-2">Ksh. 2,000</span>
                         </div>
                         <div class="product-desc">
                             <p>
-                                <span>
-                                    <ul>
-                                        <li><b>600 MHz CPU:</b>Efficient processing power for smooth network
-                                            performance.</li>
-                                        <li><b>5 Gigabit Ethernet Ports:</b>Provides high-speed, stable wired
-                                            connections for multiple devices.</li>
-                                        <li><b>Robust Security:</b>Includes strong encryption and access control for a
-                                            secure network.</li>
-                                        <li><b>RouterOS Support:</b>Advanced network management with firewall, VPN, and
-                                            traffic control features.</li>
+                            <div style="overflow-x:auto;">
+                                <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background-color:#f4f4f4;">
+                                        <tr>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Wi‑Fi 4 (802.11n)</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Delivers reliable wireless speeds up to 300 Mbps on the 2.4 GHz band with 2×2 MIMO architecture.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Four Operational Modes</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Can function as a Router, Access Point (AP), Repeater, or WISP, offering flexibility for home or SOHO setups.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Lifetime Cloud Management</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Manage remotely via Ruijie’s free cloud platform or mobile app.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Advanced Family Controls</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Parental Control, guest network, health mode, and blacklist/whitelist scheduling.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Compact & Efficient Hardware</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">MT7628D CPU, 16 MB flash, 64 MB RAM; power consumption under 5 W.</td>
+                                        </tr>
 
-                                    </ul>
-                                </span>
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-features" style="display: none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Wired Connectivity</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">1×10/100 Mbps WAN port and 3×10/100 Mbps LAN ports.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Antennae & Coverage</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Two external 5 dBi antennas with 2×2 MIMO for strong signal.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Designed for Your Space</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports up to 8 users (max 16); compact size: 180×120×27 mm; weight: 0.18 kg.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Reliability & Warranty</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Stable performance with a 3-year warranty in most regions.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <!-- Toggle Button -->
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleFeatures()" style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;" id="toggleButton">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Script -->
+                            <script>
+                                function toggleFeatures() {
+                                    var hiddenRows = document.getElementById("more-features");
+                                    var button = document.getElementById("toggleButton");
+                                    if (hiddenRows.style.display === "none") {
+                                        hiddenRows.style.display = "table-row-group";
+                                        button.textContent = "View Less";
+                                    } else {
+                                        hiddenRows.style.display = "none";
+                                        button.textContent = "View More";
+                                    }
+                                }
+                            </script>
                             </p>
                         </div>
                         <!-- ✅ Add to Cart Button -->
@@ -124,24 +185,24 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                            // Your WhatsApp number (without + or 0)
-                            const phoneNumber = "254792570000";
+                                // Your WhatsApp number (without + or 0)
+                                const phoneNumber = "254792570000";
 
-                            // Get the current page URL
-                            const currentPageURL = encodeURIComponent(window.location.href);
+                                // Get the current page URL
+                                const currentPageURL = encodeURIComponent(window.location.href);
 
-                            // Get product details dynamically (if available)
-                            const productName = document.querySelector("#product-name")?.innerText || "this product";
-                            const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                // Get product details dynamically (if available)
+                                const productName = document.querySelector("#product-name")?.innerText || "this product";
+                                const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                            // Encode message
-                            const message = encodeURIComponent(
-                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                            );
+                                // Encode message
+                                const message = encodeURIComponent(
+                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                                );
 
-                            // Set the WhatsApp link dynamically
-                            document.getElementById("whatsapp-link").href =
-                                `https://wa.me/${phoneNumber}?text=${message}`;
+                                // Set the WhatsApp link dynamically
+                                document.getElementById("whatsapp-link").href =
+                                    `https://wa.me/${phoneNumber}?text=${message}`;
                             </script>
 
                         </div>
@@ -350,7 +411,7 @@ include 'header.php'; // Includes the header file
                                     <a href="tenda-f3.php">
                                         <img src="images/product/small-size/Tenda F3.jpg" alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -402,7 +463,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tenda-f6 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -450,11 +511,11 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="tenda-ac5.php">
-                                        <img src="images/product/small-size/Tenda-AC5-front.jpg"
+                                    <a href="tenda-ac8.php">
+                                        <img src="images/product/small-size/tenda ac 8 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -477,12 +538,10 @@ include 'header.php'; // Includes the header file
                                             </div>
                                         </div>
                                         <h4>
-                                            <a class="product_name" href="tenda-ac5.php">Tenda AC5</a>
+                                            <a class="product_name" href="tenda-ac8.php">Tenda-AC8</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 3,500</span>
-                                            <span class="old-price">Ksh. 4,000</span>
-                                            <span class="discount-percentage">-7%</span>
+                                            <span class="new-price">Ksh. 4,000</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
@@ -508,7 +567,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tenda ac10 all.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -562,7 +621,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tplink front.webp"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -614,7 +673,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tp link844 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -640,7 +699,7 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="tp-link-844.php">TP-Link 844N</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 1,450</span>
+                                            <span class="new-price new-price-2">Ksh. 1450</span>
                                             <span class="old-price">Ksh. 1,550</span>
                                             <span class="discount-percentage">-5%</span>
                                         </div>

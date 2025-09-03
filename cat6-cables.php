@@ -290,7 +290,7 @@ include 'header.php'; // Includes the header file
                               <a class="product_name" href="gigalan-cable.php">Gigalan Cat 6 Indoor Cable</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 6,000</span>
+                              <span class="new-price">Ksh. 3,900</span>
                             </div>
                           </div>
                           <div class="add-actions">
