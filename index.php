@@ -751,9 +751,9 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="easenet.php">Easenet Cat 6 Indoor Cable</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 5,600<< /span>
-                                                    <span class="old-price">Ksh. 6,200<< /span>
-                                                            <span class="discount-percentage">-7%</span>
+                                            <span class="new-price new-price-2">Ksh. 5,600
+                                                <span class="old-price">Ksh. 6,200
+                                                    <span class="discount-percentage">-7%</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">

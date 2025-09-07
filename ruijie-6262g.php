@@ -100,31 +100,105 @@ include 'header.php'; // Includes the header file
                         </div>
                         <div class="product-desc">
                             <p>
-                                <span>
-                                    <h4><b>Features: </b></h4>
-                                    <ul>
-                                        <li><b>Wi‑Fi 6 AX1800 Performance:</b> Delivers up to 1775 Mbps (574 Mbps
-                                            @2.4 GHz + 1201 Mbps @5 GHz) with 2×2 MU‑MIMO for dual‑band throughput.</li>
-                                        <li><b>Omni‑Directional Coverage:</b> Four built‑in high‑gain antennas provide
-                                            up to ~100 m range on 2.4 GHz and 300 m on 5 GHz.</li>
-                                        <li><b>Rugged IP68 Rated Casing:</b> Durable, weatherproof (dustproof,
-                                            waterproof), flame‑retardant housing rated for −30 °C to +65 °C and 4 kV
-                                            lightning protection.</li>
-                                        <li><b>Unique “UFO” Design:</b> Distinctive form factor that blends aesthetics
-                                            with outdoor functionality.</li>
-                                        <li><b>Reyee Mesh & Cloud Management:</b> Supports mesh networking,
-                                            plug‑and‑play deployment, and remote monitoring via Reyee app or Ruijie
-                                            Cloud—with no external controller required.</li>
-                                        <li><b>Dual LAN Ports & Dual Power Inputs:</b> Two gigabit Ethernet ports
-                                            support PoE (802.3at) and optional 12 V DC for power redundancy; handy for
-                                            daisy‑chaining cameras or switches.</li>
-                                        <li><b>Easy Rack‑Separated Mounting:</b> Simplified installation on poles or
-                                            walls with iron hoop quick‑mount design—all hardware included.</li>
-                                        <li><b>High Client Capacity & Roaming:</b> Supports up to 256 clients, layer‑2/3
-                                            roaming, OFDMA, TWT, automatic channel/power tuning, and client
-                                            isolation/security policies.</li>
-                                    </ul>
-                                </span>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features:</b></h4>
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background-color:#f4f4f4;">
+                                        <tr>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">
+                                                Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Wi-Fi 6 AX1800
+                                                    Performance</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Delivers up to 1775 Mbps
+                                                (574 Mbps @2.4 GHz + 1201 Mbps @5 GHz) with 2×2 MU-MIMO for dual-band
+                                                throughput.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Omni-Directional
+                                                    Coverage</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Four built-in high-gain
+                                                antennas provide up to ~100 m range on 2.4 GHz and 300 m on 5 GHz.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Rugged IP68 Rated
+                                                    Casing</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Durable, weatherproof
+                                                (dustproof, waterproof), flame-retardant housing rated for −30 °C to +65
+                                                °C and 4 kV lightning protection.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Unique “UFO” Design</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Distinctive form factor
+                                                that blends aesthetics with outdoor functionality.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Reyee Mesh & Cloud
+                                                    Management</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports mesh networking,
+                                                plug-and-play deployment, and remote monitoring via Reyee app or Ruijie
+                                                Cloud—with no external controller required.</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-features" style="display: none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Dual LAN Ports & Dual
+                                                    Power Inputs</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Two gigabit Ethernet ports
+                                                support PoE (802.3at) and optional 12 V DC for power redundancy; handy
+                                                for daisy-chaining cameras or switches.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Easy Rack-Separated
+                                                    Mounting</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Simplified installation on
+                                                poles or walls with iron hoop quick-mount design—all hardware included.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>High Client Capacity &
+                                                    Roaming</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports up to 256 clients,
+                                                layer-2/3 roaming, OFDMA, TWT, automatic channel/power tuning, and
+                                                client isolation/security policies.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <!-- Toggle Button -->
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleFeatures()"
+                                        style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
+                                        id="toggleButton">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Script -->
+                            <script>
+                            function toggleFeatures() {
+                                var hiddenRows = document.getElementById("more-features");
+                                var button = document.getElementById("toggleButton");
+                                if (hiddenRows.style.display === "none") {
+                                    hiddenRows.style.display = "table-row-group";
+                                    button.textContent = "View Less";
+                                } else {
+                                    hiddenRows.style.display = "none";
+                                    button.textContent = "View More";
+                                }
+                            }
+                            </script>
                             </p>
                         </div>
                         <!-- ✅ Add to Cart Button -->
@@ -399,16 +473,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -610,16 +685,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -664,16 +740,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->

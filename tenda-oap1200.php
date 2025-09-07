@@ -80,7 +80,7 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Tenda OAP1200 AC1200 Indoor/Outdoor AP</a>
+                            <a class="product_name">Tenda OAP1200</a>
                         </h4>
 
                         <span class="product-details-ref">Reference: Tenda</span>
@@ -100,36 +100,109 @@ include 'header.php'; // Includes the header file
                         </div>
                         <div class="product-desc">
                             <p>
-                                <span>
-                                    <h4><b>Features: </b></h4>
-                                    <ul>
-                                        <li><b>AC1200 Dual‑Band Speeds:</b> Delivers concurrent throughput up to
-                                            1167 Mbps (300 Mbps @2.4 GHz + 867 Mbps @5 GHz)
-                                        </li>
-                                        <li><b>High-Gain External Antennas:</b> Equipped with 2 omni-directional
-                                            antennas covering up to 200 m in open areas
-                                            .</li>
-                                        <li><b>Weatherproof Design (IP65):</b> Durable housing resists dust and heavy
-                                            rain—ideal for outdoor use </li>
-                                        <li><b>Flexible Power Options:</b> Supports IEEE 802.3af/at PoE and optional
-                                            24 V passive PoE for versatile installations
-                                            .</li>
-                                        <li><b>Ethernet Port:</b> Includes a single Gigabit RJ‑45 port
-                                            (10/100/1000 Mbps) for high-speed uplink
-                                            .</li>
-                                        <li><b>Enterprise Security:</b> Supports WEP, WPA/WPA2, WPA‑PSK/WPA2‑PSK,
-                                            AES/TKIP encryption; RADIUS authentication
-                                            .</li>
-                                        <li><b>MU‑MIMO Technology:</b> Enhances performance in multi-user environments
-                                            .</li>
-                                        <li><b>Client Capacity:</b> Handles up to 256 clients simultaneously
-                                            .</li>
-                                        <li><b>Robust Build & Low Power:</b> Rugged design with only ~11.5 W power draw
-                                            .</li>
-                                        <li><b>Mounting Kit Included:</b> Designed for easy wall or pole mounting on
-                                            outdoor structures.</li>
-                                    </ul>
-                                </span>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features:</b></h4>
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background-color:#f4f4f4;">
+                                        <tr>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">
+                                                Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>AC1200 Dual-Band
+                                                    Speeds</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Delivers concurrent
+                                                throughput up to 1167 Mbps (300 Mbps @2.4 GHz + 867 Mbps @5 GHz).</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>High-Gain External
+                                                    Antennas</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Equipped with 2
+                                                omni-directional antennas covering up to 200 m in open areas.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Weatherproof Design
+                                                    (IP65)</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Durable housing resists
+                                                dust and heavy rain—ideal for outdoor use.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Flexible Power
+                                                    Options</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports IEEE 802.3af/at
+                                                PoE and optional 24 V passive PoE for versatile installations.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Ethernet Port</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Includes a single Gigabit
+                                                RJ-45 port (10/100/1000 Mbps) for high-speed uplink.</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-tenda" style="display: none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Enterprise Security</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports WEP, WPA/WPA2,
+                                                WPA-PSK/WPA2-PSK, AES/TKIP encryption, and RADIUS authentication.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>MU-MIMO Technology</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Enhances performance in
+                                                multi-user environments by serving multiple devices simultaneously.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Client Capacity</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Handles up to 256 clients
+                                                simultaneously, ideal for dense outdoor deployments.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Robust Build & Low
+                                                    Power</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Rugged design with only
+                                                ~11.5 W power consumption for efficiency and reliability.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Mounting Kit
+                                                    Included</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Designed for easy wall or
+                                                pole mounting on outdoor structures.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <!-- Toggle Button -->
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleTenda()"
+                                        style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
+                                        id="tendaBtn">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Script -->
+                            <script>
+                            function toggleTenda() {
+                                var hiddenRows = document.getElementById("more-tenda");
+                                var button = document.getElementById("tendaBtn");
+                                if (hiddenRows.style.display === "none") {
+                                    hiddenRows.style.display = "table-row-group";
+                                    button.textContent = "View Less";
+                                } else {
+                                    hiddenRows.style.display = "none";
+                                    button.textContent = "View More";
+                                }
+                            }
+                            </script>
                             </p>
                         </div>
                         <!-- ✅ Add to Cart Button -->
@@ -404,16 +477,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -615,16 +689,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -669,16 +744,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
