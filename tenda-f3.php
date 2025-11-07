@@ -6,7 +6,7 @@ include 'header.php'; // Includes the header file
 
 <!-- Begin Li's Breadcrumb Area -->
 <div class="breadcrumb-area">
-    <div class="container">
+    <div class="container-fluid">
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -18,7 +18,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Breadcrumb Area End Here -->
 <!-- content-wraper start -->
 <div class="content-wraper">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row single-product-area">
             <div class="col-lg-5 col-md-6">
                 <!-- Product Details Left -->
@@ -173,7 +173,7 @@ include 'header.php'; // Includes the header file
 <!-- content-wraper end -->
 <!-- Begin Product Area -->
 <div class="product-area pt-35">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 <div class="li-product-tab">
@@ -333,7 +333,7 @@ include 'header.php'; // Includes the header file
 <!-- Product Area End Here -->
 <!-- Begin Li's Laptop Product Area -->
 <section class="product-area li-laptop-product pt-30 pb-50">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Li's Section Area -->
             <div class="col-lg-12">

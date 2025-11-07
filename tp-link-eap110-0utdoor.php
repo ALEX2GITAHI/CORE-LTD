@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li class="active">Jakemy JM-CT4-3 Crimping Tool</li>
+                <li class="active">TP-Link EAP110-Outdoor</li>
             </ul>
         </div>
     </div>
@@ -25,10 +25,51 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/jakemy.jpg"
-                                data-gall="myGallery">
-                                <img src="images/product/small-size/jakemy.jpg" alt="product image" />
+                            <a class="popup-img venobox vbox-item"
+                                href="images/product/small-size/tp-link-eap110-outdoor-box.webp" data-gall="myGallery">
+                                <img src="images/product/small-size/tp-link-eap110-outdoor-box.webp" alt="product image" />
                             </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item"
+                                href="images/product/small-size/tp-link-eap255-all.webp" data-gall="myGallery">
+                                <img src="images/product/small-size/tp-link-eap255-all.webp" alt="product image" />
+                            </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item"
+                                href="images/product/small-size/tp-link-eap255-side.jpg" data-gall="myGallery">
+                                <img src="images/product/small-size/tp-link-eap255-side.jpg" alt="product image" />
+                            </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item"
+                                href="images/product/small-size/tp-link-eap110-outdoor-box.webp" data-gall="myGallery">
+                                <img src="images/product/small-size/tp-link-eap110-outdoor-box.webp" alt="product image" />
+                            </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item"
+                                href="images/product/small-size/tp-link-eap255-side.jpg" data-gall="myGallery">
+                                <img src="images/product/small-size/tp-link-eap255-side.jpg" alt="product image" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-details-thumbs slider-thumbs-1">
+                        <div class="sm-image">
+                            <img src="images/product/small-size/tp-link-eap110-outdoor-box.webp" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/tp-link-eap255-all.webp" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/tp-link-eap255-side.jpg" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/tp-link-eap110-outdoor-box.webp" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/tp-link-eap255-side.jpg" alt="product image thumb" />
                         </div>
                     </div>
                 </div>
@@ -39,9 +80,10 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Jakemy JM-CT4-3 Crimping Tool</a>
+                            <a class="product_name">TP-Link EAP110-Outdoor</a>
                         </h4>
-                        <span class="product-details-ref">Reference: RJ45</span>
+
+                        <span class="product-details-ref">Reference: TP-Link</span>
                         <div class="rating-box pt-20">
                             <ul class="rating rating-with-review-item">
                                 <li><i class="fa fa-star-o"></i></li>
@@ -53,25 +95,90 @@ include 'header.php'; // Includes the header file
                                 <li class="review-item"><a href="#">Write Review</a></li>
                             </ul>
                         </div>
-                        <div class="price-box">
-                            <span class="new-price">Ksh. 1,000</span>
+                        <div class="price-box pt-20">
+                            <span class="new-price new-price-2">Ksh. 5,500</span>
                         </div>
                         <div class="product-desc">
                             <p>
-                                <span>
-                                    <h4><b>Features: Jakemy Crimping Tool</b></h4>
-                                    <ul>
-                                        <li><b>Multi-Functionality:</b> Combines crimping, cutting, and stripping
-                                            functions for various cable types.</li>
-                                        <li><b>Compatibility:</b> Suitable for RJ45, RJ12, and RJ11 connectors.</li>
-                                        <li><b>Durable Construction:</b> Made with high-quality materials for
-                                            long-lasting performance.</li>
-                                        <li><b>Ergonomic Design:</b> Designed for comfortable grip and reduced hand
-                                            fatigue.</li>
-                                        <li><b>Precision Engineering:</b> Ensures accurate and reliable terminations.
-                                        </li>
-                                    </ul>
-                                </span>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features:</b></h4>
+                                <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background-color:#f4f4f4;">
+                                        <tr>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Description</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Up to 300 Mbps Wireless N</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Single-band 2.4 GHz with 2×2 MIMO technology for fast outdoor Wi-Fi coverage.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Weatherproof Design (IP65)</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Durable enclosure rated IP65 for resisting dust, rain, and outdoor conditions.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Detachable Omni-Directional Antennas</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Includes two external high-gain antennas and supports wall or pole mounting.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Passive PoE Support</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Powered via 24 V passive PoE adapter for flexible outdoor installation.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Long-Range Outdoor Coverage</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">High transmission power and antenna gain deliver up to ~200 m range (clear line-of-sight).</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-eap110-outdoor" style="display: none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Managed via Omada Cloud/Controller</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Integrates with TP-Link’s Omada SDN platform for centralized management and monitoring.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Multiple SSIDs & VLAN Mapping</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports up to 8 SSIDs and VLAN mapping for guest and staff network separation.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Guest Network & Captive Portal Support</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Includes guest authentication, captive portal, and enterprise-grade security options.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>High Transmission Power & External Antenna Design</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Optimized for wide-area coverage with adjustable TX power and external antennas.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Lightweight & Easy Mounting</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Comes with pole and wall mounting kits for easy outdoor installation.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <!-- Toggle Button -->
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleEAP110Outdoor()" style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;" id="eap110outdoorBtn">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
+
+                            <!-- Script -->
+                            <script>
+                                function toggleEAP110Outdoor() {
+                                    var hiddenRows = document.getElementById("more-eap110-outdoor");
+                                    var button = document.getElementById("eap110outdoorBtn");
+                                    if (hiddenRows.style.display === "none") {
+                                        hiddenRows.style.display = "table-row-group";
+                                        button.textContent = "View Less";
+                                    } else {
+                                        hiddenRows.style.display = "none";
+                                        button.textContent = "View More";
+                                    }
+                                }
+                            </script>
                             </p>
                         </div>
                         <!-- ✅ Add to Cart Button -->
@@ -89,52 +196,49 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                            // Your WhatsApp number (without + or 0)
-                            const phoneNumber = "254792570000";
+                                // Your WhatsApp number (without + or 0)
+                                const phoneNumber = "254792570000";
 
-                            // Get the current page URL
-                            const currentPageURL = encodeURIComponent(window.location.href);
+                                // Get the current page URL
+                                const currentPageURL = encodeURIComponent(window.location.href);
 
-                            // Get product details dynamically (if available)
-                            const productName = document.querySelector("#product-name")?.innerText ||
-                                "this product";
-                            const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                // Get product details dynamically (if available)
+                                const productName = document.querySelector("#product-name")?.innerText || "this product";
+                                const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                            // Encode message
-                            const message = encodeURIComponent(
-                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                            );
+                                // Encode message
+                                const message = encodeURIComponent(
+                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                                );
 
-                            // Set the WhatsApp link dynamically
-                            document.getElementById("whatsapp-link").href =
-                                `https://wa.me/${phoneNumber}?text=${message}`;
+                                // Set the WhatsApp link dynamically
+                                document.getElementById("whatsapp-link").href =
+                                    `https://wa.me/${phoneNumber}?text=${message}`;
                             </script>
-
-                        </div>
-                        <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to
-                            wishlist</a>
-                        <div class="product-social-sharing pt-25">
-                            <ul>
-                                <li class="facebook">
-                                    <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
-                                </li>
-                                <li class="twitter">
-                                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                                </li>
-                                <li class="google-plus">
-                                    <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
-                                </li>
-                                <li class="instagram">
-                                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-                                </li>
-                            </ul>
+                            <a class="wishlist-btn" href="wishlist.html"><i class="fab fa-heart-o"></i>Add to
+                                wishlist</a>
+                            <div class="product-social-sharing pt-25">
+                                <ul>
+                                    <li class="facebook">
+                                        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                                    </li>
+                                    <li class="twitter">
+                                        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                                    </li>
+                                    <li class="google-plus">
+                                        <a href="#"><i class="fab fa-tiktok"></i>Tiktok</a>
+                                    </li>
+                                    <li class="instagram">
+                                        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 <!-- content-wraper end -->
 <!-- Begin Product Area -->
@@ -314,59 +418,8 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="tenda-f3.php">
-                                        <img src="images/product/small-size/Tenda F3.jpg" alt="Li's Product Image" />
-                                    </a>
-
-                                </div>
-                                <div class="product_desc">
-                                    <div class="product_desc_info">
-                                        <div class="product-review">
-                                            <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
-                                            </h5>
-                                            <div class="rating-box">
-                                                <ul class="rating">
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <h4>
-                                            <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
-                                        </h4>
-                                        <div class="price-box">
-                                            <span class="new-price">Ksh. 1,350</span>
-                                        </div>
-                                    </div>
-                                    <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
-                                </div>
-                            </div>
-                            <!-- single-product-wrap end -->
-                        </div>
-                        <div class="col-lg-12">
-                            <!-- single-product-wrap start -->
-                            <div class="single-product-wrap">
-                                <div class="product-image">
-                                    <a href="tenda-f6.php">
-                                        <img src="images/product/small-size/tenda-f6 front.jpg"
+                                    <a href="tp-link-eap255-outdoor.php">
+                                        <img src="images/product/small-size/tp-link-eap110-outdoor-box.webp"
                                             alt="Li's Product Image" />
                                     </a>
 
@@ -375,7 +428,7 @@ include 'header.php'; // Includes the header file
                                     <div class="product_desc_info">
                                         <div class="product-review">
                                             <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
+                                                <a href="access-points.php">Access Points</a>
                                             </h5>
                                             <div class="rating-box">
                                                 <ul class="rating">
@@ -392,23 +445,25 @@ include 'header.php'; // Includes the header file
                                             </div>
                                         </div>
                                         <h4>
-                                            <a class="product_name" href="tenda-f6.php">Tenda-F6</a>
+                                            <a class="product_name" href="tp-link-eap255-outdoor.php">TP-Link EAP-255
+                                                Outdoor</a>
                                         </h4>
-                                        <div class="price-box">
-                                            <span class="new-price">Ksh. 1,550</span>
+                                        <div class=" price-box">
+                                            <span class="new-price">Ksh. 9,500</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -417,8 +472,8 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="tenda-ac5.php">
-                                        <img src="images/product/small-size/Tenda-AC5-front.jpg"
+                                    <a href="tenda-oap1200.php">
+                                        <img src="images/product/small-size/tenda-aop-box.jpeg"
                                             alt="Li's Product Image" />
                                     </a>
 
@@ -427,7 +482,7 @@ include 'header.php'; // Includes the header file
                                     <div class="product_desc_info">
                                         <div class="product-review">
                                             <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
+                                                <a href="access-points.php">Access Points</a>
                                             </h5>
                                             <div class="rating-box">
                                                 <ul class="rating">
@@ -444,79 +499,130 @@ include 'header.php'; // Includes the header file
                                             </div>
                                         </div>
                                         <h4>
-                                            <a class="product_name" href="tenda-ac5.php">Tenda AC5</a>
-                                        </h4>
-                                        <div class="price-box">
-                                            <span class="new-price">Ksh. 3,500</span>
-                                            <span class="old-price">Ksh. 4,000</span>
-                                            <span class="discount-percentage">-7%</span>
-                                        </div>
-                                    </div>
-                                    <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
-                                </div>
-                            </div>
-                            <!-- single-product-wrap end -->
-                        </div>
-                        <div class="col-lg-12">
-                            <!-- single-product-wrap start -->
-                            <div class="single-product-wrap">
-                                <div class="product-image">
-                                    <a href="tenda-ac10.php">
-                                        <img src="images/product/small-size/tenda ac10 all.jpg"
-                                            alt="Li's Product Image" />
-                                    </a>
-
-                                </div>
-                                <div class="product_desc">
-                                    <div class="product_desc_info">
-                                        <div class="product-review">
-                                            <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
-                                            </h5>
-                                            <div class="rating-box">
-                                                <ul class="rating">
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <h4>
-                                            <a class="product_name" href="tenda-ac10.php">Tenda-AC10</a>
+                                            <a class="product_name" href="tenda-oap1200.php">Tenda OAP-1200</a>
                                         </h4>
                                         <div class="price-box">
                                             <span class="new-price">Ksh. 4,500</span>
-                                            <span class="old-price">Ksh. 5,000</span>
-                                            <span class="discount-percentage">-8%</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-product-wrap end -->
+                        </div>
+                        <div class="col-lg-12">
+                            <!-- single-product-wrap start -->
+                            <div class="single-product-wrap">
+                                <div class="product-image">
+                                    <a href="power-beam.php">
+                                        <img src="images/product/small-size/power-beam-clear.webp"
+                                            alt="Li's Product Image" />
+                                    </a>
+
+                                </div>
+                                <div class="product_desc">
+                                    <div class="product_desc_info">
+                                        <div class="product-review">
+                                            <h5 class="manufacturer">
+                                                <a href="access-points.php">Access Points</a>
+                                            </h5>
+                                            <div class="rating-box">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h4>
+                                            <a class="product_name" href="power-beam.php">Power Beam</a>
+                                        </h4>
+                                        <div class="price-box">
+                                            <span class="new-price">Ksh. 15,000</span>
+                                        </div>
+                                    </div>
+                                    <div class="add-actions">
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-product-wrap end -->
+                        </div>
+                        <div class="col-lg-12">
+                            <!-- single-product-wrap start -->
+                            <div class="single-product-wrap">
+                                <div class="product-image">
+                                    <a href="lite-beam-m5.php">
+                                        <img src="images/product/small-size/lite-beam-m5=front.webp"
+                                            alt="Li's Product Image" />
+                                    </a>
+
+                                </div>
+                                <div class="product_desc">
+                                    <div class="product_desc_info">
+                                        <div class="product-review">
+                                            <h5 class="manufacturer">
+                                                <a href="access-points.php">Access Points</a>
+                                            </h5>
+                                            <div class="rating-box">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h4>
+                                            <a class="product_name" href="lite-beam-m5.php">LiteBeam M5</a>
+                                        </h4>
+                                        <div class="price-box">
+                                            <span class="new-price">Ksh. 6,500</span>
+                                        </div>
+                                    </div>
+                                    <div class="add-actions">
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -529,7 +635,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tplink front.webp"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -559,16 +665,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -581,7 +688,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tp link844 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -607,22 +714,23 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="tp-link-844.php">TP-Link 844N</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price">Ksh. 1,450</span>
+                                            <span class="new-price new-price-2">Ksh. 1450</span>
                                             <span class="old-price">Ksh. 1,550</span>
                                             <span class="discount-percentage">-5%</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->

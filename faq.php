@@ -53,7 +53,7 @@
             <header>
                 <!-- Begin Header Top Area -->
                 <div class="header-top">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <!-- Begin Header Top Left Area -->
                             <div class="col-lg-3 col-md-4">
@@ -114,7 +114,7 @@
                 <!-- Header Top Area End Here -->
                 <!-- Begin Header Middle Area -->
                 <div class="header-middle pl-sm-0 pr-sm-0 pl-xs-0 pr-xs-0">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <!-- Begin Header Logo Area -->
                             <div class="col-lg-3">
@@ -275,7 +275,7 @@
                 <!-- Header Middle Area End Here -->
                 <!-- Begin Header Bottom Area -->
                 <div class="header-bottom mb-0 header-sticky stick d-none d-lg-block d-xl-block">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-12">
                                 <!-- Begin Header Bottom Menu Area -->
@@ -412,7 +412,7 @@
                 <!-- Header Bottom Area End Here -->
                 <!-- Begin Mobile Menu Area -->
                 <div class="mobile-menu-area d-lg-none d-xl-none col-12">
-                    <div class="container"> 
+                    <div class="container-fluid"> 
                         <div class="row">
                             <div class="mobile-menu">
                             </div>
@@ -424,7 +424,7 @@
             <!-- Header Area End Here -->
             <!-- Begin Li's Breadcrumb Area -->
             <div class="breadcrumb-area">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="breadcrumb-content">
                         <ul>
                             <li><a href="index.html">Home</a></li>
@@ -436,7 +436,7 @@
             <!-- Li's Breadcrumb Area End Here -->
             <!-- Begin Frequently Area -->
             <div class="frequently-area pt-60 pb-50">
-                <div class="container">
+                <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="frequently-content">
@@ -572,7 +572,7 @@
             <div class="footer">
                 <!-- Begin Footer Static Top Area -->
                 <div class="footer-static-top">
-                    <div class="container">
+                    <div class="container-fluid">
                         <!-- Begin Footer Shipping Area -->
                         <div class="footer-shipping pt-60 pb-55 pb-xs-25">
                             <div class="row">
@@ -636,7 +636,7 @@
                 <!-- Footer Static Top Area End Here -->
                 <!-- Begin Footer Static Middle Area -->
                 <div class="footer-static-middle">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="footer-logo-wrap pt-50 pb-35">
                             <div class="row">
                                 <!-- Begin Footer Logo Area -->
@@ -748,7 +748,7 @@
                 <!-- Footer Static Middle Area End Here -->
                 <!-- Begin Footer Static Bottom Area -->
                 <div class="footer-static-bottom pt-55 pb-55">
-                    <div class="container">
+                    <div class="container-fluid">
                         <div class="row">
                             <div class="col-lg-12">
                                 <!-- Begin Footer Links Area -->

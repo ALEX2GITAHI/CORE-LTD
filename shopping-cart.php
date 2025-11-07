@@ -6,7 +6,7 @@ include 'header.php'; // Includes the header file
 
 <!-- Shopping Cart Area End --><!-- Shopping Cart Area Start -->
 <div class="Shopping-cart-area pt-60 pb-60">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <form action="#">

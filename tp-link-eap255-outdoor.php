@@ -6,7 +6,7 @@ include 'header.php'; // Includes the header file
 
 <!-- Begin Li's Breadcrumb Area -->
 <div class="breadcrumb-area">
-    <div class="container">
+    <div class="container-fluid">
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
@@ -18,7 +18,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Breadcrumb Area End Here -->
 <!-- content-wraper start -->
 <div class="content-wraper">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row single-product-area">
             <div class="col-lg-5 col-md-6">
                 <!-- Product Details Left -->
@@ -96,7 +96,7 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 6,500</span>
+                            <span class="new-price new-price-2">Ksh. 9,500</span>
                         </div>
                         <div class="product-desc">
                             <p>
@@ -200,17 +200,17 @@ include 'header.php'; // Includes the header file
 
                             <!-- Script -->
                             <script>
-                            function toggleEAP225() {
-                                var hiddenRows = document.getElementById("more-eap225");
-                                var button = document.getElementById("eap225Btn");
-                                if (hiddenRows.style.display === "none") {
-                                    hiddenRows.style.display = "table-row-group";
-                                    button.textContent = "View Less";
-                                } else {
-                                    hiddenRows.style.display = "none";
-                                    button.textContent = "View More";
+                                function toggleEAP225() {
+                                    var hiddenRows = document.getElementById("more-eap225");
+                                    var button = document.getElementById("eap225Btn");
+                                    if (hiddenRows.style.display === "none") {
+                                        hiddenRows.style.display = "table-row-group";
+                                        button.textContent = "View Less";
+                                    } else {
+                                        hiddenRows.style.display = "none";
+                                        button.textContent = "View More";
+                                    }
                                 }
-                            }
                             </script>
                             </p>
                         </div>
@@ -229,24 +229,24 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                            // Your WhatsApp number (without + or 0)
-                            const phoneNumber = "254792570000";
+                                // Your WhatsApp number (without + or 0)
+                                const phoneNumber = "254792570000";
 
-                            // Get the current page URL
-                            const currentPageURL = encodeURIComponent(window.location.href);
+                                // Get the current page URL
+                                const currentPageURL = encodeURIComponent(window.location.href);
 
-                            // Get product details dynamically (if available)
-                            const productName = document.querySelector("#product-name")?.innerText || "this product";
-                            const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                // Get product details dynamically (if available)
+                                const productName = document.querySelector("#product-name")?.innerText || "this product";
+                                const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                            // Encode message
-                            const message = encodeURIComponent(
-                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                            );
+                                // Encode message
+                                const message = encodeURIComponent(
+                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                                );
 
-                            // Set the WhatsApp link dynamically
-                            document.getElementById("whatsapp-link").href =
-                                `https://wa.me/${phoneNumber}?text=${message}`;
+                                // Set the WhatsApp link dynamically
+                                document.getElementById("whatsapp-link").href =
+                                    `https://wa.me/${phoneNumber}?text=${message}`;
                             </script>
                             <a class="wishlist-btn" href="wishlist.html"><i class="fab fa-heart-o"></i>Add to
                                 wishlist</a>
@@ -276,7 +276,7 @@ include 'header.php'; // Includes the header file
 <!-- content-wraper end -->
 <!-- Begin Product Area -->
 <div class="product-area pt-35">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 <div class="li-product-tab">
@@ -436,7 +436,7 @@ include 'header.php'; // Includes the header file
 <!-- Product Area End Here -->
 <!-- Begin Li's Laptop Product Area -->
 <section class="product-area li-laptop-product pt-30 pb-50">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Li's Section Area -->
             <div class="col-lg-12">

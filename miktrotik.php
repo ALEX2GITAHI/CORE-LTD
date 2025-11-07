@@ -7,7 +7,7 @@ include 'header.php'; // Includes the header file
 <!-- Header Area End Here -->
 <!-- Begin Li's Breadcrumb Area -->
 <div class="breadcrumb-area">
-  <div class="container">
+  <div class="container-fluid">
     <div class="breadcrumb-content">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -19,7 +19,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Breadcrumb Area End Here -->
 <!-- Begin Li's Content Wraper Area -->
 <div class="content-wraper pt-60 pb-60">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-lg-12">
         <!-- Begin Li's Banner Area -->

@@ -3,7 +3,7 @@ include 'header.php'; // Includes the header file
 ?>
 <!-- Begin Slider With Category Menu Area -->
 <div class="slider-with-banner">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Category Menu Area -->
             <div class="col-lg-3">
@@ -194,7 +194,7 @@ include 'header.php'; // Includes the header file
 <!-- Slider With Category Menu Area End Here -->
 <!-- Begin Li's Static Banner Area -->
 <div class="li-static-banner pt-20 pt-sm-30 pt-xs-30">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Single Banner Area -->
             <div class="col-lg-4 col-md-4">
@@ -229,7 +229,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Static Banner Area End Here -->
 <!-- Begin Li's Special Product Area -->
 <section class="product-area li-laptop-product Special-product pt-60 pb-45">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Li's Section Area -->
             <div class="col-lg-12">
@@ -625,7 +625,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Special Product Area End Here -->
 <!-- Begin Li's Laptops Product | Home V2 Area -->
 <section class="product-area li-laptop-product li-laptop-product-2 pb-45">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Li's Section Area -->
             <div class="col-lg-12">
@@ -997,7 +997,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Laptops Product | Home V2 Area End Here -->
 <!-- Begin Li's TV & Audio Product Area -->
 <section class="product-area li-laptop-product li-tv-audio-product-2 pb-45">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Li's Section Area -->
             <div class="col-lg-12">
@@ -1368,7 +1368,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's TV & Audio Product Area End Here -->
 <!-- Begin Li's Smart Phone Product Area -->
 <section class="product-area li-laptop-product li-smart-phone-product-2 pb-50">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Li's Section Area -->
             <div class="col-lg-12">
@@ -1738,7 +1738,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Smart Phone Product Area End Here -->
 <!-- Begin Li's Static Home Area -->
 <div class="li-static-home">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
                 <!-- Begin Li's Static Home Image Area -->
@@ -1765,7 +1765,7 @@ include 'header.php'; // Includes the header file
 <!-- Li's Static Home Area End Here -->
 <!-- Begin Li's Trending Product | Home V2 Area -->
 <section class="product-area li-trending-product li-trending-product-2 pt-60 pb-45">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <!-- Begin Li's Tab Menu Area -->
             <div class="col-lg-12">

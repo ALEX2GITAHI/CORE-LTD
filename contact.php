@@ -12,28 +12,79 @@ include 'header.php'; // Includes the header file
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.919397043946!2d36.886512774360824!3d-1.2162715355523332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f3702128b03%3A0x879263f96cbe01c2!2sCORE%20LTD%20ROYSAMBU!5e0!3m2!1sen!2ske!4v1742333175963!5m2!1sen!2ske"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 offset-lg-1 col-md-12 order-1 order-lg-2">
                 <div class="contact-page-side-content">
                     <h3 class="contact-page-title">Contact Us</h3>
                     <p class="contact-page-message mb-25">We are a leading provider of networking solutions and CCTV installation services,
-                                 offering high-quality products and professional setup to ensure reliable connectivity
-                                 and security for homes and businesses.</p>
+                        offering high-quality products and professional setup to ensure reliable connectivity
+                        and security for homes and businesses.</p>
                     <div class="single-contact-block">
                         <h4><i class="fa fa-fax"></i> Address</h4>
-                        <p>Githurai 44 Oppoaite Equity Bank</p>
+                        <p><b><span>Githurai Shop:</span></b> Gumba Road, Githurai 44, Opposite Equity Bank</p>
+                        <p><b><span>Roysambu Shop:</span></b> Roysambu, Lumumba Drive, Big Three N Apartment</p>
+                        <p><b><span>Town CBD Shop:</span></b> Nairobi CBD, Moi Avenue HH Towers, Basement Shop B20</p>
+                        <p><b><span>Gikomba Shop:</span></b> Gikomba Market,</p>
                     </div>
                     <div class="single-contact-block">
                         <h4><i class="fa fa-phone"></i> Phone</h4>
-                        <p>Githurai Shop: +254 792 570 000</p>
-                        <p>Roysambu Shop: +254 792 580 000</p>
-                        <p>Town CBD Shop: +254 757 130 130</p>                        
+                        <p>
+                            <li>
+                                <span>Githurai Shop:</span>
+                                <a href="tel:+254792570000">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <b>(+254) 792 570 000</b>
+                                </a>
+                                &nbsp;
+                                <a href="https://wa.me/254792570000" target="_blank">
+                                    <i class="fab fa-whatsapp" style="color: green; font-size: 18px"></i>
+                                </a>
+                            </li>
+                        </p>
+                        <p>
+                            <li>
+                                <span>Roysambu Shop:</span>
+                                <a href="tel:+254792580000">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <b>(+254) 792 580 000</b>
+                                </a>
+                                &nbsp;
+                                <a href="https://wa.me/254792580000" target="_blank">
+                                    <i class="fab fa-whatsapp" style="color: green; font-size: 18px"></i>
+                                </a>
+                            </li>
+                        </p>
+                        <p>
+                            <li>
+                                <span>Town CBD Shop:</span>
+                                <a href="tel:+254757130130">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <b>(+254) 757 130 130</b>
+                                </a>
+                                &nbsp;
+                                <a href="https://wa.me/254757130130" target="_blank">
+                                    <i class="fab fa-whatsapp" style="color: green; font-size: 18px"></i>
+                                </a>
+                            </li>
+                        </p>
+                        <p>
+                            <li>
+                                <span>Gikomba Shop:</span>
+                                <a href="tel:+254742363507">
+                                    <i class="fas fa-phone-alt"></i>
+                                    <b>(+254) 742 363 507</b>
+                                </a>
+                                &nbsp;
+                                <a href="https://wa.me/254742363507" target="_blank">
+                                    <i class="fab fa-whatsapp" style="color: green; font-size: 18px"></i>
+                                </a>
+                            </li>
+                        </p>
                     </div>
                     <div class="single-contact-block last-child">
                         <h4><i class="fa fa-envelope-o"></i> Email</h4>
-                        <p>yourmail@domain.com</p>
-                        <p>support@hastech.company</p>
+                        <p>corecyber254@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -120,197 +171,197 @@ include 'header.php'; // Includes the header file
 </script>
 
 <script>
-// When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
+    // When the window has finished loading create our google map below
+    google.maps.event.addDomListener(window, 'load', init);
 
-function init() {
-    // Basic options for a simple Google Map
-    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 12,
-        scrollwheel: false,
-        // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(40.740610, -73.935242), // New York
-        // How you would like to style the map. 
-        // This is where you would paste any style found on
-        styles: [{
-                "featureType": "water",
-                "elementType": "geometry",
-                "stylers": [{
-                        "color": "#e9e9e9"
-                    },
-                    {
-                        "lightness": 17
-                    }
-                ]
-            },
-            {
-                "featureType": "landscape",
-                "elementType": "geometry",
-                "stylers": [{
-                        "color": "#f5f5f5"
-                    },
-                    {
-                        "lightness": 20
-                    }
-                ]
-            },
-            {
-                "featureType": "road.highway",
-                "elementType": "geometry.fill",
-                "stylers": [{
-                        "color": "#ffffff"
-                    },
-                    {
-                        "lightness": 17
-                    }
-                ]
-            },
-            {
-                "featureType": "road.highway",
-                "elementType": "geometry.stroke",
-                "stylers": [{
-                        "color": "#ffffff"
-                    },
-                    {
-                        "lightness": 29
-                    },
-                    {
-                        "weight": 0.2
-                    }
-                ]
-            },
-            {
-                "featureType": "road.arterial",
-                "elementType": "geometry",
-                "stylers": [{
-                        "color": "#ffffff"
-                    },
-                    {
-                        "lightness": 18
-                    }
-                ]
-            },
-            {
-                "featureType": "road.local",
-                "elementType": "geometry",
-                "stylers": [{
-                        "color": "#ffffff"
-                    },
-                    {
-                        "lightness": 16
-                    }
-                ]
-            },
-            {
-                "featureType": "poi",
-                "elementType": "geometry",
-                "stylers": [{
-                        "color": "#f5f5f5"
-                    },
-                    {
-                        "lightness": 21
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.park",
-                "elementType": "geometry",
-                "stylers": [{
-                        "color": "#dedede"
-                    },
-                    {
-                        "lightness": 21
-                    }
-                ]
-            },
-            {
-                "elementType": "labels.text.stroke",
-                "stylers": [{
-                        "visibility": "on"
-                    },
-                    {
-                        "color": "#ffffff"
-                    },
-                    {
-                        "lightness": 16
-                    }
-                ]
-            },
-            {
-                "elementType": "labels.text.fill",
-                "stylers": [{
-                        "saturation": 36
-                    },
-                    {
-                        "color": "#333333"
-                    },
-                    {
-                        "lightness": 40
-                    }
-                ]
-            },
-            {
-                "elementType": "labels.icon",
-                "stylers": [{
-                    "visibility": "off"
-                }]
-            },
-            {
-                "featureType": "transit",
-                "elementType": "geometry",
-                "stylers": [{
-                        "color": "#f2f2f2"
-                    },
-                    {
-                        "lightness": 19
-                    }
-                ]
-            },
-            {
-                "featureType": "administrative",
-                "elementType": "geometry.fill",
-                "stylers": [{
-                        "color": "#fefefe"
-                    },
-                    {
-                        "lightness": 20
-                    }
-                ]
-            },
-            {
-                "featureType": "administrative",
-                "elementType": "geometry.stroke",
-                "stylers": [{
-                        "color": "#fefefe"
-                    },
-                    {
-                        "lightness": 17
-                    },
-                    {
-                        "weight": 1.2
-                    }
-                ]
-            }
-        ]
-    };
+    function init() {
+        // Basic options for a simple Google Map
+        // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+        var mapOptions = {
+            // How zoomed in you want the map to start at (always required)
+            zoom: 12,
+            scrollwheel: false,
+            // The latitude and longitude to center the map (always required)
+            center: new google.maps.LatLng(40.740610, -73.935242), // New York
+            // How you would like to style the map. 
+            // This is where you would paste any style found on
+            styles: [{
+                    "featureType": "water",
+                    "elementType": "geometry",
+                    "stylers": [{
+                            "color": "#e9e9e9"
+                        },
+                        {
+                            "lightness": 17
+                        }
+                    ]
+                },
+                {
+                    "featureType": "landscape",
+                    "elementType": "geometry",
+                    "stylers": [{
+                            "color": "#f5f5f5"
+                        },
+                        {
+                            "lightness": 20
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                            "color": "#ffffff"
+                        },
+                        {
+                            "lightness": 17
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.highway",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                            "color": "#ffffff"
+                        },
+                        {
+                            "lightness": 29
+                        },
+                        {
+                            "weight": 0.2
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.arterial",
+                    "elementType": "geometry",
+                    "stylers": [{
+                            "color": "#ffffff"
+                        },
+                        {
+                            "lightness": 18
+                        }
+                    ]
+                },
+                {
+                    "featureType": "road.local",
+                    "elementType": "geometry",
+                    "stylers": [{
+                            "color": "#ffffff"
+                        },
+                        {
+                            "lightness": 16
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi",
+                    "elementType": "geometry",
+                    "stylers": [{
+                            "color": "#f5f5f5"
+                        },
+                        {
+                            "lightness": 21
+                        }
+                    ]
+                },
+                {
+                    "featureType": "poi.park",
+                    "elementType": "geometry",
+                    "stylers": [{
+                            "color": "#dedede"
+                        },
+                        {
+                            "lightness": 21
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.stroke",
+                    "stylers": [{
+                            "visibility": "on"
+                        },
+                        {
+                            "color": "#ffffff"
+                        },
+                        {
+                            "lightness": 16
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.text.fill",
+                    "stylers": [{
+                            "saturation": 36
+                        },
+                        {
+                            "color": "#333333"
+                        },
+                        {
+                            "lightness": 40
+                        }
+                    ]
+                },
+                {
+                    "elementType": "labels.icon",
+                    "stylers": [{
+                        "visibility": "off"
+                    }]
+                },
+                {
+                    "featureType": "transit",
+                    "elementType": "geometry",
+                    "stylers": [{
+                            "color": "#f2f2f2"
+                        },
+                        {
+                            "lightness": 19
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative",
+                    "elementType": "geometry.fill",
+                    "stylers": [{
+                            "color": "#fefefe"
+                        },
+                        {
+                            "lightness": 20
+                        }
+                    ]
+                },
+                {
+                    "featureType": "administrative",
+                    "elementType": "geometry.stroke",
+                    "stylers": [{
+                            "color": "#fefefe"
+                        },
+                        {
+                            "lightness": 17
+                        },
+                        {
+                            "weight": 1.2
+                        }
+                    ]
+                }
+            ]
+        };
 
-    // Get the HTML DOM element that will contain your map 
-    // We are using a div with id="map" seen below in the <body>
-    var mapElement = document.getElementById('google-map');
+        // Get the HTML DOM element that will contain your map 
+        // We are using a div with id="map" seen below in the <body>
+        var mapElement = document.getElementById('google-map');
 
-    // Create the Google Map using our element and options defined above
-    var map = new google.maps.Map(mapElement, mapOptions);
+        // Create the Google Map using our element and options defined above
+        var map = new google.maps.Map(mapElement, mapOptions);
 
-    // Let's also add a marker while we're at it
-    var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(40.740610, -73.935242),
-        map: map,
-        title: 'Limupa',
-        animation: google.maps.Animation.BOUNCE
-    });
-}
+        // Let's also add a marker while we're at it
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(40.740610, -73.935242),
+            map: map,
+            title: 'Limupa',
+            animation: google.maps.Animation.BOUNCE
+        });
+    }
 </script>
 </body>
 

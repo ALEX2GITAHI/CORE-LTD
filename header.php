@@ -56,142 +56,93 @@
       </p>
     <![endif]-->
     <!-- Begin Body Wrapper -->
-    <div class="body-wrapper">
+   
         <!-- Begin Header Area -->
         <header>
-            <!-- Begin Header Top Area -->
-            <div class="header-top">
-                <div class="container">
-                    <div class="row">
-                        <!-- Begin Header Top Left Area -->
-                        <div class="col-lg-3 col-md-4">
-                            <div class="header-top-left">
-                                <ul class="phone-wrap">
-                                    <li>
-                                        <span>Telephone Enquiry:</span>
-                                        <a href="tel:+254792570000">
-                                            <i class="fas fa-phone-alt"></i>
-                                            <b>(+254) 792 570 000</b>
-                                        </a>
-                                        &nbsp;
-                                        <a href="https://wa.me/254792570000" target="_blank">
-                                            <i class="fab fa-whatsapp" style="color: green; font-size: 18px"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Header Top Left Area End Here -->
-                        <!-- Begin Header Top Right Area -->
-                        <div class="col-lg-9 col-md-8">
-                            <div class="header-top-right">
-                                <ul class="ht-menu">
-                                    <!-- Begin Setting Area -->
-                                    <li>
-                                        <div class="ht-setting-trigger"><span>Setting</span></div>
-                                        <div class="setting ht-setting">
-                                            <ul class="ht-setting-list">
-                                                <li><a href="login-register.html">My Account</a></li>
-                                                <li><a href="checkout.php">Checkout</a></li>
-                                                <li><a href="login-register.html">Sign In</a></li>
-                                            </ul>
-                                        </div>
-                                    </li>
-                                    <!-- Setting Area End Here -->
-                                    <!-- Begin Currency Area -->
-                                    <!-- Currency Area End Here -->
-                                    <!-- Begin Language Area -->
-                                    <!-- Language Area End Here -->
-                                </ul>
-                            </div>
-                        </div>
-                        <!-- Header Top Right Area End Here -->
+    
+    <!-- Header Top Area End Here -->
+    <!-- Begin Header Middle Area -->
+    <div class="header-middle pl-sm-0 pr-sm-0 pl-xs-0 pr-xs-0">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Begin Header Logo Area -->
+                <div class="col-lg-3">
+                    <div class="logo pb-sm-30 pb-xs-30">
+                        <a href="index.php">
+                            <img src="images/core_logo.png" alt="Core Logo" width="100" height="50" />
+                        </a>
                     </div>
                 </div>
-            </div>
-            <!-- Header Top Area End Here -->
-            <!-- Begin Header Middle Area -->
-            <div class="header-middle pl-sm-0 pr-sm-0 pl-xs-0 pr-xs-0">
-                <div class="container">
-                    <div class="row">
-                        <!-- Begin Header Logo Area -->
-                        <div class="col-lg-3">
-                            <div class="logo pb-sm-30 pb-xs-30">
-                                <a href="index.php">
-                                    <img src="images/core_logo.png" alt="Core Logo" width="100" height="50" />
+                <!-- Header Logo Area End Here -->
+                <!-- Begin Header Middle Right Area -->
+                <di class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
+                    <!-- Begin Header Middle Searchbox Area -->
+                    <form action="#" class="hm-searchbox" onsubmit="return false;">
+
+                        <input type="text" id="search-box" placeholder="Enter your search key ..."
+                            autocomplete="off" />
+                        <button class="li-btn" type="submit">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        <ul id="search-results"></ul>
+                    </form>
+
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+                    <!-- Header Middle Searchbox Area End Here -->
+                    <!-- Begin Header Middle Right Area -->
+                    <div class="header-middle-right">
+                        <ul class="hm-menu">
+                            <!-- Begin Header Middle Wishlist Area -->
+                            <li class="hm-wishlist">
+                                <a href="wishlist.html">
+                                    <span class="cart-item-count wishlist-item-count">0</span>
+                                    <i class="fa fa-heart-o"></i>
                                 </a>
-                            </div>
-                        </div>
-                        <!-- Header Logo Area End Here -->
-                        <!-- Begin Header Middle Right Area -->
-                        <di class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
-                            <!-- Begin Header Middle Searchbox Area -->
-                            <form action="#" class="hm-searchbox" onsubmit="return false;">
-
-                                <input type="text" id="search-box" placeholder="Enter your search key ..."
-                                    autocomplete="off" />
-                                <button class="li-btn" type="submit">
-                                    <i class="fa fa-search"></i>
-                                </button>
-                                <ul id="search-results"></ul>
-                            </form>
-
-                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-                            <!-- Header Middle Searchbox Area End Here -->
-                            <!-- Begin Header Middle Right Area -->
-                            <div class="header-middle-right">
-                                <ul class="hm-menu">
-                                    <!-- Begin Header Middle Wishlist Area -->
-                                    <li class="hm-wishlist">
-                                        <a href="wishlist.html">
-                                            <span class="cart-item-count wishlist-item-count">0</span>
-                                            <i class="fa fa-heart-o"></i>
+                            </li>
+                            <!-- Header Middle Wishlist Area End Here -->
+                            <!-- Begin Header Mini Cart Area -->
+                            <li class="hm-minicart">
+                                <div class="hm-minicart-trigger">
+                                    <span class="item-icon"></span>
+                                    <span class="item-text">
+                                        Ksh. <span id="cart-total">0</span>
+                                        <span class="cart-item-count">0</span>
+                                    </span>
+                                </div>
+                                <div class="minicart">
+                                    <ul class="minicart-product-list" id="cart-items">
+                                        <!-- Items will be dynamically added here -->
+                                    </ul>
+                                    <p class="minicart-total">
+                                        SUBTOTAL: <span>Ksh. <span id="cart-subtotal">0</span></span>
+                                    </p>
+                                    <div class="minicart-button">
+                                        <a href="shopping-cart.php" id="view-full-cart"
+                                            class="li-button li-button-dark li-button-fullwidth li-button-sm">
+                                            <span>View Full Cart</span>
                                         </a>
-                                    </li>
-                                    <!-- Header Middle Wishlist Area End Here -->
-                                    <!-- Begin Header Mini Cart Area -->
-                                    <li class="hm-minicart">
-                                        <div class="hm-minicart-trigger">
-                                            <span class="item-icon"></span>
-                                            <span class="item-text">
-                                                Ksh. <span id="cart-total">0</span>
-                                                <span class="cart-item-count">0</span>
-                                            </span>
-                                        </div>
-                                        <div class="minicart">
-                                            <ul class="minicart-product-list" id="cart-items">
-                                                <!-- Items will be dynamically added here -->
-                                            </ul>
-                                            <p class="minicart-total">
-                                                SUBTOTAL: <span>Ksh. <span id="cart-subtotal">0</span></span>
-                                            </p>
-                                            <div class="minicart-button">
-                                                <a href="shopping-cart.php" id="view-full-cart"
-                                                    class="li-button li-button-dark li-button-fullwidth li-button-sm">
-                                                    <span>View Full Cart</span>
-                                                </a>
-                                                <a href="checkout.php" id="view-full-cart"
-                                                    class="li-button li-button-fullwidth li-button-sm">
-                                                    <span>Checkout</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <!-- Header Mini Cart Area End Here -->
-                                </ul>
-                            </div>
-                            <!-- Header Middle Right Area End Here -->
+                                        <a href="checkout.php" id="view-full-cart"
+                                            class="li-button li-button-fullwidth li-button-sm">
+                                            <span>Checkout</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Header Mini Cart Area End Here -->
+                        </ul>
                     </div>
                     <!-- Header Middle Right Area End Here -->
-                </div>
             </div>
+            <!-- Header Middle Right Area End Here -->
+        </div>
+    </div>
     </div>
     <!-- Header Middle Area End Here -->
     <!-- Begin Header Bottom Area -->
     <div class="header-bottom header-sticky d-none d-lg-block">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
                     <!-- Begin Header Bottom Menu Area -->
@@ -358,7 +309,7 @@
     <!-- Header Bottom Area End Here -->
     <!-- Begin Mobile Menu Area -->
     <div class="mobile-menu-area d-lg-none d-xl-none col-12">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
                 <div class="mobile-menu"></div>
             </div>
@@ -369,269 +320,282 @@
     <!-- Header Area End Here -->
     <!-- Begin Slider With Category Menu Area -->
     <script>
-    $(document).ready(function() {
-        let items = [{
-                name: "Routers",
-                url: "routers.php"
-            },
-            {
-                name: "Easenet Cat 6 Indoor Cable",
-                url: "easenet.php"
-            },
-            {
-                name: "RDCOM Cat 6 Indoor Cable",
-                url: "rdcom.php"
-            },
-            {
-                name: "CP Cat 6 Indoor Cable",
-                url: "cp-cable.php"
-            },
-            {
-                name: "RDCOM Cat 6 Outdoor Cable",
-                url: "rdcom-oudoor.php"
-            },
-            {
-                name: "TP-Link EAP-255 outdoor",
-                url: "tp-link-eap255-outdoor.php"
-            },
-            {
-                name: "SHK Cat 6 Indoor Cable",
-                url: "shk-cable.php"
-            },
-            {
-                name: "Gigalan Cat 6 Indoor Cable",
-                url: "gigalan-cable.php"
-            },
-            {
-                name: "Tenda OAP-1200",
-                url: "tenda-oap1200.php"
-            },
-            {
-                name: "Scoop Cat 6 Indoor Cable",
-                url: "scoop-cable.php"
-            },
-            {
-                name: "Tenda-F3",
-                url: "tenda-f3.php"
-            },
-            {
-                name: "Tenda-F6",
-                url: "tenda-f6.php"
-            },
-            {
-                name: "Ruijie RG-EW300N Router",
-                url: "ruijie-router.php"
-            },
-            {
-                name: "Tenda-AC5",
-                url: "tenda-ac5.php"
-            },
-            {
-                name: "Tenda-AC8",
-                url: "tenda-ac8.php"
-            },
-            {
-                name: "LiteBeam M5",
-                url: "lite-beam-m5.php"
-            },
-            {
-                name: "Ruijie-RAP6262(G)",
-                url: "ruijie-6262g.php"
-            },
-            {
-                name: "Power Beam",
-                url: "power-beam.php"
-            },
-            {
-                name: "Tenda-AC10",
-                url: "tenda-ac10.php"
-            },
-            {
-                name: "Access Points",
-                url: "access-points.php"
-            },
-            {
-                name: "Tenda-4G Lite",
-                url: "tenda-4g.php"
-            },
-            {
-                name: "D-Link Router",
-                url: "d-link.php"
-            },
-            {
-                name: "Tp-Link 844N",
-                url: "tp-link-844.php"
-            },
-            {
-                name: "Tp-Link 840N",
-                url: "tp-link-840.php"
-            },
-            {
-                name: "Huawei-Gpon",
-                url: "huawei-expon.php"
-            },
-            {
-                name: "Huawei EPon",
-                url: "huawei-expon.php"
-            },
-            {
-                name: "Mikrotik RB951",
-                url: "rb951.php"
-            },
-            {
-                name: "Mikrotik RB941-Hap-Lite",
-                url: "rb941.php"
-            },
-            {
-                name: "Mikrotik RB760-IGS",
-                url: "rb760-igs.php"
-            },
-            {
-                name: "Mikrotik RB4011",
-                url: "rb4011.php"
-            },
-            {
-                name: "Crimping Tools",
-                url: "crimping-tools.php"
-            },
-            {
-                name: "Jakemy Crimping Tool",
-                url: "jakemy-crimping-tool.php"
-            },
-            {
-                name: "Dual-Modular Crimping Tool",
-                url: "dual-modular-crimping-tool.php"
-            },
-            {
-                name: "Mikrotik RB260GS",
-                url: "rbs60gs.php"
-            },
-            {
-                name: "Mikrotik SXTSQ Series",
-                url: "ssxtsq-series.php"
-            },
-            {
-                name: "Mikrotiks",
-                url: "mikrotik.php"
-            },
-            {
-                name: "Mikrotik L009",
-                url: "mikrotik-l009.php"
+        $(document).ready(function() {
+            let items = [{
+                    name: "Routers",
+                    url: "routers.php"
+                },
+                {
+                    name: "Easenet Cat 6 Indoor Cable",
+                    url: "easenet.php"
+                },
+                {
+                    name: "RDCOM Cat 6 Indoor Cable",
+                    url: "rdcom.php"
+                },
+                {
+                    name: "CP Cat 6 Indoor Cable",
+                    url: "cp-cable.php"
+                },
+                {
+                    name: "RDCOM Cat 6 Outdoor Cable",
+                    url: "rdcom-oudoor.php"
+                },
+                {
+                    name: "TP-Link EAP-255 outdoor",
+                    url: "tp-link-eap255-outdoor.php"
+                },
+                {
+                    name: "SHK Cat 6 Indoor Cable",
+                    url: "shk-cable.php"
+                },
+                {
+                    name: "Gigalan Cat 6 Indoor Cable",
+                    url: "gigalan-cable.php"
+                },
+                {
+                    name: "Tenda OAP-1200",
+                    url: "tenda-oap1200.php"
+                },
+                {
+                    name: "Scoop Cat 6 Indoor Cable",
+                    url: "scoop-cable.php"
+                },
+                {
+                    name: "Tenda-F3",
+                    url: "tenda-f3.php"
+                },
+                {
+                    name: "Tenda-F6",
+                    url: "tenda-f6.php"
+                },
+                {
+                    name: "Ruijie RG-EW300N Router",
+                    url: "ruijie-router.php"
+                },
+                {
+                    name: "Tenda-AC5",
+                    url: "tenda-ac5.php"
+                },
+                {
+                    name: "Tenda-AC8",
+                    url: "tenda-ac8.php"
+                },
+                {
+                    name: "LiteBeam M5",
+                    url: "lite-beam-m5.php"
+                },
+                {
+                    name: "Ruijie-RAP6262(G)",
+                    url: "ruijie-6262g.php"
+                },
+                {
+                    name: "Power Beam",
+                    url: "power-beam.php"
+                },
+                {
+                    name: "Tenda-AC10",
+                    url: "tenda-ac10.php"
+                },
+                {
+                    name: "Access Points",
+                    url: "access-points.php"
+                },
+                {
+                    name: "Tenda-4G Lite",
+                    url: "tenda-4g.php"
+                },
+                {
+                    name: "D-Link Router",
+                    url: "d-link.php"
+                },
+                {
+                    name: "Tp-Link 844N",
+                    url: "tp-link-844.php"
+                },
+                {
+                    name: "Tp-Link 840N",
+                    url: "tp-link-840.php"
+                },
+                {
+                    name: "Huawei-Gpon",
+                    url: "huawei-expon.php"
+                },
+                {
+                    name: "Huawei EPon",
+                    url: "huawei-expon.php"
+                },
+
+                {
+                    name: "TP-Link EAP225-Indoor",
+                    url: "tp-link-eap255-indoor.php"
+                },
+                {
+                    name: "Mikrotik RB951",
+                    url: "rb951.php"
+                },
+                {
+                    name: "TP-Link EAP110-Indoor",
+                    url: "tp-link-eap110-indoor.php"
+                },
+                {
+                    name: "Mikrotik RB941-Hap-Lite",
+                    url: "rb941.php"
+                },
+                {
+                    name: "TP-Link EAP110-Outdoor",
+                    url: "tp-link-eap110-0utdoor.php"
+                },
+                {
+                    name: "Mikrotik RB760-IGS",
+                    url: "rb760-igs.php"
+                },
+                {
+                    name: "Mikrotik RB4011",
+                    url: "rb4011.php"
+                },
+                {
+                    name: "Crimping Tools",
+                    url: "crimping-tools.php"
+                },
+                {
+                    name: "Jakemy Crimping Tool",
+                    url: "jakemy-crimping-tool.php"
+                },
+                {
+                    name: "Dual-Modular Crimping Tool",
+                    url: "dual-modular-crimping-tool.php"
+                },
+                {
+                    name: "Mikrotik RB260GS",
+                    url: "rbs60gs.php"
+                },
+                {
+                    name: "Mikrotik SXTSQ Series",
+                    url: "ssxtsq-series.php"
+                },
+                {
+                    name: "Mikrotiks",
+                    url: "mikrotik.php"
+                },
+                {
+                    name: "Mikrotik L009",
+                    url: "mikrotik-l009.php"
+                }
+            ];
+
+            function showResults(query = "") {
+                let resultsContainer = $("#search-results");
+                resultsContainer.empty();
+
+                // Always sort alphabetically before displaying
+                let sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
+                let filteredItems = sortedItems.filter(item => item.name.toLowerCase().includes(query));
+
+                if (filteredItems.length > 0) {
+                    filteredItems.forEach(item => {
+                        resultsContainer.append(
+                            `<li class="search-item" data-url="${item.url}">${item.name}</li>`);
+                    });
+                    resultsContainer.show();
+                } else {
+                    resultsContainer.hide();
+                }
             }
-        ];
 
-        function showResults(query = "") {
-            let resultsContainer = $("#search-results");
-            resultsContainer.empty();
+            // Show all items in alphabetical order when clicking inside search box
+            $("#search-box").on("focus", function() {
+                showResults();
+            });
 
-            // Always sort alphabetically before displaying
-            let sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
-            let filteredItems = sortedItems.filter(item => item.name.toLowerCase().includes(query));
+            // Filter results while typing, still in alphabetical order
+            $("#search-box").on("input", function() {
+                let query = $(this).val().toLowerCase();
+                showResults(query);
+            });
 
-            if (filteredItems.length > 0) {
-                filteredItems.forEach(item => {
-                    resultsContainer.append(
-                        `<li class="search-item" data-url="${item.url}">${item.name}</li>`);
-                });
-                resultsContainer.show();
-            } else {
-                resultsContainer.hide();
-            }
-        }
+            // Navigate when clicking a search result
+            $(document).on("click", ".search-item", function() {
+                window.location.href = $(this).data("url");
+            });
 
-        // Show all items in alphabetical order when clicking inside search box
-        $("#search-box").on("focus", function() {
-            showResults();
+            // Hide search results when clicking outside
+            $(document).click(function(event) {
+                if (!$(event.target).closest("#search-box, #search-results").length) {
+                    $("#search-results").hide();
+                }
+            });
         });
-
-        // Filter results while typing, still in alphabetical order
-        $("#search-box").on("input", function() {
-            let query = $(this).val().toLowerCase();
-            showResults(query);
-        });
-
-        // Navigate when clicking a search result
-        $(document).on("click", ".search-item", function() {
-            window.location.href = $(this).data("url");
-        });
-
-        // Hide search results when clicking outside
-        $(document).click(function(event) {
-            if (!$(event.target).closest("#search-box, #search-results").length) {
-                $("#search-results").hide();
-            }
-        });
-    });
     </script>
     <style>
-    .hm-searchbox {
-        position: relative;
-        width: 60%;
-        max-width: 400px;
-    }
-
-    #search-results {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: white;
-        border: 1px solid #ccc;
-        display: none;
-        max-height: 200px;
-        overflow-y: auto;
-        z-index: 1000;
-        border-radius: 5px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .search-item {
-        padding: 10px;
-        cursor: pointer;
-        border-bottom: 1px solid #eee;
-        transition: background 0.3s, color 0.3s;
-    }
-
-    .search-item:hover {
-        background: #5ccdf0;
-        color: white;
-    }
-    </style>
-    <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        let cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-        function saveCart() {
-            localStorage.setItem("cart", JSON.stringify(cart));
+        .hm-searchbox {
+            position: relative;
+            width: 60%;
+            max-width: 400px;
         }
 
-        function updateMiniCart() {
-            let cartContainer = $("#cart-items");
-            let cartTotal = $("#cart-total");
-            let cartSubtotal = $("#cart-subtotal");
-            let cartCount = $(".cart-item-count");
+        #search-results {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: white;
+            border: 1px solid #ccc;
+            display: none;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
 
-            cartContainer.empty();
+        .search-item {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+            transition: background 0.3s, color 0.3s;
+        }
 
-            if (cart.length === 0) {
-                cartContainer.append('<li><p>Your cart is empty.</p></li>');
-                cartTotal.text("0");
-                cartSubtotal.text("0");
-                cartCount.text("0");
-                return;
+        .search-item:hover {
+            background: #5ccdf0;
+            color: white;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+            function saveCart() {
+                localStorage.setItem("cart", JSON.stringify(cart));
             }
 
-            let totalCost = 0;
-            let totalItems = 0;
-            cart.forEach((item, index) => {
-                let itemTotal = item.price * item.quantity;
-                totalCost += itemTotal;
-                totalItems += item.quantity;
+            function updateMiniCart() {
+                let cartContainer = $("#cart-items");
+                let cartTotal = $("#cart-total");
+                let cartSubtotal = $("#cart-subtotal");
+                let cartCount = $(".cart-item-count");
 
-                // ✅ Use fallback image if undefined
-                let imageUrl = item.image || 'assets/images/default.png';
+                cartContainer.empty();
 
-                cartContainer.append(`
+                if (cart.length === 0) {
+                    cartContainer.append('<li><p>Your cart is empty.</p></li>');
+                    cartTotal.text("0");
+                    cartSubtotal.text("0");
+                    cartCount.text("0");
+                    return;
+                }
+
+                let totalCost = 0;
+                let totalItems = 0;
+                cart.forEach((item, index) => {
+                    let itemTotal = item.price * item.quantity;
+                    totalCost += itemTotal;
+                    totalItems += item.quantity;
+
+                    // ✅ Use fallback image if undefined
+                    let imageUrl = item.image || 'assets/images/default.png';
+
+                    cartContainer.append(`
             <li style="display: flex; align-items: center; gap: 10px;">
                 <img src="${imageUrl}" alt="${item.name}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 5px;">
                 <div class="minicart-product-details" style="flex-grow: 1;">
@@ -643,33 +607,33 @@
                 </button>
             </li>
         `);
-            });
+                });
 
-            cartTotal.text(totalCost.toLocaleString());
-            cartSubtotal.text(totalCost.toLocaleString());
-            cartCount.text(totalItems);
-        }
-
-        function updateFullCart() {
-            let cartBody = $("#cart-body");
-            let fullSubtotal = $("#cart-subtotal");
-            let fullTotal = $("#full-cart-total");
-
-            cartBody.empty();
-
-            if (cart.length === 0) {
-                cartBody.append('<tr><td colspan="6" class="text-center">Your cart is empty.</td></tr>');
-                fullSubtotal.text("0");
-                fullTotal.text("0");
-                return;
+                cartTotal.text(totalCost.toLocaleString());
+                cartSubtotal.text(totalCost.toLocaleString());
+                cartCount.text(totalItems);
             }
 
-            let totalCost = 0;
-            cart.forEach((item, index) => {
-                let itemTotal = item.price * item.quantity;
-                totalCost += itemTotal;
+            function updateFullCart() {
+                let cartBody = $("#cart-body");
+                let fullSubtotal = $("#cart-subtotal");
+                let fullTotal = $("#full-cart-total");
 
-                cartBody.append(`
+                cartBody.empty();
+
+                if (cart.length === 0) {
+                    cartBody.append('<tr><td colspan="6" class="text-center">Your cart is empty.</td></tr>');
+                    fullSubtotal.text("0");
+                    fullTotal.text("0");
+                    return;
+                }
+
+                let totalCost = 0;
+                cart.forEach((item, index) => {
+                    let itemTotal = item.price * item.quantity;
+                    totalCost += itemTotal;
+
+                    cartBody.append(`
                 <tr>
                     <td>${index + 1}</td>
                     <td class="li-product-thumbnail">
@@ -688,116 +652,116 @@
                     </td>
                 </tr>
             `);
+                });
+
+                fullSubtotal.text(totalCost.toLocaleString());
+                fullTotal.text(totalCost.toLocaleString());
+            }
+
+            function updateAllCarts() {
+                updateMiniCart();
+                updateFullCart();
+                saveCart();
+            }
+
+            // ✅ Add to cart from product list
+            $(".add-to-cart").on("click", function(e) {
+                e.preventDefault();
+
+                let itemContainer = $(this).closest(".single-product-wrap");
+                let itemName = itemContainer.find(".product_name").first().text().trim();
+                let itemPriceText = itemContainer.find(".new-price").first().text().replace("Ksh.", "")
+                    .replace(",", "").trim();
+                let itemImage = itemContainer.find("img").attr("src") || 'assets/images/default.png';
+                let itemPrice = parseInt(itemPriceText);
+
+                if (!itemName || isNaN(itemPrice)) {
+                    alert("Error: Unable to add item to cart.");
+                    return;
+                }
+
+                let existingItem = cart.find(item => item.name === itemName);
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({
+                        name: itemName,
+                        price: itemPrice,
+                        quantity: 1,
+                        image: itemImage
+                    });
+                }
+
+                updateAllCarts();
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 800);
             });
 
-            fullSubtotal.text(totalCost.toLocaleString());
-            fullTotal.text(totalCost.toLocaleString());
-        }
+            $(".single-product-add-to-cart").on("click", function(e) {
+                e.preventDefault();
 
-        function updateAllCarts() {
-            updateMiniCart();
-            updateFullCart();
-            saveCart();
-        }
+                let productContainer = $(this).closest(".product-details-view-content");
+                let itemName = productContainer.find(".product_name").text().trim();
+                let itemPriceText = productContainer.find(".new-price").text().replace("Ksh.", "").replace(
+                    ",", "").trim();
+                let itemPrice = parseInt(itemPriceText);
 
-        // ✅ Add to cart from product list
-        $(".add-to-cart").on("click", function(e) {
-            e.preventDefault();
+                let itemImage = $(".product-details-left .lg-image img").attr("src") ||
+                    'assets/images/default.png';
 
-            let itemContainer = $(this).closest(".single-product-wrap");
-            let itemName = itemContainer.find(".product_name").first().text().trim();
-            let itemPriceText = itemContainer.find(".new-price").first().text().replace("Ksh.", "")
-                .replace(",", "").trim();
-            let itemImage = itemContainer.find("img").attr("src") || 'assets/images/default.png';
-            let itemPrice = parseInt(itemPriceText);
-
-            if (!itemName || isNaN(itemPrice)) {
-                alert("Error: Unable to add item to cart.");
-                return;
-            }
-
-            let existingItem = cart.find(item => item.name === itemName);
-            if (existingItem) {
-                existingItem.quantity += 1;
-            } else {
-                cart.push({
-                    name: itemName,
-                    price: itemPrice,
-                    quantity: 1,
-                    image: itemImage
+                console.log("💥 Add to Cart Debug →", {
+                    itemName,
+                    itemPrice,
+                    itemImage
                 });
-            }
 
-            updateAllCarts();
-            $("html, body").animate({
-                scrollTop: 0
-            }, 800);
-        });
+                if (!itemName || isNaN(itemPrice)) {
+                    alert("Error: Unable to add item to cart.");
+                    return;
+                }
 
-        $(".single-product-add-to-cart").on("click", function(e) {
-            e.preventDefault();
+                let existingItem = cart.find(item => item.name === itemName);
+                if (existingItem) {
+                    existingItem.quantity += 1;
+                } else {
+                    cart.push({
+                        name: itemName,
+                        price: itemPrice,
+                        quantity: 1,
+                        image: itemImage
+                    });
+                }
 
-            let productContainer = $(this).closest(".product-details-view-content");
-            let itemName = productContainer.find(".product_name").text().trim();
-            let itemPriceText = productContainer.find(".new-price").text().replace("Ksh.", "").replace(
-                ",", "").trim();
-            let itemPrice = parseInt(itemPriceText);
-
-            let itemImage = $(".product-details-left .lg-image img").attr("src") ||
-                'assets/images/default.png';
-
-            console.log("💥 Add to Cart Debug →", {
-                itemName,
-                itemPrice,
-                itemImage
+                updateAllCarts();
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 800);
             });
 
-            if (!itemName || isNaN(itemPrice)) {
-                alert("Error: Unable to add item to cart.");
-                return;
-            }
+            // ✅ Remove item
+            $(document).on("click", ".remove-item", function() {
+                let index = $(this).data("index");
+                cart.splice(index, 1);
+                updateAllCarts();
+            });
 
-            let existingItem = cart.find(item => item.name === itemName);
-            if (existingItem) {
-                existingItem.quantity += 1;
-            } else {
-                cart.push({
-                    name: itemName,
-                    price: itemPrice,
-                    quantity: 1,
-                    image: itemImage
-                });
-            }
+            // ✅ Update quantity
+            $(document).on("change", ".quantity-input", function() {
+                let index = $(this).data("index");
+                let newQuantity = parseInt($(this).val());
 
-            updateAllCarts();
-            $("html, body").animate({
-                scrollTop: 0
-            }, 800);
-        });
+                if (newQuantity <= 0 || isNaN(newQuantity)) {
+                    alert("Invalid quantity! Minimum is 1.");
+                    $(this).val(cart[index].quantity);
+                    return;
+                }
 
-        // ✅ Remove item
-        $(document).on("click", ".remove-item", function() {
-            let index = $(this).data("index");
-            cart.splice(index, 1);
+                cart[index].quantity = newQuantity;
+                updateAllCarts();
+            });
+
+            // ✅ Load cart on page load
             updateAllCarts();
         });
-
-        // ✅ Update quantity
-        $(document).on("change", ".quantity-input", function() {
-            let index = $(this).data("index");
-            let newQuantity = parseInt($(this).val());
-
-            if (newQuantity <= 0 || isNaN(newQuantity)) {
-                alert("Invalid quantity! Minimum is 1.");
-                $(this).val(cart[index].quantity);
-                return;
-            }
-
-            cart[index].quantity = newQuantity;
-            updateAllCarts();
-        });
-
-        // ✅ Load cart on page load
-        updateAllCarts();
-    });
     </script>

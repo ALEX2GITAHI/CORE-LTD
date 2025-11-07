@@ -45,7 +45,7 @@
  <div class="footer">
      <!-- Begin Footer Static Top Area -->
      <div class="footer-static-top">
-         <div class="container">
+         <div class="container-fluid">
              <!-- Begin Footer Shipping Area -->
              <div class="footer-shipping pt-60 pb-55 pb-xs-25">
                  <div class="row">
@@ -115,7 +115,7 @@
      <!-- Footer Static Top Area End Here -->
      <!-- Begin Footer Static Middle Area -->
      <div class="footer-static-middle">
-         <div class="container">
+         <div class="container-fluid">
              <div class="footer-logo-wrap pt-50 pb-35">
                  <div class="row">
                      <!-- Begin Footer Logo Area -->
@@ -139,7 +139,7 @@
                              </li>
                              <li>
                                  <span>Email: </span>
-                                 <a href="mailto://info@yourdomain.com"></a>
+                                 <a href="#">corecyber254@gmail.com</a>
                              </li>
                          </ul>
                      </div>
@@ -237,7 +237,7 @@
      <!-- Footer Static Middle Area End Here -->
      <!-- Begin Footer Static Bottom Area -->
      <div class="footer-static-bottom pt-55 pb-55">
-         <div class="container">
+         <div class="container-fluid">
              <div class="row">
                  <div class="col-lg-12">
                      <!-- Begin Footer Links Area -->
