@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li class="active">Jakemy JM-CT4-3 Crimping Tool</li>
+                <li class="active">Starlink Gen 3 (Standard Kit)</li>
             </ul>
         </div>
     </div>
@@ -25,10 +25,51 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/jakemy.jpg"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/Starlink front.png"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/jakemy.jpg" alt="product image" />
+                                <img src="images/product/small-size/Starlink front.png" alt="product image" />
                             </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/starlink inside.webp"
+                                data-gall="myGallery">
+                                <img src="images/product/small-size/starlink inside.webp" alt="product image" />
+                            </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/starlink all.jpg"
+                                data-gall="myGallery">
+                                <img src="images/product/small-size/starlink all.jpg" alt="product image" />
+                            </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/starlink box.webp"
+                                data-gall="myGallery">
+                                <img src="images/product/small-size/starlink box.webp" alt="product image" />
+                            </a>
+                        </div>
+                        <div class="lg-image">
+                            <a class="popup-img venobox vbox-item"
+                                href="images/product/small-size/starlink all in one.jpg" data-gall="myGallery">
+                                <img src="images/product/small-size/starlink all in one.jpg" alt="product image" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="product-details-thumbs slider-thumbs-1">
+                        <div class="sm-image">
+                            <img src="images/product/small-size/Starlink front.png" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/starlink inside.webp" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/starlink all.jpg" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/starlink box.webp" alt="product image thumb" />
+                        </div>
+                        <div class="sm-image">
+                            <img src="images/product/small-size/starlink all in one.jpg" alt="product image thumb" />
                         </div>
                     </div>
                 </div>
@@ -39,9 +80,10 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Jakemy JM-CT4-3 Crimping Tool</a>
+                            <a class="product_name">Starlink Gen 3 Standard Kit (V3)</a>
                         </h4>
-                        <span class="product-details-ref">Reference: RJ45</span>
+
+                        <span class="product-details-ref">Reference: Ruijie</span>
                         <div class="rating-box pt-20">
                             <ul class="rating rating-with-review-item">
                                 <li><i class="fa fa-star-o"></i></li>
@@ -53,8 +95,8 @@ include 'header.php'; // Includes the header file
                                 <li class="review-item"><a href="#">Write Review</a></li>
                             </ul>
                         </div>
-                        <div class="price-box">
-                            <span class="new-price">Ksh. 650</span>
+                        <div class="price-box pt-20">
+                            <span class="new-price new-price-2">Ksh. 49,500</span>
                         </div>
                         <div class="product-desc">
                             <p>
@@ -73,55 +115,70 @@ include 'header.php'; // Includes the header file
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Multi-Purpose Crimping
-                                                    Tool</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Designed for crimping RJ45,
-                                                RJ11, and RJ12 connectors with precision.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Next-Gen Flat
+                                                    High-Performance Dish</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Slim, redesigned Gen 3 dish
+                                                delivers improved signal acquisition, efficiency, and reliability.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Built-in Wire Cutter &
-                                                    Stripper</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Integrated cutting and
-                                                stripping functions reduce the need for extra tools.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>High-Speed Low-Latency
+                                                    Internet</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Provides fast broadband
+                                                speeds with low latency, ideal for streaming, video calls, and online
+                                                gaming.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>High-Quality Steel
-                                                    Construction</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Made from durable hardened
-                                                steel for long-lasting performance and reliability.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Wi-Fi 6 Router
+                                                    Included</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Comes with a powerful Wi-Fi
+                                                6 router for wider coverage, faster speeds, and better device handling.
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Ergonomic Non-Slip
-                                                    Handles</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Comfortable rubberized grip
-                                                ensures firm handling and reduced hand fatigue.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Quick & Easy
+                                                    Self-Installation</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Plug-and-play setup with
+                                                automatic satellite alignment—no professional installation required.
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Precision Crimping
-                                                    Mechanism</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Ensures accurate, secure
-                                                crimping for stable network and telephone connections.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Global Coverage
+                                                    Capability</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Designed to work in remote
+                                                and rural areas where traditional internet is unavailable.</td>
                                         </tr>
 
                                         <!-- Hidden Rows -->
-                                    <tbody id="more-jakemy-ct4-3" style="display: none;">
+                                    <tbody id="more-starlink-gen3" style="display: none;">
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Suitable for Network &
-                                                    Telecom Use</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Ideal for Ethernet cable
-                                                installation, phone lines, and structured cabling tasks.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Improved Power
+                                                    Efficiency</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Optimized hardware consumes
+                                                less power while maintaining high performance.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Compact & Lightweight
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Weather-Resistant
                                                     Design</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Easy to carry in toolkits,
-                                                making it perfect for technicians and field installers.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Built to withstand rain,
+                                                wind, dust, and extreme outdoor conditions.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Professional & DIY
-                                                    Friendly</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Suitable for both
-                                                professional network technicians and home users.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Automatic Software
+                                                    Updates</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Firmware updates are
+                                                delivered automatically to improve performance and stability.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Flexible Mounting
+                                                    Options</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Compatible with multiple
+                                                mounts (roof, pole, wall) to suit different installation needs.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Mobile App
+                                                    Management</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Manage setup, monitoring,
+                                                and troubleshooting via the Starlink mobile app.</td>
                                         </tr>
                                     </tbody>
                                     </tbody>
@@ -129,9 +186,9 @@ include 'header.php'; // Includes the header file
 
                                 <!-- Toggle Button -->
                                 <div style="text-align:center; margin-top:10px;">
-                                    <button onclick="toggleJakemyCT43()"
+                                    <button onclick="toggleStarlinkGen3()"
                                         style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
-                                        id="jakemyCT43Btn">
+                                        id="starlinkGen3Btn">
                                         View More
                                     </button>
                                 </div>
@@ -139,17 +196,17 @@ include 'header.php'; // Includes the header file
 
                             <!-- Script -->
                             <script>
-                            function toggleJakemyCT43() {
-                                var hiddenRows = document.getElementById("more-jakemy-ct4-3");
-                                var button = document.getElementById("jakemyCT43Btn");
-                                if (hiddenRows.style.display === "none") {
-                                    hiddenRows.style.display = "table-row-group";
-                                    button.textContent = "View Less";
-                                } else {
-                                    hiddenRows.style.display = "none";
-                                    button.textContent = "View More";
+                                function toggleStarlinkGen3() {
+                                    var hiddenRows = document.getElementById("more-starlink-gen3");
+                                    var button = document.getElementById("starlinkGen3Btn");
+                                    if (hiddenRows.style.display === "none") {
+                                        hiddenRows.style.display = "table-row-group";
+                                        button.textContent = "View Less";
+                                    } else {
+                                        hiddenRows.style.display = "none";
+                                        button.textContent = "View More";
+                                    }
                                 }
-                            }
                             </script>
 
                             </p>
@@ -169,52 +226,49 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                            // Your WhatsApp number (without + or 0)
-                            const phoneNumber = "254792570000";
+                                // Your WhatsApp number (without + or 0)
+                                const phoneNumber = "254792570000";
 
-                            // Get the current page URL
-                            const currentPageURL = encodeURIComponent(window.location.href);
+                                // Get the current page URL
+                                const currentPageURL = encodeURIComponent(window.location.href);
 
-                            // Get product details dynamically (if available)
-                            const productName = document.querySelector("#product-name")?.innerText ||
-                                "this product";
-                            const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                // Get product details dynamically (if available)
+                                const productName = document.querySelector("#product-name")?.innerText || "this product";
+                                const productPrice = document.querySelector("#product-price")?.innerText || "";
 
-                            // Encode message
-                            const message = encodeURIComponent(
-                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                            );
+                                // Encode message
+                                const message = encodeURIComponent(
+                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                                );
 
-                            // Set the WhatsApp link dynamically
-                            document.getElementById("whatsapp-link").href =
-                                `https://wa.me/${phoneNumber}?text=${message}`;
+                                // Set the WhatsApp link dynamically
+                                document.getElementById("whatsapp-link").href =
+                                    `https://wa.me/${phoneNumber}?text=${message}`;
                             </script>
-
-                        </div>
-                        <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to
-                            wishlist</a>
-                        <div class="product-social-sharing pt-25">
-                            <ul>
-                                <li class="facebook">
-                                    <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
-                                </li>
-                                <li class="twitter">
-                                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                                </li>
-                                <li class="google-plus">
-                                    <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
-                                </li>
-                                <li class="instagram">
-                                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-                                </li>
-                            </ul>
+                            <a class="wishlist-btn" href="wishlist.html"><i class="fab fa-heart-o"></i>Add to
+                                wishlist</a>
+                            <div class="product-social-sharing pt-25">
+                                <ul>
+                                    <li class="facebook">
+                                        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                                    </li>
+                                    <li class="twitter">
+                                        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                                    </li>
+                                    <li class="google-plus">
+                                        <a href="#"><i class="fab fa-tiktok"></i>Tiktok</a>
+                                    </li>
+                                    <li class="instagram">
+                                        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </div>
 <!-- content-wraper end -->
 <!-- Begin Product Area -->
@@ -394,8 +448,9 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="tenda-f3.php">
-                                        <img src="images/product/small-size/Tenda F3.jpg" alt="Li's Product Image" />
+                                    <a href="tp-link-eap255-outdoor.php">
+                                        <img src="images/product/small-size/tp-link-eap110-indoor-box.avif"
+                                            alt="Li's Product Image" />
                                     </a>
 
                                 </div>
@@ -403,7 +458,7 @@ include 'header.php'; // Includes the header file
                                     <div class="product_desc_info">
                                         <div class="product-review">
                                             <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
+                                                <a href="access-points.php">Access Points</a>
                                             </h5>
                                             <div class="rating-box">
                                                 <ul class="rating">
@@ -420,10 +475,11 @@ include 'header.php'; // Includes the header file
                                             </div>
                                         </div>
                                         <h4>
-                                            <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
+                                            <a class="product_name" href="tp-link-eap255-outdoor.php">TP-Link EAP-255
+                                                Outdoor</a>
                                         </h4>
-                                        <div class="price-box">
-                                            <span class="new-price">Ksh. 1,350</span>
+                                        <div class=" price-box">
+                                            <span class="new-price">Ksh. 9,500</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
@@ -446,8 +502,8 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="tenda-f6.php">
-                                        <img src="images/product/small-size/tenda-f6 front.jpg"
+                                    <a href="tenda-oap1200.php">
+                                        <img src="images/product/small-size/tenda-aop-box.jpeg"
                                             alt="Li's Product Image" />
                                     </a>
 
@@ -456,7 +512,7 @@ include 'header.php'; // Includes the header file
                                     <div class="product_desc_info">
                                         <div class="product-review">
                                             <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
+                                                <a href="access-points.php">Access Points</a>
                                             </h5>
                                             <div class="rating-box">
                                                 <ul class="rating">
@@ -473,120 +529,116 @@ include 'header.php'; // Includes the header file
                                             </div>
                                         </div>
                                         <h4>
-                                            <a class="product_name" href="tenda-f6.php">Tenda-F6</a>
-                                        </h4>
-                                        <div class="price-box">
-                                            <span class="new-price">Ksh. 1,550</span>
-                                        </div>
-                                    </div>
-                                    <div class="add-actions">
-                                        <ul class="add-actions-link">
-                                            <li class="add-to-cart">
-                                                <a href="#" class="add-to-cart-link">
-                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-
-                                            <li>
-                                                <a class="links-details" href="wishlist.html"><i
-                                                        class="fa fa-heart-o"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single-product-wrap end -->
-                        </div>
-                        <div class="col-lg-12">
-                            <!-- single-product-wrap start -->
-                            <div class="single-product-wrap">
-                                <div class="product-image">
-                                    <a href="tenda-ac5.php">
-                                        <img src="images/product/small-size/Tenda-AC5-front.jpg"
-                                            alt="Li's Product Image" />
-                                    </a>
-
-                                </div>
-                                <div class="product_desc">
-                                    <div class="product_desc_info">
-                                        <div class="product-review">
-                                            <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
-                                            </h5>
-                                            <div class="rating-box">
-                                                <ul class="rating">
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <h4>
-                                            <a class="product_name" href="tenda-ac5.php">Tenda AC5</a>
-                                        </h4>
-                                        <div class="price-box">
-                                            <span class="new-price">Ksh. 3,500</span>
-                                            <span class="old-price">Ksh. 4,000</span>
-                                            <span class="discount-percentage">-7%</span>
-                                        </div>
-                                    </div>
-                                    <div class="add-actions">
-                                        <ul class="add-actions-link">
-                                            <li class="add-to-cart">
-                                                <a href="#" class="add-to-cart-link">
-                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-
-                                            <li>
-                                                <a class="links-details" href="wishlist.html"><i
-                                                        class="fa fa-heart-o"></i></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- single-product-wrap end -->
-                        </div>
-                        <div class="col-lg-12">
-                            <!-- single-product-wrap start -->
-                            <div class="single-product-wrap">
-                                <div class="product-image">
-                                    <a href="tenda-ac10.php">
-                                        <img src="images/product/small-size/tenda ac10 all.jpg"
-                                            alt="Li's Product Image" />
-                                    </a>
-
-                                </div>
-                                <div class="product_desc">
-                                    <div class="product_desc_info">
-                                        <div class="product-review">
-                                            <h5 class="manufacturer">
-                                                <a href="routers.php">Router</a>
-                                            </h5>
-                                            <div class="rating-box">
-                                                <ul class="rating">
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li><i class="fa fa-star-o"></i></li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                    <li class="no-star">
-                                                        <i class="fa fa-star-o"></i>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <h4>
-                                            <a class="product_name" href="tenda-ac10.php">Tenda-AC10</a>
+                                            <a class="product_name" href="tenda-oap1200.php">Tenda OAP-1200</a>
                                         </h4>
                                         <div class="price-box">
                                             <span class="new-price">Ksh. 4,500</span>
-                                            <span class="old-price">Ksh. 5,000</span>
-                                            <span class="discount-percentage">-8%</span>
+                                        </div>
+                                    </div>
+                                    <div class="add-actions">
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-product-wrap end -->
+                        </div>
+                        <div class="col-lg-12">
+                            <!-- single-product-wrap start -->
+                            <div class="single-product-wrap">
+                                <div class="product-image">
+                                    <a href="power-beam.php">
+                                        <img src="images/product/small-size/power-beam-clear.webp"
+                                            alt="Li's Product Image" />
+                                    </a>
+
+                                </div>
+                                <div class="product_desc">
+                                    <div class="product_desc_info">
+                                        <div class="product-review">
+                                            <h5 class="manufacturer">
+                                                <a href="access-points.php">Access Points</a>
+                                            </h5>
+                                            <div class="rating-box">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h4>
+                                            <a class="product_name" href="power-beam.php">Power Beam</a>
+                                        </h4>
+                                        <div class="price-box">
+                                            <span class="new-price">Ksh. 15,000</span>
+                                        </div>
+                                    </div>
+                                    <div class="add-actions">
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- single-product-wrap end -->
+                        </div>
+                        <div class="col-lg-12">
+                            <!-- single-product-wrap start -->
+                            <div class="single-product-wrap">
+                                <div class="product-image">
+                                    <a href="lite-beam-m5.php">
+                                        <img src="images/product/small-size/lite-beam-m5=front.webp"
+                                            alt="Li's Product Image" />
+                                    </a>
+
+                                </div>
+                                <div class="product_desc">
+                                    <div class="product_desc_info">
+                                        <div class="product-review">
+                                            <h5 class="manufacturer">
+                                                <a href="access-points.php">Access Points</a>
+                                            </h5>
+                                            <div class="rating-box">
+                                                <ul class="rating">
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li><i class="fa fa-star-o"></i></li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                    <li class="no-star">
+                                                        <i class="fa fa-star-o"></i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <h4>
+                                            <a class="product_name" href="lite-beam-m5.php">LiteBeam M5</a>
+                                        </h4>
+                                        <div class="price-box">
+                                            <span class="new-price">Ksh. 6,500</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
@@ -613,7 +665,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tplink front.webp"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -666,7 +718,7 @@ include 'header.php'; // Includes the header file
                                         <img src="images/product/small-size/tp link844 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
-
+                                    <span class="sticker">New</span>
                                 </div>
                                 <div class="product_desc">
                                     <div class="product_desc_info">
@@ -692,7 +744,7 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="tp-link-844.php">TP-Link 844N</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price">Ksh. 1,450</span>
+                                            <span class="new-price new-price-2">Ksh. 1450</span>
                                             <span class="old-price">Ksh. 1,550</span>
                                             <span class="discount-percentage">-5%</span>
                                         </div>

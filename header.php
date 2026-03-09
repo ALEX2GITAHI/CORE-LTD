@@ -56,546 +56,556 @@
       </p>
     <![endif]-->
     <!-- Begin Body Wrapper -->
-   
-        <!-- Begin Header Area -->
-        <header>
-    
-    <!-- Header Top Area End Here -->
-    <!-- Begin Header Middle Area -->
-    <div class="header-middle pl-sm-0 pr-sm-0 pl-xs-0 pr-xs-0">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Begin Header Logo Area -->
-                <div class="col-lg-3">
-                    <div class="logo pb-sm-30 pb-xs-30">
-                        <a href="index.php">
-                            <img src="images/core_logo.png" alt="Core Logo" width="100" height="50" />
-                        </a>
+
+    <!-- Begin Header Area -->
+    <header>
+
+        <!-- Header Top Area End Here -->
+        <!-- Begin Header Middle Area -->
+        <div class="header-middle pl-sm-0 pr-sm-0 pl-xs-0 pr-xs-0">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Begin Header Logo Area -->
+                    <div class="col-lg-3">
+                        <div class="logo pb-sm-30 pb-xs-30">
+                            <a href="index.php">
+                                <img src="images/core_logo.png" alt="Core Logo" width="100" height="50" />
+                            </a>
+                        </div>
                     </div>
-                </div>
-                <!-- Header Logo Area End Here -->
-                <!-- Begin Header Middle Right Area -->
-                <di class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
-                    <!-- Begin Header Middle Searchbox Area -->
-                    <form action="#" class="hm-searchbox" onsubmit="return false;">
-
-                        <input type="text" id="search-box" placeholder="Enter your search key ..."
-                            autocomplete="off" />
-                        <button class="li-btn" type="submit">
-                            <i class="fa fa-search"></i>
-                        </button>
-                        <ul id="search-results"></ul>
-                    </form>
-
-                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-
-                    <!-- Header Middle Searchbox Area End Here -->
+                    <!-- Header Logo Area End Here -->
                     <!-- Begin Header Middle Right Area -->
-                    <div class="header-middle-right">
-                        <ul class="hm-menu">
-                            <!-- Begin Header Middle Wishlist Area -->
-                            <li class="hm-wishlist">
-                                <a href="wishlist.html">
-                                    <span class="cart-item-count wishlist-item-count">0</span>
-                                    <i class="fa fa-heart-o"></i>
-                                </a>
-                            </li>
-                            <!-- Header Middle Wishlist Area End Here -->
-                            <!-- Begin Header Mini Cart Area -->
-                            <li class="hm-minicart">
-                                <div class="hm-minicart-trigger">
-                                    <span class="item-icon"></span>
-                                    <span class="item-text">
-                                        Ksh. <span id="cart-total">0</span>
-                                        <span class="cart-item-count">0</span>
-                                    </span>
-                                </div>
-                                <div class="minicart">
-                                    <ul class="minicart-product-list" id="cart-items">
-                                        <!-- Items will be dynamically added here -->
-                                    </ul>
-                                    <p class="minicart-total">
-                                        SUBTOTAL: <span>Ksh. <span id="cart-subtotal">0</span></span>
-                                    </p>
-                                    <div class="minicart-button">
-                                        <a href="shopping-cart.php" id="view-full-cart"
-                                            class="li-button li-button-dark li-button-fullwidth li-button-sm">
-                                            <span>View Full Cart</span>
-                                        </a>
-                                        <a href="checkout.php" id="view-full-cart"
-                                            class="li-button li-button-fullwidth li-button-sm">
-                                            <span>Checkout</span>
-                                        </a>
+                    <di class="col-lg-9 pl-0 ml-sm-15 ml-xs-15">
+                        <!-- Begin Header Middle Searchbox Area -->
+                        <form action="#" class="hm-searchbox" onsubmit="return false;">
+
+                            <input type="text" id="search-box" placeholder="Enter your search key ..."
+                                autocomplete="off" />
+                            <button class="li-btn" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                            <ul id="search-results"></ul>
+                        </form>
+
+                        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+                        <!-- Header Middle Searchbox Area End Here -->
+                        <!-- Begin Header Middle Right Area -->
+                        <div class="header-middle-right">
+                            <ul class="hm-menu">
+                                <!-- Begin Header Middle Wishlist Area -->
+                                <li class="hm-wishlist">
+                                    <a href="wishlist.html">
+                                        <span class="cart-item-count wishlist-item-count">0</span>
+                                        <i class="fa fa-heart-o"></i>
+                                    </a>
+                                </li>
+                                <!-- Header Middle Wishlist Area End Here -->
+                                <!-- Begin Header Mini Cart Area -->
+                                <li class="hm-minicart">
+                                    <div class="hm-minicart-trigger">
+                                        <span class="item-icon"></span>
+                                        <span class="item-text">
+                                            Ksh. <span id="cart-total">0</span>
+                                            <span class="cart-item-count">0</span>
+                                        </span>
                                     </div>
-                                </div>
-                            </li>
-                            <!-- Header Mini Cart Area End Here -->
-                        </ul>
-                    </div>
-                    <!-- Header Middle Right Area End Here -->
-            </div>
-            <!-- Header Middle Right Area End Here -->
-        </div>
-    </div>
-    </div>
-    <!-- Header Middle Area End Here -->
-    <!-- Begin Header Bottom Area -->
-    <div class="header-bottom header-sticky d-none d-lg-block">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Begin Header Bottom Menu Area -->
-                    <div class="hb-menu hb-menu-2 d-xl-block">
-                        <nav>
-                            <ul>
-                                <li class="">
-                                    <a href="index.php">Home</a>
+                                    <div class="minicart">
+                                        <ul class="minicart-product-list" id="cart-items">
+                                            <!-- Items will be dynamically added here -->
+                                        </ul>
+                                        <p class="minicart-total">
+                                            SUBTOTAL: <span>Ksh. <span id="cart-subtotal">0</span></span>
+                                        </p>
+                                        <div class="minicart-button">
+                                            <a href="shopping-cart.php" id="view-full-cart"
+                                                class="li-button li-button-dark li-button-fullwidth li-button-sm">
+                                                <span>View Full Cart</span>
+                                            </a>
+                                            <a href="checkout.php" id="view-full-cart"
+                                                class="li-button li-button-fullwidth li-button-sm">
+                                                <span>Checkout</span>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </li>
-                                <li class="megamenu-holder">
-                                    <a href="shop-left-sidebar.html">Shop</a>
-                                    <ul class="megamenu hb-megamenu">
-                                        <li>
-                                            <a href="shop-left-sidebar.html">Networking</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="routers.php">Routers</a>
-                                                </li>
-                                                <li>
-                                                    <a href="switch.php">Switches</a>
-                                                </li>
-                                                <li>
-                                                    <a href="access-points.php">Access Points</a>
-                                                </li>
-                                                <li>
-                                                    <a href="miktrotik.php">Mikrotik</a>
-                                                </li>
-                                                <li><a href="shop-list.html">Climbers</a></li>
-                                                <li>
-                                                    <a href="shop-list-left-sidebar.html">Patch-Codes</a>
-                                                </li>
-                                                <li>
-                                                    <a href="shop-list-right-sidebar.html">Safety Tools</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="single-product-gallery-left.html">Accessories</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="single-product-carousel.html">Mobile Accessories</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-gallery-left.html">Computer Accessories</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-gallery-right.html">CCTV Devices</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-gallery-right.html">Tools</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-gallery-right.html">Gaming</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="single-product.html">Stationery</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="single-product.html">Envelops</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-sale.html">Exercise Books</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-group.html">Rim Papers</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-normal.html">Sticker Papers</a>
-                                                </li>
-                                                <li>
-                                                    <a href="single-product-affiliate.html">PVC Papers</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class=""><a href="blog-left-sidebar.html">Blog</a></li>
-                                <li class="megamenu-static-holder">
-                                    <a href="index.html">Pages</a>
-                                    <ul class="megamenu hb-megamenu">
-                                        <li>
-                                            <a href="blog-left-sidebar.html">Networking</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="blog-2-column.html">Mikrotik</a>
-                                                </li>
-                                                <li>
-                                                    <a href="access-points.php">Access Points</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-left-sidebar.html">Routers</a>
-                                                </li>
-                                                <li>
-                                                    <a href="cat6-cables.php">CAT-6 Cables</a>
-                                                </li>
-                                                <li><a href="blog-list.html">Climbers</a></li>
-                                                <li>
-                                                    <a href="blog-list-left-sidebar.html">Closures</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-list-right-sidebar.html">Switches</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="blog-details-left-sidebar.html">Stationaries</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="blog-details-left-sidebar.html">Mobile Accessories</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-details-right-sidebar.html">Computer Accessories </a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-audio-format.html">Rim Papers</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-video-format.html">Envelops</a>
-                                                </li>
-                                                <li>
-                                                    <a href="blog-gallery-format.html">Gaming</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="index.php">Account</a>
-                                            <ul>
-                                                <li>
-                                                    <a href="login-register.html">My Account</a>
-                                                </li>
-                                                <li><a href="checkout.html">Blog</a></li>
-                                                <li><a href="checkout.php">Checkout</a></li>
-                                                <li><a href="wishlist.html">Wishlist</a></li>
-                                                <li>
-                                                    <a href="shopping-cart.html">Shopping Cart</a>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="index.php">Profile</a>
-                                            <ul>
-                                                <li><a href="contact.php">Contact</a></li>
-                                                <li><a href="about-us.php">About Us</a></li>
-                                                <li><a href="faq.php">FAQ</a></li>
-                                                <li><a href="404.php">404 Error</a></li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li><a href="about-us.php">About Us</a></li>
-                                <li><a href="contact.php">Contact</a></li>
-                                <!-- Begin Header Bottom Menu Information Area -->
-                                <!-- Header Bottom Menu Information Area End Here -->
+                                <!-- Header Mini Cart Area End Here -->
                             </ul>
-                        </nav>
+                        </div>
+                        <!-- Header Middle Right Area End Here -->
+                </div>
+                <!-- Header Middle Right Area End Here -->
+            </div>
+        </div>
+        </div>
+        <!-- Header Middle Area End Here -->
+        <!-- Begin Header Bottom Area -->
+        <div class="header-bottom header-sticky d-none d-lg-block">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Begin Header Bottom Menu Area -->
+                        <div class="hb-menu hb-menu-2 d-xl-block">
+                            <nav>
+                                <ul>
+                                    <li class="">
+                                        <a href="index.php">Home</a>
+                                    </li>
+                                    <li class="megamenu-holder">
+                                        <a href="shop-left-sidebar.html">Shop</a>
+                                        <ul class="megamenu hb-megamenu">
+                                            <li>
+                                                <a href="shop-left-sidebar.html">Networking</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="routers.php">Routers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="switch.php">Switches</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="access-points.php">Access Points</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="miktrotik.php">Mikrotik</a>
+                                                    </li>
+                                                    <li><a href="shop-list.html">Climbers</a></li>
+                                                    <li>
+                                                        <a href="shop-list-left-sidebar.html">Patch-Codes</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="shop-list-right-sidebar.html">Safety Tools</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="single-product-gallery-left.html">Accessories</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="single-product-carousel.html">Mobile Accessories</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-gallery-left.html">Computer
+                                                            Accessories</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-gallery-right.html">CCTV Devices</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-gallery-right.html">Tools</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-gallery-right.html">Gaming</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="single-product.html">Stationery</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="single-product.html">Envelops</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-sale.html">Exercise Books</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-group.html">Rim Papers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-normal.html">Sticker Papers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="single-product-affiliate.html">PVC Papers</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class=""><a href="blog-left-sidebar.html">Blog</a></li>
+                                    <li class="megamenu-static-holder">
+                                        <a href="index.html">Pages</a>
+                                        <ul class="megamenu hb-megamenu">
+                                            <li>
+                                                <a href="blog-left-sidebar.html">Networking</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="blog-2-column.html">Mikrotik</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="access-points.php">Access Points</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-left-sidebar.html">Routers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="cat6-cables.php">CAT-6 Cables</a>
+                                                    </li>
+                                                    <li><a href="blog-list.html">Climbers</a></li>
+                                                    <li>
+                                                        <a href="blog-list-left-sidebar.html">Closures</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-list-right-sidebar.html">Switches</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="blog-details-left-sidebar.html">Stationaries</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="blog-details-left-sidebar.html">Mobile Accessories</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-details-right-sidebar.html">Computer Accessories
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-audio-format.html">Rim Papers</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-video-format.html">Envelops</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="blog-gallery-format.html">Gaming</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="index.php">Account</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="login-register.html">My Account</a>
+                                                    </li>
+                                                    <li><a href="checkout.html">Blog</a></li>
+                                                    <li><a href="checkout.php">Checkout</a></li>
+                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li>
+                                                        <a href="shopping-cart.html">Shopping Cart</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <a href="index.php">Profile</a>
+                                                <ul>
+                                                    <li><a href="contact.php">Contact</a></li>
+                                                    <li><a href="about-us.php">About Us</a></li>
+                                                    <li><a href="faq.php">FAQ</a></li>
+                                                    <li><a href="404.php">404 Error</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="about-us.php">About Us</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
+                                    <!-- Begin Header Bottom Menu Information Area -->
+                                    <!-- Header Bottom Menu Information Area End Here -->
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- Header Bottom Menu Area End Here -->
                     </div>
-                    <!-- Header Bottom Menu Area End Here -->
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Header Bottom Area End Here -->
-    <!-- Begin Mobile Menu Area -->
-    <div class="mobile-menu-area d-lg-none d-xl-none col-12">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="mobile-menu"></div>
+        <!-- Header Bottom Area End Here -->
+        <!-- Begin Mobile Menu Area -->
+        <div class="mobile-menu-area d-lg-none d-xl-none col-12">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="mobile-menu"></div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- Mobile Menu Area End Here -->
+        <!-- Mobile Menu Area End Here -->
     </header>
     <!-- Header Area End Here -->
     <!-- Begin Slider With Category Menu Area -->
     <script>
-        $(document).ready(function() {
-            let items = [{
-                    name: "Routers",
-                    url: "routers.php"
-                },
-                {
-                    name: "Easenet Cat 6 Indoor Cable",
-                    url: "easenet.php"
-                },
-                {
-                    name: "RDCOM Cat 6 Indoor Cable",
-                    url: "rdcom.php"
-                },
-                {
-                    name: "CP Cat 6 Indoor Cable",
-                    url: "cp-cable.php"
-                },
-                {
-                    name: "RDCOM Cat 6 Outdoor Cable",
-                    url: "rdcom-oudoor.php"
-                },
-                {
-                    name: "TP-Link EAP-255 outdoor",
-                    url: "tp-link-eap255-outdoor.php"
-                },
-                {
-                    name: "SHK Cat 6 Indoor Cable",
-                    url: "shk-cable.php"
-                },
-                {
-                    name: "Gigalan Cat 6 Indoor Cable",
-                    url: "gigalan-cable.php"
-                },
-                {
-                    name: "Tenda OAP-1200",
-                    url: "tenda-oap1200.php"
-                },
-                {
-                    name: "Scoop Cat 6 Indoor Cable",
-                    url: "scoop-cable.php"
-                },
-                {
-                    name: "Tenda-F3",
-                    url: "tenda-f3.php"
-                },
-                {
-                    name: "Tenda-F6",
-                    url: "tenda-f6.php"
-                },
-                {
-                    name: "Ruijie RG-EW300N Router",
-                    url: "ruijie-router.php"
-                },
-                {
-                    name: "Tenda-AC5",
-                    url: "tenda-ac5.php"
-                },
-                {
-                    name: "Tenda-AC8",
-                    url: "tenda-ac8.php"
-                },
-                {
-                    name: "LiteBeam M5",
-                    url: "lite-beam-m5.php"
-                },
-                {
-                    name: "Ruijie-RAP6262(G)",
-                    url: "ruijie-6262g.php"
-                },
-                {
-                    name: "Power Beam",
-                    url: "power-beam.php"
-                },
-                {
-                    name: "Tenda-AC10",
-                    url: "tenda-ac10.php"
-                },
-                {
-                    name: "Access Points",
-                    url: "access-points.php"
-                },
-                {
-                    name: "Tenda-4G Lite",
-                    url: "tenda-4g.php"
-                },
-                {
-                    name: "D-Link Router",
-                    url: "d-link.php"
-                },
-                {
-                    name: "Tp-Link 844N",
-                    url: "tp-link-844.php"
-                },
-                {
-                    name: "Tp-Link 840N",
-                    url: "tp-link-840.php"
-                },
-                {
-                    name: "Huawei-Gpon",
-                    url: "huawei-expon.php"
-                },
-                {
-                    name: "Huawei EPon",
-                    url: "huawei-expon.php"
-                },
+    $(document).ready(function() {
+        let items = [{
+                name: "Routers",
+                url: "routers.php"
+            },
+            {
+                name: "Easenet Cat 6 Indoor Cable",
+                url: "easenet.php"
+            },
+            {
+                name: "RDCOM Cat 6 Indoor Cable",
+                url: "rdcom.php"
+            },
+            {
+                name: "CP Cat 6 Indoor Cable",
+                url: "cp-cable.php"
+            },
+            {
+                name: "RDCOM Cat 6 Outdoor Cable",
+                url: "rdcom-oudoor.php"
+            },
+            {
+                name: "TP-Link EAP-255 outdoor",
+                url: "tp-link-eap255-outdoor.php"
+            },
+            {
+                name: "SHK Cat 6 Indoor Cable",
+                url: "shk-cable.php"
+            },
+            {
+                name: "Gigalan Cat 6 Indoor Cable",
+                url: "gigalan-cable.php"
+            },
+            {
+                name: "Tenda OAP-1200",
+                url: "tenda-oap1200.php"
+            },
+            {
+                name: "Scoop Cat 6 Indoor Cable",
+                url: "scoop-cable.php"
+            },
+            {
+                name: "Starlink Gen 3 (Standard Kit)",
+                url: "startlink-gen-3.php"
+            },
+            {
+                name: "Tenda-F3",
+                url: "tenda-f3.php"
+            },
+            {
+                name: "Tenda-F6",
+                url: "tenda-f6.php"
+            },
+            {
+                name: "Ruijie RG-EW300N Router",
+                url: "ruijie-router.php"
+            },
+            {
+                name: "Ruijie RAP62-OD AX3000",
+                url: "ruijie-rap-62od.php"
+            },
+            {
+                name: "Tenda-AC5",
+                url: "tenda-ac5.php"
+            },
+            {
+                name: "Tenda-AC8",
+                url: "tenda-ac8.php"
+            },
+            {
+                name: "LiteBeam M5",
+                url: "lite-beam-m5.php"
+            },
+            {
+                name: "Ruijie-RAP6262(G)",
+                url: "ruijie-6262g.php"
+            },
+            {
+                name: "Power Beam",
+                url: "power-beam.php"
+            },
+            {
+                name: "Tenda-AC10",
+                url: "tenda-ac10.php"
+            },
+            {
+                name: "Access Points",
+                url: "access-points.php"
+            },
+            {
+                name: "Tenda-4G Lite",
+                url: "tenda-4g.php"
+            },
+            {
+                name: "D-Link Router",
+                url: "d-link.php"
+            },
+            {
+                name: "Tp-Link 844N",
+                url: "tp-link-844.php"
+            },
+            {
+                name: "Tp-Link 840N",
+                url: "tp-link-840.php"
+            },
+            {
+                name: "Huawei-Gpon",
+                url: "huawei-expon.php"
+            },
+            {
+                name: "Huawei EPon",
+                url: "huawei-expon.php"
+            },
 
-                {
-                    name: "TP-Link EAP225-Indoor",
-                    url: "tp-link-eap255-indoor.php"
-                },
-                {
-                    name: "Mikrotik RB951",
-                    url: "rb951.php"
-                },
-                {
-                    name: "TP-Link EAP110-Indoor",
-                    url: "tp-link-eap110-indoor.php"
-                },
-                {
-                    name: "Mikrotik RB941-Hap-Lite",
-                    url: "rb941.php"
-                },
-                {
-                    name: "TP-Link EAP110-Outdoor",
-                    url: "tp-link-eap110-0utdoor.php"
-                },
-                {
-                    name: "Mikrotik RB760-IGS",
-                    url: "rb760-igs.php"
-                },
-                {
-                    name: "Mikrotik RB4011",
-                    url: "rb4011.php"
-                },
-                {
-                    name: "Crimping Tools",
-                    url: "crimping-tools.php"
-                },
-                {
-                    name: "Jakemy Crimping Tool",
-                    url: "jakemy-crimping-tool.php"
-                },
-                {
-                    name: "Dual-Modular Crimping Tool",
-                    url: "dual-modular-crimping-tool.php"
-                },
-                {
-                    name: "Mikrotik RB260GS",
-                    url: "rbs60gs.php"
-                },
-                {
-                    name: "Mikrotik SXTSQ Series",
-                    url: "ssxtsq-series.php"
-                },
-                {
-                    name: "Mikrotiks",
-                    url: "mikrotik.php"
-                },
-                {
-                    name: "Mikrotik L009",
-                    url: "mikrotik-l009.php"
-                }
-            ];
-
-            function showResults(query = "") {
-                let resultsContainer = $("#search-results");
-                resultsContainer.empty();
-
-                // Always sort alphabetically before displaying
-                let sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
-                let filteredItems = sortedItems.filter(item => item.name.toLowerCase().includes(query));
-
-                if (filteredItems.length > 0) {
-                    filteredItems.forEach(item => {
-                        resultsContainer.append(
-                            `<li class="search-item" data-url="${item.url}">${item.name}</li>`);
-                    });
-                    resultsContainer.show();
-                } else {
-                    resultsContainer.hide();
-                }
+            {
+                name: "TP-Link EAP225-Indoor",
+                url: "tp-link-eap255-indoor.php"
+            },
+            {
+                name: "Mikrotik RB951",
+                url: "rb951.php"
+            },
+            {
+                name: "TP-Link EAP110-Indoor",
+                url: "tp-link-eap110-indoor.php"
+            },
+            {
+                name: "Mikrotik RB941-Hap-Lite",
+                url: "rb941.php"
+            },
+            {
+                name: "TP-Link EAP110-Outdoor",
+                url: "tp-link-eap110-0utdoor.php"
+            },
+            {
+                name: "Mikrotik RB760-IGS",
+                url: "rb760-igs.php"
+            },
+            {
+                name: "Mikrotik RB4011",
+                url: "rb4011.php"
+            },
+            {
+                name: "Crimping Tools",
+                url: "crimping-tools.php"
+            },
+            {
+                name: "Jakemy Crimping Tool",
+                url: "jakemy-crimping-tool.php"
+            },
+            {
+                name: "Dual-Modular Crimping Tool",
+                url: "dual-modular-crimping-tool.php"
+            },
+            {
+                name: "Mikrotik RB260GS",
+                url: "rbs60gs.php"
+            },
+            {
+                name: "Mikrotik SXTSQ Series",
+                url: "ssxtsq-series.php"
+            },
+            {
+                name: "Mikrotiks",
+                url: "mikrotik.php"
+            },
+            {
+                name: "Mikrotik L009",
+                url: "mikrotik-l009.php"
             }
+        ];
 
-            // Show all items in alphabetical order when clicking inside search box
-            $("#search-box").on("focus", function() {
-                showResults();
-            });
+        function showResults(query = "") {
+            let resultsContainer = $("#search-results");
+            resultsContainer.empty();
 
-            // Filter results while typing, still in alphabetical order
-            $("#search-box").on("input", function() {
-                let query = $(this).val().toLowerCase();
-                showResults(query);
-            });
+            // Always sort alphabetically before displaying
+            let sortedItems = [...items].sort((a, b) => a.name.localeCompare(b.name));
+            let filteredItems = sortedItems.filter(item => item.name.toLowerCase().includes(query));
 
-            // Navigate when clicking a search result
-            $(document).on("click", ".search-item", function() {
-                window.location.href = $(this).data("url");
-            });
+            if (filteredItems.length > 0) {
+                filteredItems.forEach(item => {
+                    resultsContainer.append(
+                        `<li class="search-item" data-url="${item.url}">${item.name}</li>`);
+                });
+                resultsContainer.show();
+            } else {
+                resultsContainer.hide();
+            }
+        }
 
-            // Hide search results when clicking outside
-            $(document).click(function(event) {
-                if (!$(event.target).closest("#search-box, #search-results").length) {
-                    $("#search-results").hide();
-                }
-            });
+        // Show all items in alphabetical order when clicking inside search box
+        $("#search-box").on("focus", function() {
+            showResults();
         });
+
+        // Filter results while typing, still in alphabetical order
+        $("#search-box").on("input", function() {
+            let query = $(this).val().toLowerCase();
+            showResults(query);
+        });
+
+        // Navigate when clicking a search result
+        $(document).on("click", ".search-item", function() {
+            window.location.href = $(this).data("url");
+        });
+
+        // Hide search results when clicking outside
+        $(document).click(function(event) {
+            if (!$(event.target).closest("#search-box, #search-results").length) {
+                $("#search-results").hide();
+            }
+        });
+    });
     </script>
     <style>
-        .hm-searchbox {
-            position: relative;
-            width: 60%;
-            max-width: 400px;
-        }
+    .hm-searchbox {
+        position: relative;
+        width: 60%;
+        max-width: 400px;
+    }
 
-        #search-results {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            width: 100%;
-            background: white;
-            border: 1px solid #ccc;
-            display: none;
-            max-height: 200px;
-            overflow-y: auto;
-            z-index: 1000;
-            border-radius: 5px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-        }
+    #search-results {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        border: 1px solid #ccc;
+        display: none;
+        max-height: 200px;
+        overflow-y: auto;
+        z-index: 1000;
+        border-radius: 5px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
 
-        .search-item {
-            padding: 10px;
-            cursor: pointer;
-            border-bottom: 1px solid #eee;
-            transition: background 0.3s, color 0.3s;
-        }
+    .search-item {
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 1px solid #eee;
+        transition: background 0.3s, color 0.3s;
+    }
 
-        .search-item:hover {
-            background: #5ccdf0;
-            color: white;
-        }
+    .search-item:hover {
+        background: #5ccdf0;
+        color: white;
+    }
     </style>
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let cart = JSON.parse(localStorage.getItem("cart")) || [];
+    document.addEventListener("DOMContentLoaded", function() {
+        let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-            function saveCart() {
-                localStorage.setItem("cart", JSON.stringify(cart));
+        function saveCart() {
+            localStorage.setItem("cart", JSON.stringify(cart));
+        }
+
+        function updateMiniCart() {
+            let cartContainer = $("#cart-items");
+            let cartTotal = $("#cart-total");
+            let cartSubtotal = $("#cart-subtotal");
+            let cartCount = $(".cart-item-count");
+
+            cartContainer.empty();
+
+            if (cart.length === 0) {
+                cartContainer.append('<li><p>Your cart is empty.</p></li>');
+                cartTotal.text("0");
+                cartSubtotal.text("0");
+                cartCount.text("0");
+                return;
             }
 
-            function updateMiniCart() {
-                let cartContainer = $("#cart-items");
-                let cartTotal = $("#cart-total");
-                let cartSubtotal = $("#cart-subtotal");
-                let cartCount = $(".cart-item-count");
+            let totalCost = 0;
+            let totalItems = 0;
+            cart.forEach((item, index) => {
+                let itemTotal = item.price * item.quantity;
+                totalCost += itemTotal;
+                totalItems += item.quantity;
 
-                cartContainer.empty();
+                // ✅ Use fallback image if undefined
+                let imageUrl = item.image || 'assets/images/default.png';
 
-                if (cart.length === 0) {
-                    cartContainer.append('<li><p>Your cart is empty.</p></li>');
-                    cartTotal.text("0");
-                    cartSubtotal.text("0");
-                    cartCount.text("0");
-                    return;
-                }
-
-                let totalCost = 0;
-                let totalItems = 0;
-                cart.forEach((item, index) => {
-                    let itemTotal = item.price * item.quantity;
-                    totalCost += itemTotal;
-                    totalItems += item.quantity;
-
-                    // ✅ Use fallback image if undefined
-                    let imageUrl = item.image || 'assets/images/default.png';
-
-                    cartContainer.append(`
+                cartContainer.append(`
             <li style="display: flex; align-items: center; gap: 10px;">
                 <img src="${imageUrl}" alt="${item.name}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 5px;">
                 <div class="minicart-product-details" style="flex-grow: 1;">
@@ -607,33 +617,33 @@
                 </button>
             </li>
         `);
-                });
+            });
 
-                cartTotal.text(totalCost.toLocaleString());
-                cartSubtotal.text(totalCost.toLocaleString());
-                cartCount.text(totalItems);
+            cartTotal.text(totalCost.toLocaleString());
+            cartSubtotal.text(totalCost.toLocaleString());
+            cartCount.text(totalItems);
+        }
+
+        function updateFullCart() {
+            let cartBody = $("#cart-body");
+            let fullSubtotal = $("#cart-subtotal");
+            let fullTotal = $("#full-cart-total");
+
+            cartBody.empty();
+
+            if (cart.length === 0) {
+                cartBody.append('<tr><td colspan="6" class="text-center">Your cart is empty.</td></tr>');
+                fullSubtotal.text("0");
+                fullTotal.text("0");
+                return;
             }
 
-            function updateFullCart() {
-                let cartBody = $("#cart-body");
-                let fullSubtotal = $("#cart-subtotal");
-                let fullTotal = $("#full-cart-total");
+            let totalCost = 0;
+            cart.forEach((item, index) => {
+                let itemTotal = item.price * item.quantity;
+                totalCost += itemTotal;
 
-                cartBody.empty();
-
-                if (cart.length === 0) {
-                    cartBody.append('<tr><td colspan="6" class="text-center">Your cart is empty.</td></tr>');
-                    fullSubtotal.text("0");
-                    fullTotal.text("0");
-                    return;
-                }
-
-                let totalCost = 0;
-                cart.forEach((item, index) => {
-                    let itemTotal = item.price * item.quantity;
-                    totalCost += itemTotal;
-
-                    cartBody.append(`
+                cartBody.append(`
                 <tr>
                     <td>${index + 1}</td>
                     <td class="li-product-thumbnail">
@@ -652,116 +662,116 @@
                     </td>
                 </tr>
             `);
-                });
+            });
 
-                fullSubtotal.text(totalCost.toLocaleString());
-                fullTotal.text(totalCost.toLocaleString());
+            fullSubtotal.text(totalCost.toLocaleString());
+            fullTotal.text(totalCost.toLocaleString());
+        }
+
+        function updateAllCarts() {
+            updateMiniCart();
+            updateFullCart();
+            saveCart();
+        }
+
+        // ✅ Add to cart from product list
+        $(".add-to-cart").on("click", function(e) {
+            e.preventDefault();
+
+            let itemContainer = $(this).closest(".single-product-wrap");
+            let itemName = itemContainer.find(".product_name").first().text().trim();
+            let itemPriceText = itemContainer.find(".new-price").first().text().replace("Ksh.", "")
+                .replace(",", "").trim();
+            let itemImage = itemContainer.find("img").attr("src") || 'assets/images/default.png';
+            let itemPrice = parseInt(itemPriceText);
+
+            if (!itemName || isNaN(itemPrice)) {
+                alert("Error: Unable to add item to cart.");
+                return;
             }
 
-            function updateAllCarts() {
-                updateMiniCart();
-                updateFullCart();
-                saveCart();
+            let existingItem = cart.find(item => item.name === itemName);
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({
+                    name: itemName,
+                    price: itemPrice,
+                    quantity: 1,
+                    image: itemImage
+                });
             }
 
-            // ✅ Add to cart from product list
-            $(".add-to-cart").on("click", function(e) {
-                e.preventDefault();
+            updateAllCarts();
+            $("html, body").animate({
+                scrollTop: 0
+            }, 800);
+        });
 
-                let itemContainer = $(this).closest(".single-product-wrap");
-                let itemName = itemContainer.find(".product_name").first().text().trim();
-                let itemPriceText = itemContainer.find(".new-price").first().text().replace("Ksh.", "")
-                    .replace(",", "").trim();
-                let itemImage = itemContainer.find("img").attr("src") || 'assets/images/default.png';
-                let itemPrice = parseInt(itemPriceText);
+        $(".single-product-add-to-cart").on("click", function(e) {
+            e.preventDefault();
 
-                if (!itemName || isNaN(itemPrice)) {
-                    alert("Error: Unable to add item to cart.");
-                    return;
-                }
+            let productContainer = $(this).closest(".product-details-view-content");
+            let itemName = productContainer.find(".product_name").text().trim();
+            let itemPriceText = productContainer.find(".new-price").text().replace("Ksh.", "").replace(
+                ",", "").trim();
+            let itemPrice = parseInt(itemPriceText);
 
-                let existingItem = cart.find(item => item.name === itemName);
-                if (existingItem) {
-                    existingItem.quantity += 1;
-                } else {
-                    cart.push({
-                        name: itemName,
-                        price: itemPrice,
-                        quantity: 1,
-                        image: itemImage
-                    });
-                }
+            let itemImage = $(".product-details-left .lg-image img").attr("src") ||
+                'assets/images/default.png';
 
-                updateAllCarts();
-                $("html, body").animate({
-                    scrollTop: 0
-                }, 800);
+            console.log("💥 Add to Cart Debug →", {
+                itemName,
+                itemPrice,
+                itemImage
             });
 
-            $(".single-product-add-to-cart").on("click", function(e) {
-                e.preventDefault();
+            if (!itemName || isNaN(itemPrice)) {
+                alert("Error: Unable to add item to cart.");
+                return;
+            }
 
-                let productContainer = $(this).closest(".product-details-view-content");
-                let itemName = productContainer.find(".product_name").text().trim();
-                let itemPriceText = productContainer.find(".new-price").text().replace("Ksh.", "").replace(
-                    ",", "").trim();
-                let itemPrice = parseInt(itemPriceText);
-
-                let itemImage = $(".product-details-left .lg-image img").attr("src") ||
-                    'assets/images/default.png';
-
-                console.log("💥 Add to Cart Debug →", {
-                    itemName,
-                    itemPrice,
-                    itemImage
+            let existingItem = cart.find(item => item.name === itemName);
+            if (existingItem) {
+                existingItem.quantity += 1;
+            } else {
+                cart.push({
+                    name: itemName,
+                    price: itemPrice,
+                    quantity: 1,
+                    image: itemImage
                 });
+            }
 
-                if (!itemName || isNaN(itemPrice)) {
-                    alert("Error: Unable to add item to cart.");
-                    return;
-                }
+            updateAllCarts();
+            $("html, body").animate({
+                scrollTop: 0
+            }, 800);
+        });
 
-                let existingItem = cart.find(item => item.name === itemName);
-                if (existingItem) {
-                    existingItem.quantity += 1;
-                } else {
-                    cart.push({
-                        name: itemName,
-                        price: itemPrice,
-                        quantity: 1,
-                        image: itemImage
-                    });
-                }
-
-                updateAllCarts();
-                $("html, body").animate({
-                    scrollTop: 0
-                }, 800);
-            });
-
-            // ✅ Remove item
-            $(document).on("click", ".remove-item", function() {
-                let index = $(this).data("index");
-                cart.splice(index, 1);
-                updateAllCarts();
-            });
-
-            // ✅ Update quantity
-            $(document).on("change", ".quantity-input", function() {
-                let index = $(this).data("index");
-                let newQuantity = parseInt($(this).val());
-
-                if (newQuantity <= 0 || isNaN(newQuantity)) {
-                    alert("Invalid quantity! Minimum is 1.");
-                    $(this).val(cart[index].quantity);
-                    return;
-                }
-
-                cart[index].quantity = newQuantity;
-                updateAllCarts();
-            });
-
-            // ✅ Load cart on page load
+        // ✅ Remove item
+        $(document).on("click", ".remove-item", function() {
+            let index = $(this).data("index");
+            cart.splice(index, 1);
             updateAllCarts();
         });
+
+        // ✅ Update quantity
+        $(document).on("change", ".quantity-input", function() {
+            let index = $(this).data("index");
+            let newQuantity = parseInt($(this).val());
+
+            if (newQuantity <= 0 || isNaN(newQuantity)) {
+                alert("Invalid quantity! Minimum is 1.");
+                $(this).val(cart[index].quantity);
+                return;
+            }
+
+            cart[index].quantity = newQuantity;
+            updateAllCarts();
+        });
+
+        // ✅ Load cart on page load
+        updateAllCarts();
+    });
     </script>

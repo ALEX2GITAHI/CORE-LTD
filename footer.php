@@ -128,20 +128,6 @@
                                  and security for homes and businesses.
                              </p>
                          </div>
-                         <ul class="des">
-                             <li>
-                                 <span>Address: </span>
-                                 Githurai 44 Oppoaite Equity Bank
-                             </li>
-                             <li>
-                                 <span>Phone: </span>
-                                 <a href="#">+254 792 570 000</a>
-                             </li>
-                             <li>
-                                 <span>Email: </span>
-                                 <a href="#">corecyber254@gmail.com</a>
-                             </li>
-                         </ul>
                      </div>
                      <!-- Footer Logo Area End Here -->
                      <!-- Begin Footer Block Area -->
@@ -483,4 +469,3 @@
  <!-- index-231:38-->
 
  </html>
- 

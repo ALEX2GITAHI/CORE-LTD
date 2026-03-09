@@ -27,49 +27,59 @@ include 'header.php'; // Includes the header file
                         <div class="lg-image">
                             <a class="popup-img venobox vbox-item"
                                 href="images/product/small-size/tp-link-eap110-indoor-box.avif" data-gall="myGallery">
-                                <img src="images/product/small-size/tp-link-eap110-indoor-box.avif" alt="product image" />
+                                <img src="images/product/small-size/tp-link-eap110-indoor-box.avif"
+                                    alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
                             <a class="popup-img venobox vbox-item"
                                 href="images/product/small-size/tp-link-eap110-indoor-front.jpeg" data-gall="myGallery">
-                                <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg" alt="product image" />
+                                <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg"
+                                    alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
                             <a class="popup-img venobox vbox-item"
                                 href="images/product/small-size/tp-link-eap110-indoor-box.avif" data-gall="myGallery">
-                                <img src="images/product/small-size/tp-link-eap110-indoor-box.avif" alt="product image" />
+                                <img src="images/product/small-size/tp-link-eap110-indoor-box.avif"
+                                    alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
                             <a class="popup-img venobox vbox-item"
                                 href="images/product/small-size/tp-link-eap110-indoor-front.jpeg" data-gall="myGallery">
-                                <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg" alt="product image" />
+                                <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg"
+                                    alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
                             <a class="popup-img venobox vbox-item"
                                 href="images/product/small-size/tp-link-eap110-indoor-box.avif" data-gall="myGallery">
-                                <img src="images/product/small-size/tp-link-eap110-indoor-box.avif" alt="product image" />
+                                <img src="images/product/small-size/tp-link-eap110-indoor-box.avif"
+                                    alt="product image" />
                             </a>
                         </div>
                     </div>
                     <div class="product-details-thumbs slider-thumbs-1">
                         <div class="sm-image">
-                            <img src="images/product/small-size/tp-link-eap110-indoor-box.avif" alt="product image thumb" />
+                            <img src="images/product/small-size/tp-link-eap110-indoor-box.avif"
+                                alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg" alt="product image thumb" />
+                            <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg"
+                                alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/tp-link-eap110-indoor-box.avif" alt="product image thumb" />
+                            <img src="images/product/small-size/tp-link-eap110-indoor-box.avif"
+                                alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg" alt="product image thumb" />
+                            <img src="images/product/small-size/tp-link-eap110-indoor-front.jpeg"
+                                alt="product image thumb" />
                         </div>
                         <div class="sm-image">
-                            <img src="images/product/small-size/tp-link-eap110-indoor-box.avif" alt="product image thumb" />
+                            <img src="images/product/small-size/tp-link-eap110-indoor-box.avif"
+                                alt="product image thumb" />
                         </div>
                     </div>
                 </div>
@@ -102,52 +112,76 @@ include 'header.php'; // Includes the header file
                             <p>
                             <div style="overflow-x:auto;">
                                 <h4><b>Features:</b></h4>
-                                <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
                                     <thead style="background-color:#f4f4f4;">
                                         <tr>
-                                            <th style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">Feature</th>
-                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Description</th>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">
+                                                Description</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>300 Mbps Wireless N Speed</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">2.4 GHz 802.11n Wi-Fi delivering up to 300 Mbps for smooth business or home networking.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>300 Mbps Wireless N
+                                                    Speed</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">2.4 GHz 802.11n Wi-Fi
+                                                delivering up to 300 Mbps for smooth business or home networking.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Ceiling Mount Design</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Elegant, easy-mount design blends seamlessly with any interior environment.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Ceiling Mount Design</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Elegant, easy-mount design
+                                                blends seamlessly with any interior environment.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Passive PoE Support</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Simplifies installation by enabling data and power transmission through a single Ethernet cable.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Passive PoE Support</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Simplifies installation by
+                                                enabling data and power transmission through a single Ethernet cable.
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Omada Cloud Management</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Centralized management via TP-Link Omada SDN controller or cloud platform for easy control.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Omada Cloud
+                                                    Management</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Centralized management via
+                                                TP-Link Omada SDN controller or cloud platform for easy control.</td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Multiple SSIDs</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Supports up to 8 SSIDs with VLAN mapping for secure network segmentation.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports up to 8 SSIDs with
+                                                VLAN mapping for secure network segmentation.</td>
                                         </tr>
 
                                         <!-- Hidden Rows -->
                                     <tbody id="more-eap110-indoor" style="display: none;">
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Captive Portal Authentication</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Provides guest authentication options like vouchers, password, and external RADIUS.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Captive Portal
+                                                    Authentication</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Provides guest
+                                                authentication options like vouchers, password, and external RADIUS.
+                                            </td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Enterprise Security</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Supports WPA/WPA2-enterprise encryption and 802.1X authentication for secure access.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Enterprise Security</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports
+                                                WPA/WPA2-enterprise encryption and 802.1X authentication for secure
+                                                access.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Load Balance & Bandwidth Control</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Ensures optimal performance by managing user access and network traffic efficiently.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Load Balance & Bandwidth
+                                                    Control</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Ensures optimal performance
+                                                by managing user access and network traffic efficiently.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Scheduling & Reboot Control</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Allows automatic Wi-Fi scheduling and reboot cycles for maintenance convenience.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Scheduling & Reboot
+                                                    Control</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Allows automatic Wi-Fi
+                                                scheduling and reboot cycles for maintenance convenience.</td>
                                         </tr>
                                     </tbody>
                                     </tbody>
@@ -155,7 +189,9 @@ include 'header.php'; // Includes the header file
 
                                 <!-- Toggle Button -->
                                 <div style="text-align:center; margin-top:10px;">
-                                    <button onclick="toggleEAP110Indoor()" style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;" id="eap110indoorBtn">
+                                    <button onclick="toggleEAP110Indoor()"
+                                        style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
+                                        id="eap110indoorBtn">
                                         View More
                                     </button>
                                 </div>

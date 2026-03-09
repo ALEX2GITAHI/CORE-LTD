@@ -4,7 +4,9 @@ include 'header.php'; // Includes the header file
 <!-- Li's Breadcrumb Area End Here -->
 <!-- Begin Contact Main Page Area -->
 <div class="contact-main-page mt-60 mb-40 mb-md-40 mb-sm-40 mb-xs-40">
-    <iframe
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8176616473984!2d36.8231622!3d-1.2832555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f112e8fe44edf%3A0xd34322afc8142e0a!2sCORE%20LTD%20TOWN%20CBD!5e0!3m2!1sen!2ske!4v1763011442221!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.937914640506!2d36.91302337436064!3d-1.2036784355401358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3fcbe93d96b5%3A0x38f0752754db2c8b!2sCore%20Ltd%20Githurai!5e0!3m2!1sen!2ske!4v1742332872786!5m2!1sen!2ske"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -12,6 +14,7 @@ include 'header.php'; // Includes the header file
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.919397043946!2d36.886512774360824!3d-1.2162715355523332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3f3702128b03%3A0x879263f96cbe01c2!2sCORE%20LTD%20ROYSAMBU!5e0!3m2!1sen!2ske!4v1742333175963!5m2!1sen!2ske"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3990.144563712684!2d36.83413993659089!3d-1.2841774006369666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f11268bea0399%3A0x524c8f91b729f40e!2sCORE%20LTD%20GIKOMBA!5e0!3m2!1sen!2ske!4v1762800921618!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 offset-lg-1 col-md-12 order-1 order-lg-2">
