@@ -196,17 +196,17 @@ include 'header.php'; // Includes the header file
 
                             <!-- Script -->
                             <script>
-                                function toggleStarlinkGen3() {
-                                    var hiddenRows = document.getElementById("more-starlink-gen3");
-                                    var button = document.getElementById("starlinkGen3Btn");
-                                    if (hiddenRows.style.display === "none") {
-                                        hiddenRows.style.display = "table-row-group";
-                                        button.textContent = "View Less";
-                                    } else {
-                                        hiddenRows.style.display = "none";
-                                        button.textContent = "View More";
-                                    }
+                            function toggleStarlinkGen3() {
+                                var hiddenRows = document.getElementById("more-starlink-gen3");
+                                var button = document.getElementById("starlinkGen3Btn");
+                                if (hiddenRows.style.display === "none") {
+                                    hiddenRows.style.display = "table-row-group";
+                                    button.textContent = "View Less";
+                                } else {
+                                    hiddenRows.style.display = "none";
+                                    button.textContent = "View More";
                                 }
+                            }
                             </script>
 
                             </p>
@@ -226,24 +226,32 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                                // Your WhatsApp number (without + or 0)
+                            document.addEventListener("DOMContentLoaded", function() {
+
                                 const phoneNumber = "254792570000";
+                                const currentPageURL = window.location.href;
 
-                                // Get the current page URL
-                                const currentPageURL = encodeURIComponent(window.location.href);
+                                const productName = document.querySelector(".product_name")?.textContent
+                                    .trim() || "this product";
+                                const productPrice = document.querySelector(".new-price")?.textContent.trim() ||
+                                    "";
 
-                                // Get product details dynamically (if available)
-                                const productName = document.querySelector("#product-name")?.innerText || "this product";
-                                const productPrice = document.querySelector("#product-price")?.innerText || "";
-
-                                // Encode message
                                 const message = encodeURIComponent(
-                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
+                                    `Hello CORE LTD
+I'm interested in buying:
+
+Product: ${productName}
+Price: ${productPrice}
+
+Link: ${currentPageURL}`
                                 );
 
-                                // Set the WhatsApp link dynamically
-                                document.getElementById("whatsapp-link").href =
-                                    `https://wa.me/${phoneNumber}?text=${message}`;
+                                const whatsappBtn = document.getElementById("whatsapp-link");
+                                if (whatsappBtn) {
+                                    whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
+                                }
+
+                            });
                             </script>
                             <a class="wishlist-btn" href="wishlist.html"><i class="fab fa-heart-o"></i>Add to
                                 wishlist</a>

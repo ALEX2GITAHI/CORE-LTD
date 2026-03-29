@@ -185,24 +185,32 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                                // Your WhatsApp number (without + or 0)
-                                const phoneNumber = "254792570000";
+                                document.addEventListener("DOMContentLoaded", function() {
 
-                                // Get the current page URL
-                                const currentPageURL = encodeURIComponent(window.location.href);
+                                    const phoneNumber = "254792570000";
+                                    const currentPageURL = window.location.href;
 
-                                // Get product details dynamically (if available)
-                                const productName = document.querySelector("#product-name")?.innerText || "this product";
-                                const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                    const productName = document.querySelector(".product_name")?.textContent
+                                        .trim() || "this product";
+                                    const productPrice = document.querySelector(".new-price")?.textContent.trim() ||
+                                        "";
 
-                                // Encode message
-                                const message = encodeURIComponent(
-                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                                );
+                                    const message = encodeURIComponent(
+                                        `Hello CORE LTD
+I'm interested in buying:
 
-                                // Set the WhatsApp link dynamically
-                                document.getElementById("whatsapp-link").href =
-                                    `https://wa.me/${phoneNumber}?text=${message}`;
+Product: ${productName}
+Price: ${productPrice}
+
+Link: ${currentPageURL}`
+                                    );
+
+                                    const whatsappBtn = document.getElementById("whatsapp-link");
+                                    if (whatsappBtn) {
+                                        whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
+                                    }
+
+                                });
                             </script>
 
                         </div>
@@ -441,16 +449,16 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -493,16 +501,16 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -545,16 +553,16 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -599,16 +607,16 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -651,16 +659,16 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -705,16 +713,16 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->

@@ -57,26 +57,107 @@ include 'header.php'; // Includes the header file
                             <span class="new-price">Ksh. 4,000</span>
                         </div>
                         <div class="product-desc">
-                            <p>
-                                <span>
-                                    <h4><b>Features: CP Plus Cat 6 Indoor Cable (CP-FUT-6TSRH-305)</b></h4>
-                                    <ul>
-                                        <li><b>Category:</b> CAT6, 4Pair Unshielded Twisted Pair (UTP) Cable (Eco
-                                            Series)</li>
-                                        <li><b>Conductor:</b> Solid Bare Copper</li>
-                                        <li><b>Conductor Diameter:</b> 1/0.50±0.008mm (24 AWG)</li>
-                                        <li><b>Insulation:</b> High-Density Polyethylene (HDPE)</li>
-                                        <li><b>Cross Filler:</b> The Cross</li>
-                                        <li><b>Outer Diameter:</b> Approximately 0.92±0.05mm</li>
-                                        <li><b>Impedance:</b> HDPE-DC 500V 50MΩ.KM; PVC-DC 500V 5MΩ.KM MIN at 20°C</li>
-                                        <li><b>Resistance Unbalance:</b> 24AWG-250Ω/Km Max at 20°C</li>
-                                        <li><b>Sheath Color:</b> Gray</li>
-                                        <li><b>Sequential Marking:</b> Every Meter</li>
-                                        <li><b>Length:</b> 305 Meters</li>
-                                    </ul>
-                                </span>
-                            </p>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features: CP Plus Cat 6 Indoor Cable (CP-FUT-6TSRH-305)</b></h4>
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background-color:#f4f4f4;">
+                                        <tr>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Specification</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Details
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Category</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">CAT6, 4 Pair Unshielded
+                                                Twisted Pair (UTP) Cable (Eco Series)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Conductor</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Solid Bare Copper</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Conductor Diameter</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">1/0.50±0.008 mm (24 AWG)
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Insulation</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">High-Density Polyethylene
+                                                (HDPE)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Cross Filler</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">The Cross Separator for
+                                                enhanced signal stability</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-cpplus-cat6" style="display: none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Outer Diameter</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Approximately 0.92±0.05 mm
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Impedance</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">HDPE-DC 500V 50MΩ.KM;
+                                                PVC-DC 500V 5MΩ.KM MIN at 20°C</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Resistance Unbalance</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">24AWG-250Ω/Km Max at 20°C
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Sheath Color</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Gray</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Sequential Marking</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Printed marking at every
+                                                meter</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Length</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">305 Meters (Full Box)</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <!-- Toggle Button -->
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleCPPlusCat6()"
+                                        style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
+                                        id="cpplusBtn">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
                         </div>
+
+                        <!-- Script -->
+                        <script>
+                        function toggleCPPlusCat6() {
+                            var hiddenRows = document.getElementById("more-cpplus-cat6");
+                            var button = document.getElementById("cpplusBtn");
+                            if (hiddenRows.style.display === "none") {
+                                hiddenRows.style.display = "table-row-group";
+                                button.textContent = "View Less";
+                            } else {
+                                hiddenRows.style.display = "none";
+                                button.textContent = "View More";
+                            }
+                        }
+                        </script>
                         <!-- ✅ Add to Cart Button -->
                         <div class="add-to-cart-area pt-30">
                             <button class="single-product-add-to-cart">
@@ -92,25 +173,32 @@ include 'header.php'; // Includes the header file
                                 Click to Order on WhatsApp
                             </a> <br><br>
                             <script>
-                            // Your WhatsApp number (without + or 0)
-                            const phoneNumber = "254792570000";
+                            document.addEventListener("DOMContentLoaded", function() {
 
-                            // Get the current page URL
-                            const currentPageURL = encodeURIComponent(window.location.href);
+                                const phoneNumber = "254792570000";
+                                const currentPageURL = window.location.href;
 
-                            // Get product details dynamically (if available)
-                            const productName = document.querySelector("#product-name")?.innerText ||
-                                "this product";
-                            const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                const productName = document.querySelector(".product_name")?.textContent
+                                    .trim() || "this product";
+                                const productPrice = document.querySelector(".new-price")?.textContent.trim() ||
+                                    "";
 
-                            // Encode message
-                            const message = encodeURIComponent(
-                                `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                            );
+                                const message = encodeURIComponent(
+                                    `Hello CORE LTD
+I'm interested in buying:
 
-                            // Set the WhatsApp link dynamically
-                            document.getElementById("whatsapp-link").href =
-                                `https://wa.me/${phoneNumber}?text=${message}`;
+Product: ${productName}
+Price: ${productPrice}
+
+Link: ${currentPageURL}`
+                                );
+
+                                const whatsappBtn = document.getElementById("whatsapp-link");
+                                if (whatsappBtn) {
+                                    whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
+                                }
+
+                            });
                             </script>
 
                         </div>
@@ -350,16 +438,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -402,16 +491,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -456,16 +546,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -510,16 +601,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -562,16 +654,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -616,16 +709,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
