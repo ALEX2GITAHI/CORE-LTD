@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li class="active">Drop Cable 1KM 4 Core</li>
+                <li class="active">ADSS Fiber Cable 12 Core 4KM</li>
             </ul>
         </div>
     </div>
@@ -25,9 +25,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/drop 1km 4 core.avif"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/ADSS 12-CORE.webp"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/drop 1km 4 core.avif" alt="product image" />
+                                <img src="images/product/small-size/ADSS 12-CORE.webp" alt="product image" />
                             </a>
                         </div>
                     </div>
@@ -39,9 +39,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Drop Cable 1KM 4 Core</a>
+                            <a class="product_name">ADSS Fiber Cable 12 Core 4KM</a>
                         </h4>
-                        <span class="product-details-ref">Reference: Drop</span>
+                        <span class="product-details-ref">Reference: adss</span>
                         <div class="rating-box pt-20">
                             <ul class="rating rating-with-review-item">
                                 <li><i class="fa fa-star-o"></i></li>
@@ -54,11 +54,11 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box">
-                            <span class="new-price">Ksh. 9,800</span>
+                            <span class="new-price">Ksh. 180,000</span>
                         </div>
                         <div class="product-desc">
                             <div style="overflow-x:auto;">
-                                <h4><b>Features: Drop Cable 1KM 4 Core</b></h4>
+                                <h4><b>Features: ADSS Fiber Cable 12 Core 4KM</b></h4>
                                 <table
                                     style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
                                     <thead style="background-color:#f4f4f4;">
@@ -73,59 +73,60 @@ include 'header.php'; // Includes the header file
                                     <tbody>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Cable Type</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">4 Core Fiber Optic Drop
-                                                Cable (FTTH)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">ADSS (All-Dielectric
+                                                Self-Supporting) Fiber Optic Cable</td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Fiber Count</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">4 Fibers (Single Mode)</td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Application</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Suitable for FTTH
-                                                deployments, last-mile connectivity, and distribution networks.</td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Strength Member</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Reinforced with steel wire
-                                                / FRP for enhanced tensile strength and durability.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">12 Core Single Mode Fibers
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Length</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">1000 Meters (1KM Roll)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">4000 Meters (4KM Roll)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Application</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Ideal for aerial backbone
+                                                networks, ISP deployments, utility poles, and long-distance outdoor
+                                                installations.</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Self-Supporting
+                                                    Design</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">No metallic messenger wire
+                                                required, reducing weight and simplifying aerial installation.</td>
                                         </tr>
 
                                         <!-- Hidden Rows -->
-                                    <tbody id="more-drop-4core" style="display: none;">
+                                    <tbody id="more-adss-12core-4km" style="display:none;">
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Outer Jacket</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">UV-resistant LSZH / PE
-                                                sheath designed for outdoor environments.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>All-Dielectric
+                                                    Construction</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Non-metallic design
+                                                provides immunity to lightning and electromagnetic interference.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Installation Type</b>
-                                            </td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Supports aerial, duct, and
-                                                wall-mounted installations.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Outer Jacket</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">UV-resistant PE sheath for
+                                                harsh outdoor environments.</td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Weather Resistance</b>
                                             </td>
                                             <td style="padding:10px; border:1px solid #ddd;">Engineered to withstand
-                                                harsh outdoor conditions including UV exposure, rain, and wind.</td>
+                                                rain, sunlight, wind, and varying temperatures.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Low Signal
-                                                    Attenuation</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Ensures reliable,
-                                                high-speed data transmission over long distances.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Low Signal Loss</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports stable, high-speed
+                                                transmission over long distances.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Flexible & Easy
-                                                    Installation</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Lightweight design allows
-                                                for easy routing and installation in residential and commercial setups.
-                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>High Tensile
+                                                    Strength</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Designed for suspended
+                                                aerial spans with excellent mechanical durability.</td>
                                         </tr>
                                     </tbody>
                                     </tbody>
@@ -133,19 +134,19 @@ include 'header.php'; // Includes the header file
 
                                 <!-- Toggle Button -->
                                 <div style="text-align:center; margin-top:10px;">
-                                    <button onclick="toggleDrop4Core()"
-                                        style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
-                                        id="drop4coreBtn">
+                                    <button onclick="toggleADSS12Core4KM()"
+                                        style="padding:8px 16px; background-color:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;"
+                                        id="adss12core4kmBtn">
                                         View More
                                     </button>
                                 </div>
                             </div>
 
-                            <!-- Script -->
                             <script>
-                                function toggleDrop4Core() {
-                                    var hiddenRows = document.getElementById("more-drop-4core");
-                                    var button = document.getElementById("drop4coreBtn");
+                                function toggleADSS12Core4KM() {
+                                    var hiddenRows = document.getElementById("more-adss-12core-4km");
+                                    var button = document.getElementById("adss12core4kmBtn");
+
                                     if (hiddenRows.style.display === "none") {
                                         hiddenRows.style.display = "table-row-group";
                                         button.textContent = "View Less";

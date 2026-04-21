@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li class="active">Drop Cable 1KM 4 Core</li>
+                <li class="active">Drop Cable 2KM Indoor (2 Core)</li>
             </ul>
         </div>
     </div>
@@ -25,9 +25,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/drop 1km 4 core.avif"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/drop 2km indooe.avif"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/drop 1km 4 core.avif" alt="product image" />
+                                <img src="images/product/small-size/drop 2km indooe.avif" alt="product image" />
                             </a>
                         </div>
                     </div>
@@ -39,7 +39,7 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Drop Cable 1KM 4 Core</a>
+                            <a class="product_name">Drop Cable 2KM Indoor (2 Core)</a>
                         </h4>
                         <span class="product-details-ref">Reference: Drop</span>
                         <div class="rating-box pt-20">
@@ -54,11 +54,11 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box">
-                            <span class="new-price">Ksh. 9,800</span>
+                            <span class="new-price">Ksh. 12,800</span>
                         </div>
                         <div class="product-desc">
                             <div style="overflow-x:auto;">
-                                <h4><b>Features: Drop Cable 1KM 4 Core</b></h4>
+                                <h4><b>Features: Drop Cable 2KM Indoor (2 Core)</b></h4>
                                 <table
                                     style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
                                     <thead style="background-color:#f4f4f4;">
@@ -73,59 +73,56 @@ include 'header.php'; // Includes the header file
                                     <tbody>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Cable Type</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">4 Core Fiber Optic Drop
-                                                Cable (FTTH)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">2 Core Fiber Optic Drop
+                                                Cable (FTTH - Indoor)</td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Fiber Count</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">4 Fibers (Single Mode)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">2 Fibers (Single Mode)</td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Application</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Suitable for FTTH
-                                                deployments, last-mile connectivity, and distribution networks.</td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Strength Member</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Reinforced with steel wire
-                                                / FRP for enhanced tensile strength and durability.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Designed for indoor FTTH
+                                                installations, apartments, offices, and structured cabling.</td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Length</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">1000 Meters (1KM Roll)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">2000 Meters (2KM Roll)</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Jacket Type</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">LSZH (Low Smoke Zero
+                                                Halogen) for safe indoor use.</td>
                                         </tr>
 
                                         <!-- Hidden Rows -->
-                                    <tbody id="more-drop-4core" style="display: none;">
+                                    <tbody id="more-drop-2km-indoor" style="display: none;">
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Outer Jacket</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">UV-resistant LSZH / PE
-                                                sheath designed for outdoor environments.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Fire Safety</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Low smoke and halogen-free
+                                                materials reduce toxic emissions in case of fire.</td>
                                         </tr>
                                         <tr>
                                             <td style="padding:10px; border:1px solid #ddd;"><b>Installation Type</b>
                                             </td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Supports aerial, duct, and
-                                                wall-mounted installations.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Suitable for wall routing,
+                                                trunking, conduits, and ceiling installations.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Weather Resistance</b>
-                                            </td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Engineered to withstand
-                                                harsh outdoor conditions including UV exposure, rain, and wind.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Flexible Design</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Easy to bend and route
+                                                within tight indoor spaces.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Low Signal
-                                                    Attenuation</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Ensures reliable,
-                                                high-speed data transmission over long distances.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Low Signal Loss</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Ensures stable and
+                                                efficient data transmission across long indoor runs.</td>
                                         </tr>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Flexible & Easy
-                                                    Installation</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Lightweight design allows
-                                                for easy routing and installation in residential and commercial setups.
-                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Lightweight
+                                                    Construction</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Easy handling and
+                                                installation for technicians and installers.</td>
                                         </tr>
                                     </tbody>
                                     </tbody>
@@ -133,9 +130,9 @@ include 'header.php'; // Includes the header file
 
                                 <!-- Toggle Button -->
                                 <div style="text-align:center; margin-top:10px;">
-                                    <button onclick="toggleDrop4Core()"
+                                    <button onclick="toggleDrop2KMIndoor()"
                                         style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
-                                        id="drop4coreBtn">
+                                        id="drop2kmIndoorBtn">
                                         View More
                                     </button>
                                 </div>
@@ -143,9 +140,9 @@ include 'header.php'; // Includes the header file
 
                             <!-- Script -->
                             <script>
-                                function toggleDrop4Core() {
-                                    var hiddenRows = document.getElementById("more-drop-4core");
-                                    var button = document.getElementById("drop4coreBtn");
+                                function toggleDrop2KMIndoor() {
+                                    var hiddenRows = document.getElementById("more-drop-2km-indoor");
+                                    var button = document.getElementById("drop2kmIndoorBtn");
                                     if (hiddenRows.style.display === "none") {
                                         hiddenRows.style.display = "table-row-group";
                                         button.textContent = "View Less";

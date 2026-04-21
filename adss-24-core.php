@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
         <div class="breadcrumb-content">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li class="active">Drop Cable 1KM 4 Core</li>
+                <li class="active">ADSS Fiber Cable 24 Core 4KM</li>
             </ul>
         </div>
     </div>
@@ -25,9 +25,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/drop 1km 4 core.avif"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/ADSS 24-CORE.jpg"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/drop 1km 4 core.avif" alt="product image" />
+                                <img src="images/product/small-size/ADSS 24-CORE.jpg" alt="product image" />
                             </a>
                         </div>
                     </div>
@@ -39,9 +39,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Drop Cable 1KM 4 Core</a>
+                            <a class="product_name">ADSS Fiber Cable 24 Core 4KM</a>
                         </h4>
-                        <span class="product-details-ref">Reference: Drop</span>
+                        <span class="product-details-ref">Reference: adss</span>
                         <div class="rating-box pt-20">
                             <ul class="rating rating-with-review-item">
                                 <li><i class="fa fa-star-o"></i></li>
@@ -54,104 +54,110 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box">
-                            <span class="new-price">Ksh. 9,800</span>
+                            <span class="new-price">Ksh. 220,000</span>
                         </div>
                         <div class="product-desc">
                             <div style="overflow-x:auto;">
-                                <h4><b>Features: Drop Cable 1KM 4 Core</b></h4>
+                                <h4><b>Features: ADSS Fiber Cable 24 Core 4KM</b></h4>
                                 <table
                                     style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
-                                    <thead style="background-color:#f4f4f4;">
+                                    <thead style="background:#f4f4f4;">
                                         <tr>
                                             <th
                                                 style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
-                                                Specification</th>
-                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Details
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Benefit
                                             </th>
                                         </tr>
                                     </thead>
+
                                     <tbody>
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Cable Type</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">4 Core Fiber Optic Drop
-                                                Cable (FTTH)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>24 Core High
+                                                    Capacity</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Connect more homes,
+                                                offices, CCTV systems, or network points using one cable.</td>
                                         </tr>
+
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Fiber Count</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">4 Fibers (Single Mode)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>4KM Full Roll</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Long distance coverage with
+                                                fewer joints, saving time and installation costs.</td>
                                         </tr>
+
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Application</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Suitable for FTTH
-                                                deployments, last-mile connectivity, and distribution networks.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Perfect for Aerial
+                                                    Use</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Designed for pole-to-pole
+                                                installations without needing extra support wire.</td>
                                         </tr>
+
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Strength Member</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Reinforced with steel wire
-                                                / FRP for enhanced tensile strength and durability.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Strong Outdoor Build</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Handles sun, rain, wind,
+                                                and harsh weather conditions with confidence.</td>
                                         </tr>
+
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Length</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">1000 Meters (1KM Roll)</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Fast & Stable
+                                                    Internet</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports high-speed fiber
+                                                connections with reliable signal performance.</td>
                                         </tr>
 
                                         <!-- Hidden Rows -->
-                                    <tbody id="more-drop-4core" style="display: none;">
+                                    <tbody id="more-adss24easy" style="display:none;">
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Outer Jacket</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">UV-resistant LSZH / PE
-                                                sheath designed for outdoor environments.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Low Maintenance</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Durable design reduces
+                                                repair and replacement costs over time.</td>
                                         </tr>
+
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Installation Type</b>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Ideal for ISPs &
+                                                    Estates</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Great choice for internet
+                                                providers, gated communities, schools, and businesses.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Expandable Network</b>
                                             </td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Supports aerial, duct, and
-                                                wall-mounted installations.</td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Extra cores allow future
+                                                upgrades without replacing the cable.</td>
                                         </tr>
+
                                         <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Weather Resistance</b>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Professional Choice</b>
                                             </td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Engineered to withstand
-                                                harsh outdoor conditions including UV exposure, rain, and wind.</td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Low Signal
-                                                    Attenuation</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Ensures reliable,
-                                                high-speed data transmission over long distances.</td>
-                                        </tr>
-                                        <tr>
-                                            <td style="padding:10px; border:1px solid #ddd;"><b>Flexible & Easy
-                                                    Installation</b></td>
-                                            <td style="padding:10px; border:1px solid #ddd;">Lightweight design allows
-                                                for easy routing and installation in residential and commercial setups.
-                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Trusted solution for
+                                                backbone and large network installations.</td>
                                         </tr>
                                     </tbody>
                                     </tbody>
                                 </table>
 
-                                <!-- Toggle Button -->
                                 <div style="text-align:center; margin-top:10px;">
-                                    <button onclick="toggleDrop4Core()"
-                                        style="padding:8px 16px; background-color:#007BFF; color:white; border:none; border-radius:5px; cursor:pointer;"
-                                        id="drop4coreBtn">
+                                    <button onclick="toggleADSS24Easy()"
+                                        style="padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;"
+                                        id="adss24easyBtn">
                                         View More
                                     </button>
                                 </div>
                             </div>
 
-                            <!-- Script -->
                             <script>
-                                function toggleDrop4Core() {
-                                    var hiddenRows = document.getElementById("more-drop-4core");
-                                    var button = document.getElementById("drop4coreBtn");
-                                    if (hiddenRows.style.display === "none") {
-                                        hiddenRows.style.display = "table-row-group";
-                                        button.textContent = "View Less";
+                                function toggleADSS24Easy() {
+                                    var rows = document.getElementById("more-adss24easy");
+                                    var btn = document.getElementById("adss24easyBtn");
+
+                                    if (rows.style.display === "none") {
+                                        rows.style.display = "table-row-group";
+                                        btn.innerHTML = "View Less";
                                     } else {
-                                        hiddenRows.style.display = "none";
-                                        button.textContent = "View More";
+                                        rows.style.display = "none";
+                                        btn.innerHTML = "View More";
                                     }
                                 }
                             </script>

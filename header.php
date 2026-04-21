@@ -373,13 +373,24 @@
             },
             {
                 name: "Drop Cable 1KM (4 Core)",
-                url: "drop-cable-1km.php"
+                url: "drop-cable-1km-4core.php"
             },
             {
                 name: "Drop Cable 1KM (8 Core)",
                 url: "drop-cable-1km-8core.php"
             },
-
+            {
+                name: "ADSS 12-CORE",
+                url: "adss-12-core.php"
+            },
+            {
+                name: "ADSS 24-CORE",
+                url: "adss-24-core.php"
+            },
+            {
+                name: "Drop Cable 2KM (Indoor)",
+                url: "drop-cable-2km-indoor.php"
+            },
             {
                 name: "Starlink Gen 3 (Standard Kit)",
                 url: "startlink-gen-3.php"
