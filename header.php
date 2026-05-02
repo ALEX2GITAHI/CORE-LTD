@@ -339,6 +339,10 @@
                 name: "RDCOM Cat 6 Indoor Cable",
                 url: "rdcom.php"
             },
+              {
+                name: "Splicing Machine",
+                url: "Optical-Fusion-splicer.php"
+            },
             {
                 name: "CP Cat 6 Indoor Cable",
                 url: "cp-cable.php"
