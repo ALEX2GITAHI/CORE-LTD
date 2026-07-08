@@ -100,87 +100,87 @@ include 'header.php'; // Includes the header file
                         </div>
                         <div class="product-desc">
                             <div style="overflow-x:auto;">
-  <h4><b>Features: Fusion Splicing Machine Signal Fire AI-9</b></h4>
-  <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
-    <thead style="background:#f4f4f4;">
-      <tr>
-        <th style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">Feature</th>
-        <th style="text-align:left; padding:12px; border:1px solid #ddd;">Benefit</th>
-      </tr>
-    </thead>
+                                <h4><b>Features: Fusion Splicing Machine Signal Fire AI-9</b></h4>
+                                <table style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background:#f4f4f4;">
+                                        <tr>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Benefit</th>
+                                        </tr>
+                                    </thead>
 
-    <tbody>
-      <tr>
-        <td style="padding:10px; border:1px solid #ddd;"><b>Fast Splicing</b></td>
-        <td style="padding:10px; border:1px solid #ddd;">Joins fiber in seconds, saving time on installations.</td>
-      </tr>
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Fast Splicing</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Joins fiber in seconds, saving time on installations.</td>
+                                        </tr>
 
-      <tr>
-        <td style="padding:10px; border:1px solid #ddd;"><b>Built-in Power Meter</b></td>
-        <td style="padding:10px; border:1px solid #ddd;">Test signal strength directly—no need for extra tools.</td>
-      </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Built-in Power Meter</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Test signal strength directly—no need for extra tools.</td>
+                                        </tr>
 
-      <tr>
-        <td style="padding:10px; border:1px solid #ddd;"><b>Touch Screen Display</b></td>
-        <td style="padding:10px; border:1px solid #ddd;">Easy to use interface, even for beginners.</td>
-      </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Touch Screen Display</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Easy to use interface, even for beginners.</td>
+                                        </tr>
 
-      <tr>
-        <td style="padding:10px; border:1px solid #ddd;"><b>Long Battery Life</b></td>
-        <td style="padding:10px; border:1px solid #ddd;">Work longer in the field without frequent charging.</td>
-      </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Long Battery Life</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Work longer in the field without frequent charging.</td>
+                                        </tr>
 
-      <tr>
-        <td style="padding:10px; border:1px solid #ddd;"><b>High Precision Alignment</b></td>
-        <td style="padding:10px; border:1px solid #ddd;">Ensures strong, low-loss fiber connections every time.</td>
-      </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>High Precision Alignment</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Ensures strong, low-loss fiber connections every time.</td>
+                                        </tr>
 
-      <!-- Hidden Rows -->
-      <tbody id="more-ai9" style="display:none;">
-        <tr>
-          <td style="padding:10px; border:1px solid #ddd;"><b>Compact & Portable</b></td>
-          <td style="padding:10px; border:1px solid #ddd;">Lightweight design makes it easy to carry to any job site.</td>
-        </tr>
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-ai9" style="display:none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Compact & Portable</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Lightweight design makes it easy to carry to any job site.</td>
+                                        </tr>
 
-        <tr>
-          <td style="padding:10px; border:1px solid #ddd;"><b>Durable Build</b></td>
-          <td style="padding:10px; border:1px solid #ddd;">Designed to handle outdoor work conditions.</td>
-        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Durable Build</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Designed to handle outdoor work conditions.</td>
+                                        </tr>
 
-        <tr>
-          <td style="padding:10px; border:1px solid #ddd;"><b>All-in-One Tool</b></td>
-          <td style="padding:10px; border:1px solid #ddd;">Combines splicing and testing in one device—saves cost.</td>
-        </tr>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>All-in-One Tool</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Combines splicing and testing in one device—saves cost.</td>
+                                        </tr>
 
-        <tr>
-          <td style="padding:10px; border:1px solid #ddd;"><b>Perfect for Technicians</b></td>
-          <td style="padding:10px; border:1px solid #ddd;">Ideal for FTTH, ISP installations, and maintenance work.</td>
-        </tr>
-      </tbody>
-    </tbody>
-  </table>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Perfect for Technicians</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Ideal for FTTH, ISP installations, and maintenance work.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
 
-  <div style="text-align:center; margin-top:10px;">
-    <button onclick="toggleAI9()" style="padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;" id="ai9Btn">
-      View More
-    </button>
-  </div>
-</div>
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleAI9()" style="padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;" id="ai9Btn">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
 
-<script>
-function toggleAI9() {
-  var rows = document.getElementById("more-ai9");
-  var btn = document.getElementById("ai9Btn");
+                            <script>
+                                function toggleAI9() {
+                                    var rows = document.getElementById("more-ai9");
+                                    var btn = document.getElementById("ai9Btn");
 
-  if (rows.style.display === "none") {
-    rows.style.display = "table-row-group";
-    btn.innerHTML = "View Less";
-  } else {
-    rows.style.display = "none";
-    btn.innerHTML = "View More";
-  }
-}
-</script>
+                                    if (rows.style.display === "none") {
+                                        rows.style.display = "table-row-group";
+                                        btn.innerHTML = "View Less";
+                                    } else {
+                                        rows.style.display = "none";
+                                        btn.innerHTML = "View More";
+                                    }
+                                }
+                            </script>
                         </div>
                         <!-- ✅ Add to Cart Button -->
                         <div class="add-to-cart-area pt-30">
@@ -192,35 +192,71 @@ function toggleAI9() {
                     </div>
                     <div class="single-add-to-cart">
                         <div class="product-additional-info pt-25">
-                            <a id="whatsapp-link" target="_blank"
-                                style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+                            <a href="#" id="whatsapp-link" target="_blank"
+                                style="background-color:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px;display:inline-block;">
                                 Click to Order on WhatsApp
+                            </a>
                             </a> <br><br>
                             <script>
                                 document.addEventListener("DOMContentLoaded", function() {
 
-                                    const phoneNumber = "254792570000";
-                                    const currentPageURL = window.location.href;
+                                    const whatsappBtn = document.getElementById("whatsapp-link");
 
-                                    const productName = document.querySelector(".product_name")?.textContent
-                                        .trim() || "this product";
-                                    const productPrice = document.querySelector(".new-price")?.textContent.trim() ||
-                                        "";
+                                    if (!whatsappBtn) {
+                                        console.log("WhatsApp button not found.");
+                                        return;
+                                    }
 
-                                    const message = encodeURIComponent(
-                                        `Hello CORE LTD
+                                    whatsappBtn.addEventListener("click", async function(e) {
+
+                                        e.preventDefault();
+
+                                        const currentPageURL = window.location.href;
+
+                                        const productName =
+                                            document.querySelector(".product_name")?.textContent
+                                            .trim() ||
+                                            "this product";
+
+                                        const productPrice =
+                                            document.querySelector(".new-price")?.textContent.trim() ||
+                                            "";
+
+                                        try {
+
+                                            const response = await fetch("whatsapp.php");
+
+                                            if (!response.ok) {
+                                                throw new Error("Failed to load whatsapp.php");
+                                            }
+
+                                            const phoneNumber = (await response.text()).trim();
+
+                                            console.log("Using Number:", phoneNumber);
+
+                                            const message = encodeURIComponent(
+                                                `Hello CORE LTD
 I'm interested in buying:
 
 Product: ${productName}
 Price: ${productPrice}
 
 Link: ${currentPageURL}`
-                                    );
+                                            );
 
-                                    const whatsappBtn = document.getElementById("whatsapp-link");
-                                    if (whatsappBtn) {
-                                        whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
-                                    }
+                                            window.open(
+                                                `https://wa.me/${phoneNumber}?text=${message}`,
+                                                "_blank"
+                                            );
+
+                                        } catch (error) {
+
+                                            console.error(error);
+                                            alert("Error: " + error.message);
+
+                                        }
+
+                                    });
 
                                 });
                             </script>

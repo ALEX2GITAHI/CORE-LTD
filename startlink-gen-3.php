@@ -196,17 +196,17 @@ include 'header.php'; // Includes the header file
 
                             <!-- Script -->
                             <script>
-                            function toggleStarlinkGen3() {
-                                var hiddenRows = document.getElementById("more-starlink-gen3");
-                                var button = document.getElementById("starlinkGen3Btn");
-                                if (hiddenRows.style.display === "none") {
-                                    hiddenRows.style.display = "table-row-group";
-                                    button.textContent = "View Less";
-                                } else {
-                                    hiddenRows.style.display = "none";
-                                    button.textContent = "View More";
+                                function toggleStarlinkGen3() {
+                                    var hiddenRows = document.getElementById("more-starlink-gen3");
+                                    var button = document.getElementById("starlinkGen3Btn");
+                                    if (hiddenRows.style.display === "none") {
+                                        hiddenRows.style.display = "table-row-group";
+                                        button.textContent = "View Less";
+                                    } else {
+                                        hiddenRows.style.display = "none";
+                                        button.textContent = "View More";
+                                    }
                                 }
-                            }
                             </script>
 
                             </p>
@@ -221,37 +221,73 @@ include 'header.php'; // Includes the header file
                     </div>
                     <div class="single-add-to-cart">
                         <div class="product-additional-info pt-25">
-                            <a id="whatsapp-link" target="_blank"
-                                style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+                            <a href="#" id="whatsapp-link" target="_blank"
+                                style="background-color:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px;display:inline-block;">
                                 Click to Order on WhatsApp
+                            </a>
                             </a> <br><br>
                             <script>
-                            document.addEventListener("DOMContentLoaded", function() {
+                                document.addEventListener("DOMContentLoaded", function() {
 
-                                const phoneNumber = "254792570000";
-                                const currentPageURL = window.location.href;
+                                    const whatsappBtn = document.getElementById("whatsapp-link");
 
-                                const productName = document.querySelector(".product_name")?.textContent
-                                    .trim() || "this product";
-                                const productPrice = document.querySelector(".new-price")?.textContent.trim() ||
-                                    "";
+                                    if (!whatsappBtn) {
+                                        console.log("WhatsApp button not found.");
+                                        return;
+                                    }
 
-                                const message = encodeURIComponent(
-                                    `Hello CORE LTD
+                                    whatsappBtn.addEventListener("click", async function(e) {
+
+                                        e.preventDefault();
+
+                                        const currentPageURL = window.location.href;
+
+                                        const productName =
+                                            document.querySelector(".product_name")?.textContent
+                                            .trim() ||
+                                            "this product";
+
+                                        const productPrice =
+                                            document.querySelector(".new-price")?.textContent.trim() ||
+                                            "";
+
+                                        try {
+
+                                            const response = await fetch("whatsapp.php");
+
+                                            if (!response.ok) {
+                                                throw new Error("Failed to load whatsapp.php");
+                                            }
+
+                                            const phoneNumber = (await response.text()).trim();
+
+                                            console.log("Using Number:", phoneNumber);
+
+                                            const message = encodeURIComponent(
+                                                `Hello CORE LTD
 I'm interested in buying:
 
 Product: ${productName}
 Price: ${productPrice}
 
 Link: ${currentPageURL}`
-                                );
+                                            );
 
-                                const whatsappBtn = document.getElementById("whatsapp-link");
-                                if (whatsappBtn) {
-                                    whatsappBtn.href = `https://wa.me/${phoneNumber}?text=${message}`;
-                                }
+                                            window.open(
+                                                `https://wa.me/${phoneNumber}?text=${message}`,
+                                                "_blank"
+                                            );
 
-                            });
+                                        } catch (error) {
+
+                                            console.error(error);
+                                            alert("Error: " + error.message);
+
+                                        }
+
+                                    });
+
+                                });
                             </script>
                             <a class="wishlist-btn" href="wishlist.html"><i class="fab fa-heart-o"></i>Add to
                                 wishlist</a>

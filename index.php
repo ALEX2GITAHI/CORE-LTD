@@ -647,7 +647,7 @@ include 'header.php'; // Includes the header file
                         <div class="col-lg-6 col-md-6">
                             <div class="single-banner">
                                 <a href="#">
-                                    <img src="images/banner/2_1.jpg" alt="Li's Static Banner" />
+                                    <img src="images/banner/tendapost.png" href="tenda-f3.php" />
                                 </a>
                             </div>
                         </div>
@@ -656,7 +656,7 @@ include 'header.php'; // Includes the header file
                         <div class="col-lg-6 col-md-6">
                             <div class="single-banner pt-xs-30">
                                 <a href="#">
-                                    <img src="images/banner/2_2.jpg" alt="Li's Static Banner" />
+                                    <img src="images/banner/splicingpost.png" alt="Li's Static Banner" />
                                 </a>
                             </div>
                         </div>

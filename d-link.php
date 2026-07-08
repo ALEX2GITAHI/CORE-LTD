@@ -103,30 +103,74 @@ include 'header.php'; // Includes the header file
                             </form>
 
                             <div class="product-additional-info pt-25">
-                                <a id="whatsapp-link" target="_blank"
-                                    style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+                                <a href="#" id="whatsapp-link" target="_blank"
+                                    style="background-color:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px;display:inline-block;">
                                     Click to Order on WhatsApp
+                                </a>
                                 </a> <br><br>
                                 <script>
-                                // Your WhatsApp number (without + or 0)
-                                const phoneNumber = "254792570000";
+                                    document.addEventListener("DOMContentLoaded", function() {
 
-                                // Get the current page URL
-                                const currentPageURL = encodeURIComponent(window.location.href);
+                                        const whatsappBtn = document.getElementById("whatsapp-link");
 
-                                // Get product details dynamically (if available)
-                                const productName = document.querySelector("#product-name")?.innerText ||
-                                "this product";
-                                const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                        if (!whatsappBtn) {
+                                            console.log("WhatsApp button not found.");
+                                            return;
+                                        }
 
-                                // Encode message
-                                const message = encodeURIComponent(
-                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                                );
+                                        whatsappBtn.addEventListener("click", async function(e) {
 
-                                // Set the WhatsApp link dynamically
-                                document.getElementById("whatsapp-link").href =
-                                    `https://wa.me/${phoneNumber}?text=${message}`;
+                                            e.preventDefault();
+
+                                            const currentPageURL = window.location.href;
+
+                                            const productName =
+                                                document.querySelector(".product_name")?.textContent
+                                                .trim() ||
+                                                "this product";
+
+                                            const productPrice =
+                                                document.querySelector(".new-price")?.textContent
+                                                .trim() ||
+                                                "";
+
+                                            try {
+
+                                                const response = await fetch("whatsapp.php");
+
+                                                if (!response.ok) {
+                                                    throw new Error("Failed to load whatsapp.php");
+                                                }
+
+                                                const phoneNumber = (await response.text()).trim();
+
+                                                console.log("Using Number:", phoneNumber);
+
+                                                const message = encodeURIComponent(
+                                                    `Hello CORE LTD
+I'm interested in buying:
+
+Product: ${productName}
+Price: ${productPrice}
+
+Link: ${currentPageURL}`
+                                                );
+
+                                                window.open(
+                                                    `https://wa.me/${phoneNumber}?text=${message}`,
+                                                    "_blank"
+                                                );
+
+                                            } catch (error) {
+
+                                                console.error(error);
+                                                alert("Error: " + error.message);
+
+                                            }
+
+                                        });
+
+                                    });
                                 </script>
 
                             </div>

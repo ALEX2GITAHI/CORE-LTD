@@ -25,8 +25,8 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/crimbing too big.webp"
-                                data-gall="myGallery">
+                            <a class="popup-img venobox vbox-item"
+                                href="images/product/small-size/crimbing too big.webp" data-gall="myGallery">
                                 <img src="images/product/small-size/crimbing too big.webp" alt="product image" />
                             </a>
                         </div>
@@ -59,16 +59,23 @@ include 'header.php'; // Includes the header file
                         <div class="product-desc">
                             <p>
                                 <span>
-                                <h4><b>Features</b></h4>
-    <ul>
-        <li><b>Pass-Through Design:</b> Allows wires to pass through the connector for easy alignment and precise crimping.</li>
-        <li><b>Versatile Compatibility:</b> Works with RJ45, RJ12, and RJ11 connectors on Cat5, Cat5e, and Cat6 cables.</li>
-        <li><b>Clean & Consistent Cuts:</b> Built-in blade trims excess wires neatly for professional results.</li>
-        <li><b>Durable Construction:</b> Made of high-carbon steel for long-lasting performance and reliability.</li>
-        <li><b>Comfortable Grip:</b> Ergonomic non-slip handles reduce hand fatigue during extended use.</li>
-        <li><b>Multi-Function Tool:</b> Crimps, strips, and cuts cable all in one tool for added convenience.</li>
-        <li><b>Ideal for Networking:</b> Perfect for IT professionals, electricians, and DIY network installers.</li>
-    </ul>
+                                    <h4><b>Features</b></h4>
+                                    <ul>
+                                        <li><b>Pass-Through Design:</b> Allows wires to pass through the connector for
+                                            easy alignment and precise crimping.</li>
+                                        <li><b>Versatile Compatibility:</b> Works with RJ45, RJ12, and RJ11 connectors
+                                            on Cat5, Cat5e, and Cat6 cables.</li>
+                                        <li><b>Clean & Consistent Cuts:</b> Built-in blade trims excess wires neatly for
+                                            professional results.</li>
+                                        <li><b>Durable Construction:</b> Made of high-carbon steel for long-lasting
+                                            performance and reliability.</li>
+                                        <li><b>Comfortable Grip:</b> Ergonomic non-slip handles reduce hand fatigue
+                                            during extended use.</li>
+                                        <li><b>Multi-Function Tool:</b> Crimps, strips, and cuts cable all in one tool
+                                            for added convenience.</li>
+                                        <li><b>Ideal for Networking:</b> Perfect for IT professionals, electricians, and
+                                            DIY network installers.</li>
+                                    </ul>
                                 </span>
                             </p>
                         </div>
@@ -82,30 +89,73 @@ include 'header.php'; // Includes the header file
                     </div>
                     <div class="single-add-to-cart">
                         <div class="product-additional-info pt-25">
-                            <a id="whatsapp-link" target="_blank"
-                                style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+                            <a href="#" id="whatsapp-link" target="_blank"
+                                style="background-color:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px;display:inline-block;">
                                 Click to Order on WhatsApp
+                            </a>
                             </a> <br><br>
                             <script>
-                                // Your WhatsApp number (without + or 0)
-                                const phoneNumber = "254792570000";
+                                document.addEventListener("DOMContentLoaded", function() {
 
-                                // Get the current page URL
-                                const currentPageURL = encodeURIComponent(window.location.href);
+                                    const whatsappBtn = document.getElementById("whatsapp-link");
 
-                                // Get product details dynamically (if available)
-                                const productName = document.querySelector("#product-name")?.innerText ||
-                                    "this product";
-                                const productPrice = document.querySelector("#product-price")?.innerText || "";
+                                    if (!whatsappBtn) {
+                                        console.log("WhatsApp button not found.");
+                                        return;
+                                    }
 
-                                // Encode message
-                                const message = encodeURIComponent(
-                                    `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                                );
+                                    whatsappBtn.addEventListener("click", async function(e) {
 
-                                // Set the WhatsApp link dynamically
-                                document.getElementById("whatsapp-link").href =
-                                    `https://wa.me/${phoneNumber}?text=${message}`;
+                                        e.preventDefault();
+
+                                        const currentPageURL = window.location.href;
+
+                                        const productName =
+                                            document.querySelector(".product_name")?.textContent
+                                            .trim() ||
+                                            "this product";
+
+                                        const productPrice =
+                                            document.querySelector(".new-price")?.textContent.trim() ||
+                                            "";
+
+                                        try {
+
+                                            const response = await fetch("whatsapp.php");
+
+                                            if (!response.ok) {
+                                                throw new Error("Failed to load whatsapp.php");
+                                            }
+
+                                            const phoneNumber = (await response.text()).trim();
+
+                                            console.log("Using Number:", phoneNumber);
+
+                                            const message = encodeURIComponent(
+                                                `Hello CORE LTD
+I'm interested in buying:
+
+Product: ${productName}
+Price: ${productPrice}
+
+Link: ${currentPageURL}`
+                                            );
+
+                                            window.open(
+                                                `https://wa.me/${phoneNumber}?text=${message}`,
+                                                "_blank"
+                                            );
+
+                                        } catch (error) {
+
+                                            console.error(error);
+                                            alert("Error: " + error.message);
+
+                                        }
+
+                                    });
+
+                                });
                             </script>
 
                         </div>
@@ -345,16 +395,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -397,16 +448,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -451,16 +503,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -505,16 +558,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -557,16 +611,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->
@@ -611,16 +666,17 @@ include 'header.php'; // Includes the header file
                                         </div>
                                     </div>
                                     <div class="add-actions">
-                            <ul class="add-actions-link">
-                              <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
-                              <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                              </li>
-                            </ul>
-                          </div>
+                                        <ul class="add-actions-link">
+                                            <li class="add-to-cart">
+                                                <a href="#" class="add-to-cart-link">
+                                                    <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
+                                            <li>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <!-- single-product-wrap end -->

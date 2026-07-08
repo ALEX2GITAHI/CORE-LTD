@@ -121,28 +121,73 @@ include 'header.php'; // Includes the header file
           <div class="single-add-to-cart">
 
             <div class="product-additional-info pt-25">
-              <a id="whatsapp-link" target="_blank"
-                style="background-color: #25D366; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px;">
+              <a href="#" id="whatsapp-link" target="_blank"
+                style="background-color:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px;display:inline-block;">
                 Click to Order on WhatsApp
+              </a>
               </a> <br><br>
               <script>
-                // Your WhatsApp number (without + or 0)
-                const phoneNumber = "254792570000";
+                document.addEventListener("DOMContentLoaded", function() {
 
-                // Get the current page URL
-                const currentPageURL = encodeURIComponent(window.location.href);
+                  const whatsappBtn = document.getElementById("whatsapp-link");
 
-                // Get product details dynamically (if available)
-                const productName = document.querySelector("#product-name")?.innerText || "this product";
-                const productPrice = document.querySelector("#product-price")?.innerText || "";
+                  if (!whatsappBtn) {
+                    console.log("WhatsApp button not found.");
+                    return;
+                  }
 
-                // Encode message
-                const message = encodeURIComponent(
-                  `Hello! I'm interested in buying ${productName}  ${productPrice}. Here is the link to the product: ${currentPageURL}`
-                );
+                  whatsappBtn.addEventListener("click", async function(e) {
 
-                // Set the WhatsApp link dynamically
-                document.getElementById("whatsapp-link").href = `https://wa.me/${phoneNumber}?text=${message}`;
+                    e.preventDefault();
+
+                    const currentPageURL = window.location.href;
+
+                    const productName =
+                      document.querySelector(".product_name")?.textContent
+                      .trim() ||
+                      "this product";
+
+                    const productPrice =
+                      document.querySelector(".new-price")?.textContent.trim() ||
+                      "";
+
+                    try {
+
+                      const response = await fetch("whatsapp.php");
+
+                      if (!response.ok) {
+                        throw new Error("Failed to load whatsapp.php");
+                      }
+
+                      const phoneNumber = (await response.text()).trim();
+
+                      console.log("Using Number:", phoneNumber);
+
+                      const message = encodeURIComponent(
+                        `Hello CORE LTD
+I'm interested in buying:
+
+Product: ${productName}
+Price: ${productPrice}
+
+Link: ${currentPageURL}`
+                      );
+
+                      window.open(
+                        `https://wa.me/${phoneNumber}?text=${message}`,
+                        "_blank"
+                      );
+
+                    } catch (error) {
+
+                      console.error(error);
+                      alert("Error: " + error.message);
+
+                    }
+
+                  });
+
+                });
               </script>
 
             </div>
@@ -232,7 +277,8 @@ include 'header.php'; // Includes the header file
               <p>Plaza</p>
             </div>
             <div class="review-btn">
-              <a class="review-links" href="#" data-toggle="modal" data-target="#mymodal">Write Your Review!</a>
+              <a class="review-links" href="#" data-toggle="modal" data-target="#mymodal">Write Your
+                Review!</a>
             </div>
             <!-- Begin Quick View | Modal Area -->
             <div class="modal fade modal-wrapper" id="mymodal">
@@ -243,8 +289,8 @@ include 'header.php'; // Includes the header file
                     <div class="modal-inner-area row">
                       <div class="col-lg-6">
                         <div class="li-review-product">
-                          <img src="images/product/small-size/Tenda F3.jpg" width="400" height="300"
-                            alt="Li's Product" />
+                          <img src="images/product/small-size/Tenda F3.jpg" width="400"
+                            height="300" alt="Li's Product" />
                           <div class="li-review-product-desc">
                             <p class="li-product-name">
                               Today is a good day Framed poster
@@ -283,25 +329,31 @@ include 'header.php'; // Includes the header file
                                 </p>
                                 <p class="feedback-form">
                                   <label for="feedback">Your Review</label>
-                                  <textarea id="feedback" name="comment" cols="45" rows="8"
-                                    aria-required="true"></textarea>
+                                  <textarea id="feedback" name="comment" cols="45"
+                                    rows="8" aria-required="true"></textarea>
                                 </p>
                                 <div class="feedback-input">
                                   <p class="feedback-form-author">
-                                    <label for="author">Name<span class="required">*</span>
+                                    <label for="author">Name<span
+                                        class="required">*</span>
                                     </label>
-                                    <input id="author" name="author" value="" size="30" aria-required="true"
+                                    <input id="author" name="author" value=""
+                                      size="30" aria-required="true"
                                       type="text" />
                                   </p>
                                   <p class="feedback-form-author feedback-form-email">
-                                    <label for="email">Email<span class="required">*</span>
+                                    <label for="email">Email<span
+                                        class="required">*</span>
                                     </label>
-                                    <input id="email" name="email" value="" size="30" aria-required="true"
+                                    <input id="email" name="email" value=""
+                                      size="30" aria-required="true"
                                       type="text" />
-                                    <span class="required"><sub>*</sub> Required fields</span>
+                                    <span class="required"><sub>*</sub> Required
+                                      fields</span>
                                   </p>
                                   <div class="feedback-btn pb-15">
-                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">Close</a>
+                                    <a href="#" class="close" data-dismiss="modal"
+                                      aria-label="Close">Close</a>
                                     <a href="#">Submit</a>
                                   </div>
                                 </div>
@@ -381,7 +433,8 @@ include 'header.php'; // Includes the header file
                       </li>
 
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                        <a class="links-details" href="wishlist.html"><i
+                            class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -394,7 +447,8 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tenda-ac5.php">
-                    <img src="images/product/small-size/Tenda-AC5-front.jpg" alt="Li's Product Image" />
+                    <img src="images/product/small-size/Tenda-AC5-front.jpg"
+                      alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -435,7 +489,8 @@ include 'header.php'; // Includes the header file
                       </li>
 
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                        <a class="links-details" href="wishlist.html"><i
+                            class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -448,7 +503,8 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tenda-ac8.php">
-                    <img src="images/product/small-size/tenda ac 8 front.jpg" alt="Li's Product Image" />
+                    <img src="images/product/small-size/tenda ac 8 front.jpg"
+                      alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -487,7 +543,8 @@ include 'header.php'; // Includes the header file
                       </li>
 
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                        <a class="links-details" href="wishlist.html"><i
+                            class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -500,7 +557,8 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tenda-ac10.php">
-                    <img src="images/product/small-size/tenda ac10 all.jpg" alt="Li's Product Image" />
+                    <img src="images/product/small-size/tenda ac10 all.jpg"
+                      alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -541,7 +599,8 @@ include 'header.php'; // Includes the header file
                       </li>
 
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                        <a class="links-details" href="wishlist.html"><i
+                            class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -554,7 +613,8 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tp-link-840.php">
-                    <img src="images/product/small-size/tplink front.webp" alt="Li's Product Image" />
+                    <img src="images/product/small-size/tplink front.webp"
+                      alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -593,7 +653,8 @@ include 'header.php'; // Includes the header file
                       </li>
 
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                        <a class="links-details" href="wishlist.html"><i
+                            class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
@@ -606,7 +667,8 @@ include 'header.php'; // Includes the header file
               <div class="single-product-wrap">
                 <div class="product-image">
                   <a href="tp-link-844.php">
-                    <img src="images/product/small-size/tp link844 front.jpg" alt="Li's Product Image" />
+                    <img src="images/product/small-size/tp link844 front.jpg"
+                      alt="Li's Product Image" />
                   </a>
                   <span class="sticker">New</span>
                 </div>
@@ -647,7 +709,8 @@ include 'header.php'; // Includes the header file
                       </li>
 
                       <li>
-                        <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                        <a class="links-details" href="wishlist.html"><i
+                            class="fa fa-heart-o"></i></a>
                       </li>
                     </ul>
                   </div>
