@@ -89,24 +89,115 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 7,000</span>
+                            <span class="new-price new-price-2">Ksh. 9,000</span>
                         </div>
                         <div class="product-desc">
-                            <p>
-                                <span>
-                                    <ul>
-                                        <li><b>600 MHz CPU:</b>Efficient processing power for smooth network
-                                            performance.</li>
-                                        <li><b>5 Gigabit Ethernet Ports:</b>Provides high-speed, stable wired
-                                            connections for multiple devices.</li>
-                                        <li><b>Robust Security:</b>Includes strong encryption and access control for a
-                                            secure network.</li>
-                                        <li><b>RouterOS Support:</b>Advanced network management with firewall, VPN, and
-                                            traffic control features.)</li>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features: MikroTik RB951 Router</b></h4>
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background:#f4f4f4;">
+                                        <tr>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Benefit
+                                            </th>
+                                        </tr>
+                                    </thead>
 
-                                    </ul>
-                                </span>
-                            </p>
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Fast & Stable Wi-Fi</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Provides reliable 2.4GHz
+                                                wireless coverage for homes, offices, and small businesses.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>5 Ethernet Ports</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Connect multiple computers,
+                                                CCTV systems, switches, or access points with ease.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Powerful RouterOS</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Enjoy advanced networking
+                                                features including firewall, bandwidth management, VPN, and hotspot
+                                                support.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Perfect for Hotspot
+                                                    Networks</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Ideal for cyber cafés,
+                                                schools, hotels, offices, and ISP hotspot installations.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Compact & Reliable</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Small, durable design that
+                                                fits neatly in any home or office environment.</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-rb951" style="display:none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Easy to Manage</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Configure and monitor your
+                                                network easily using WinBox, WebFig, or the MikroTik mobile app.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Supports PoE Input</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Can be powered through
+                                                Ethernet, making installation cleaner and more flexible.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Secure Network</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Protect your users with
+                                                built-in firewall rules, access control, and network security features.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Ideal for Everyday
+                                                    Networking</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">A dependable solution for
+                                                internet sharing, CCTV systems, small offices, and home networks.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleRB951()"
+                                        style="padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;"
+                                        id="rb951Btn">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
+
+                            <script>
+                                function toggleRB951() {
+                                    var rows = document.getElementById("more-rb951");
+                                    var btn = document.getElementById("rb951Btn");
+
+                                    if (rows.style.display === "none") {
+                                        rows.style.display = "table-row-group";
+                                        btn.innerHTML = "View Less";
+                                    } else {
+                                        rows.style.display = "none";
+                                        btn.innerHTML = "View More";
+                                    }
+                                }
+                            </script>
                         </div>
                         <!-- ✅ Add to Cart Button -->
                         <div class="add-to-cart-area pt-30">
@@ -430,7 +521,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -482,7 +574,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -536,7 +629,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -590,7 +684,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -642,7 +737,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -696,7 +792,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="wishlist.html"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>

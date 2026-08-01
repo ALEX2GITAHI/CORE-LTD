@@ -153,7 +153,7 @@ include 'header.php'; // Includes the header file
                                 <h2>Tenda Routers</h2>
                                 <h3>Starting at <span>Ksh. 1,300</span></h3>
                                 <div class="default-btn slide-btn">
-                                    <a class="links" href="routers.php">Shopping Now</a>
+                                    <a class="links" href="#">Shopping Now</a>
                                 </div>
                             </div>
                         </div>
@@ -166,7 +166,7 @@ include 'header.php'; // Includes the header file
                                 <h2>Mikrotiks</h2>
                                 <h3>Starting at <span>Ksh. 3,500</span></h3>
                                 <div class="default-btn slide-btn">
-                                    <a class="links" href="miktrotik.php">Shopping Now</a>
+                                    <a class="links" href="#">Shopping Now</a>
                                 </div>
                             </div>
                         </div>
@@ -179,7 +179,7 @@ include 'header.php'; // Includes the header file
                                 <h2>Phantom 4 Pro+ Obsidian</h2>
                                 <h3>Starting at <span>$809.00</span></h3>
                                 <div class="default-btn slide-btn">
-                                    <a class="links" href="shop-left-sidebar.html">Shopping Now</a>
+                                    <a class="links" href="#">Shopping Now</a>
                                 </div>
                             </div>
                         </div>
@@ -199,8 +199,8 @@ include 'header.php'; // Includes the header file
             <!-- Begin Single Banner Area -->
             <div class="col-lg-4 col-md-4">
                 <div class="single-banner pb-xs-30">
-                    <a href="tenda-ac8.php">
-                        <img src="images/banner/Tenda Ac1200 AC8 .jpg" alt="Li's Static Banner" />
+                    <a href="rb951.php">
+                        <img src="images/banner/rb951-banner.png" alt="Li's Static Banner" />
                     </a>
                 </div>
             </div>
@@ -208,8 +208,8 @@ include 'header.php'; // Includes the header file
             <!-- Begin Single Banner Area -->
             <div class="col-lg-4 col-md-4">
                 <div class="single-banner pb-xs-30">
-                    <a href="#">
-                        <img src="images/banner/1_4.jpg" alt="Li's Static Banner" />
+                    <a href="huawei-expon.php">
+                        <img src="images/banner/huawenew-banner.png" alt="Li's Static Banner" />
                     </a>
                 </div>
             </div>
@@ -217,8 +217,8 @@ include 'header.php'; // Includes the header file
             <!-- Begin Single Banner Area -->
             <div class="col-lg-4 col-md-4">
                 <div class="single-banner">
-                    <a href="#">
-                        <img src="images/banner/1_5.jpg" alt="Li's Static Banner" />
+                    <a href="crimping-tool-big.php">
+                        <img src="images/banner/Crimping-tool-big-banner.png" alt="Li's Static Banner" />
                     </a>
                 </div>
             </div>
@@ -404,8 +404,8 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="tenda-ac10.php">
-                                        <img src="images/product/small-size/RUIJIEE ROUTEER SIDE.jpg"
+                                    <a href="tenda-f6.php">
+                                        <img src="images/product/small-size/tenda-f6 front.jpg"
                                             alt="Li's Product Image" />
                                     </a>
                                     <span class="sticker">New</span>
@@ -431,12 +431,11 @@ include 'header.php'; // Includes the header file
                                             </div>
                                         </div>
                                         <h4>
-                                            <a class="product_name" href="ruijie-router.php">Ruijie | Reyee
-                                                RG-EW300N</a>
+                                            <a class="product_name" href="tenda-f6.php">Tenda F6 Router</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 2,000</span>
-                                            <span class="old-price">Ksh. 2,500</span>
+                                            <span class="new-price new-price-2">Ksh. 1,550</span>
+                                            <span class="old-price">Ksh. 1,600</span>
                                             <span class="discount-percentage">-5%</span>
                                         </div>
                                     </div>
@@ -829,8 +828,8 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="rb951.php">
-                                        <img src="images/product/small-size/rb951 all.jpg" alt="Li's Product Image" />
+                                    <a href="rb760-igs.php">
+                                        <img src="images/product/small-size/rb760igs 1.webp" alt="Li's Product Image" />
                                     </a>
 
                                 </div>
@@ -855,11 +854,11 @@ include 'header.php'; // Includes the header file
                                             </div>
                                         </div>
                                         <h4>
-                                            <a class="product_name" href="rb951.php">Mikrotik RB951Ui-2HnD Mikrotik</a>
+                                            <a class="product_name" href="rb760-igs.php">Mikrotik RB760iGS hEX</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price new-price-2">Ksh. 7,000</span>
-                                            <span class="old-price">Ksh. 8,500</span>
+                                            <span class="new-price new-price-2">Ksh. 10,500</span>
+                                            <span class="old-price">Ksh. 11,000</span>
                                             <span class="discount-percentage">-5%</span>
                                         </div>
                                     </div>
@@ -1020,7 +1019,7 @@ include 'header.php'; // Includes the header file
                         <div class="col-lg-6 col-md-6">
                             <div class="single-banner">
                                 <a href="#">
-                                    <img src="images/banner/2_1.jpg" alt="Li's Static Banner" />
+                                    <img src="images/banner/lite-beam-m5-banner.png" alt="Li's Static Banner" />
                                 </a>
                             </div>
                         </div>
@@ -1029,7 +1028,7 @@ include 'header.php'; // Includes the header file
                         <div class="col-lg-6 col-md-6">
                             <div class="single-banner pt-xs-30">
                                 <a href="#">
-                                    <img src="images/banner/2_2.jpg" alt="Li's Static Banner" />
+                                    <img src="images/banner/ruijie-6262g-banner.png" alt="Li's Static Banner" />
                                 </a>
                             </div>
                         </div>
@@ -1393,7 +1392,7 @@ include 'header.php'; // Includes the header file
                         <div class="col-lg-6 col-md-6">
                             <div class="single-banner">
                                 <a href="#">
-                                    <img src="images/banner/2_1.jpg" alt="Li's Static Banner" />
+                                    <img src="images/banner/lite-beam-m5-banner.png" alt="Li's Static Banner" />
                                 </a>
                             </div>
                         </div>
@@ -1402,7 +1401,7 @@ include 'header.php'; // Includes the header file
                         <div class="col-lg-6 col-md-6">
                             <div class="single-banner pt-xs-30">
                                 <a href="#">
-                                    <img src="images/banner/2_2.jpg" alt="Li's Static Banner" />
+                                    <img src="images/banner/Tenda-oap-1200-banner.png" alt="Li's Static Banner" />
                                 </a>
                             </div>
                         </div>

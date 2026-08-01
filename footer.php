@@ -57,7 +57,7 @@
                              </div>
                              <div class="shipping-text">
                                  <h2>Delivery Countrywide</h2>
-                                 <p>And free returns. See checkout for delivery dates.</p>
+                                 <p>Name the Sacco, we shall deliver.</p>
                              </div>
                          </div>
                      </div>
@@ -87,7 +87,7 @@
                              <div class="shipping-text">
                                  <h2>Shop with Confidence</h2>
                                  <p>
-                                     Our Buyer Protection covers your purchasefrom click to
+                                     Our Buyer Protection covers your purchase from click to
                                      delivery.
                                  </p>
                              </div>
@@ -101,8 +101,8 @@
                                  <img src="images/shipping-icon/4.png" alt="Shipping Icon" />
                              </div>
                              <div class="shipping-text">
-                                 <h2>24/7 Help Center</h2>
-                                 <p>Have a question? Call a Specialist or chat online.</p>
+                                 <h2>Help Center</h2>
+                                 <p>Have a question? You can reach us at any time</p>
                              </div>
                          </div>
                      </div>
@@ -144,7 +144,7 @@
                      </div>
                      <!-- Footer Block Area End Here -->
                      <!-- Begin Footer Block Area -->
-                     <div class="col-lg-2 col-md-3 col-sm-6">
+                     <!-- <div class="col-lg-2 col-md-3 col-sm-6">
                          <div class="footer-block">
                              <h3 class="footer-block-title">Our company</h3>
                              <ul>
@@ -154,42 +154,42 @@
                                  <li><a href="#">Contact us</a></li>
                              </ul>
                          </div>
-                     </div>
+                     </div> -->
                      <!-- Footer Block Area End Here -->
                      <!-- Begin Footer Block Area -->
                      <div class="col-lg-4">
                          <div class="footer-block">
                              <h3 class="footer-block-title">Follow Us</h3>
                              <ul class="social-link">
+                                 <li class="rss">
+                                     <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="Tiktok">
+                                         <i class="fab fa-tiktok"></i>
+                                     </a>
+                                 </li>
                                  <li class="twitter">
                                      <a href="https://twitter.com/" data-toggle="tooltip" target="_blank"
                                          title="Twitter">
                                          <i class="fab fa-twitter"></i>
                                      </a>
                                  </li>
-                                 <li class="rss">
-                                     <a href="https://rss.com/" data-toggle="tooltip" target="_blank" title="RSS">
-                                         <i class="fab fa-tiktok"></i>
-                                     </a>
-                                 </li>
-                                 <li class="google-plus">
+                                 <!-- <li class="google-plus">
                                      <a href="https://www.plus.google.com/discover" data-toggle="tooltip"
                                          target="_blank" title="Google +">
                                          <i class="fab fa-google-plus"></i>
                                      </a>
-                                 </li>
+                                 </li> -->
                                  <li class="facebook">
                                      <a href="https://www.facebook.com/" data-toggle="tooltip" target="_blank"
                                          title="Facebook">
                                          <i class="fab fa-facebook"></i>
                                      </a>
                                  </li>
-                                 <li class="youtube">
+                                 <!-- <li class="youtube">
                                      <a href="https://www.youtube.com/" data-toggle="tooltip" target="_blank"
                                          title="Youtube">
                                          <i class="fab fa-youtube"></i>
                                      </a>
-                                 </li>
+                                 </li> -->
                                  <li class="instagram">
                                      <a href="https://www.instagram.com/" data-toggle="tooltip" target="_blank"
                                          title="Instagram">
