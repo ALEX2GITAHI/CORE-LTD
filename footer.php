@@ -392,7 +392,7 @@
                                      </form>
                                  </div>
                                  <div class="product-additional-info pt-25">
-                                     <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to
+                                     <a class="wishlist-btn" href="#"><i class="fa fa-heart-o"></i>Add to
                                          wishlist</a>
                                      <div class="product-social-sharing pt-25">
                                          <ul>

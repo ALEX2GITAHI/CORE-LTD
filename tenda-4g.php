@@ -89,20 +89,120 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 1,350</span>
+                            <span class="new-price new-price-2">Ksh. 5,500</span>
                         </div>
                         <div class="product-desc">
-                            <p>
-                                <span>
-                                    <ol>
-                                        <li>Maximum Wireless Data Rate 300 Mbps</li>
-                                        <li>Connectivity 4G, Wireless</li>
-                                        <li>Maximum LAN Data Rate 100 Mbps</li>
-                                        <li>Ports Ethernet (RJ-45)</li>
-                                        <li>3* 5dBi external antennas boost WiFi</li>
-                                    </ol>
-                                </span>
-                            </p>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features: Tenda 4G03 N300 Wi-Fi 4G LTE Router</b></h4>
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background:#f4f4f4;">
+                                        <tr>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Benefit
+                                            </th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>4G LTE SIM Card
+                                                    Support</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Insert your SIM card and
+                                                enjoy fast internet anywhere with 4G coverage—no fiber or DSL required.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>300Mbps Wireless
+                                                    Speed</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Provides smooth browsing,
+                                                online learning, HD streaming, and video calls for your family or
+                                                office.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Works with Most SIM
+                                                    Networks</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Compatible with many 4G LTE
+                                                mobile providers, giving you the freedom to choose your preferred
+                                                network.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Plug & Play Setup</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Simply insert a SIM card,
+                                                power it on, and connect your devices in minutes.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Wired & Wireless
+                                                    Connections</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Connect computers, Smart
+                                                TVs, CCTV systems, or gaming consoles using Ethernet while enjoying
+                                                Wi-Fi for mobile devices.</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-tenda4g03" style="display:none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Guest Wi-Fi Network</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Create a separate Wi-Fi
+                                                network for visitors while keeping your personal devices secure.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Strong Security</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Built-in wireless security
+                                                helps protect your network from unauthorized access.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Supports Multiple
+                                                    Devices</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Connect smartphones,
+                                                laptops, tablets, Smart TVs, and other Wi-Fi devices simultaneously.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Perfect for Home &
+                                                    Business</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">An ideal internet solution
+                                                for homes, offices, shops, construction sites, and remote locations.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleTenda4G03()"
+                                        style="padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;"
+                                        id="tenda4g03Btn">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
+
+                            <script>
+                                function toggleTenda4G03() {
+                                    var rows = document.getElementById("more-tenda4g03");
+                                    var btn = document.getElementById("tenda4g03Btn");
+
+                                    if (rows.style.display === "none") {
+                                        rows.style.display = "table-row-group";
+                                        btn.innerHTML = "View Less";
+                                    } else {
+                                        rows.style.display = "none";
+                                        btn.innerHTML = "View More";
+                                    }
+                                }
+                            </script>
                         </div>
                         <!-- ✅ Add to Cart Button -->
                         <div class="add-to-cart-area pt-30">
@@ -185,7 +285,7 @@ Link: ${currentPageURL}`
                             </script>
 
                         </div>
-                        <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
+                        <a class="wishlist-btn" href="#"><i class="fa fa-heart-o"></i>Add to wishlist</a>
                         <div class="product-social-sharing pt-25">
                             <ul>
                                 <li class="facebook">
@@ -210,166 +310,7 @@ Link: ${currentPageURL}`
 </div>
 </div>
 <!-- content-wraper end -->
-<!-- Begin Product Area -->
-<div class="product-area pt-35">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="li-product-tab">
-                    <ul class="nav li-product-menu">
-                        <li>
-                            <a class="active" data-toggle="tab" href="#description"><span>Description</span></a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#product-details"><span>Product Details</span></a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#reviews"><span>Reviews</span></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Begin Li's Tab Menu Content Area -->
-            </div>
-        </div>
-        <div class="tab-content">
-            <div id="description" class="tab-pane active show" role="tabpanel">
-                <div class="product-description">
-                    <span>The best is yet to come! Give your walls a voice with a
-                        framed poster. This aesthethic, optimistic poster will look
-                        great in your desk or in an open-space office. Painted wooden
-                        frame with passe-partout for more depth.</span>
-                </div>
-            </div>
-            <div id="product-details" class="tab-pane" role="tabpanel">
-                <div class="product-details-manufacturer">
-                    <a href="#">
-                        <img src="images/product-details/1.jpg" alt="Product Manufacturer Image" />
-                    </a>
-                    <p><span>Reference</span> demo_7</p>
-                    <p><span>Reference</span> demo_7</p>
-                </div>
-            </div>
-            <div id="reviews" class="tab-pane" role="tabpanel">
-                <div class="product-reviews">
-                    <div class="product-details-comment-block">
-                        <div class="comment-review">
-                            <span>Grade</span>
-                            <ul class="rating">
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                            </ul>
-                        </div>
-                        <div class="comment-author-infos pt-25">
-                            <span>HTML 5</span>
-                            <em>01-12-18</em>
-                        </div>
-                        <div class="comment-details">
-                            <h4 class="title-block">Demo</h4>
-                            <p>Plaza</p>
-                        </div>
-                        <div class="review-btn">
-                            <a class="review-links" href="#" data-toggle="modal" data-target="#mymodal">Write Your
-                                Review!</a>
-                        </div>
-                        <!-- Begin Quick View | Modal Area -->
-                        <div class="modal fade modal-wrapper" id="mymodal">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h3 class="review-page-title">Write Your Review</h3>
-                                        <div class="modal-inner-area row">
-                                            <div class="col-lg-6">
-                                                <div class="li-review-product">
-                                                    <img src="images/product/small-size/Tenda F3.jpg" width="400"
-                                                        height="300" alt="Li's Product" />
-                                                    <div class="li-review-product-desc">
-                                                        <p class="li-product-name">
-                                                            Today is a good day Framed poster
-                                                        </p>
-                                                        <p>
-                                                            <span>Beach Camera Exclusive Bundle - Includes
-                                                                Two Samsung Radiant 360 R3 Wi-Fi Bluetooth
-                                                                Speakers. Fill The Entire Room With
-                                                                Exquisite Sound via Ring Radiator
-                                                                Technology. Stream And Control R3 Speakers
-                                                                Wirelessly With Your Smartphone.
-                                                                Sophisticated, Modern Design
-                                                            </span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-review-content">
-                                                    <!-- Begin Feedback Area -->
-                                                    <div class="feedback-area">
-                                                        <div class="feedback">
-                                                            <h3 class="feedback-title">Our Feedback</h3>
-                                                            <form action="#">
-                                                                <p class="your-opinion">
-                                                                    <label>Your Rating</label>
-                                                                    <span>
-                                                                        <select class="star-rating">
-                                                                            <option value="1">1</option>
-                                                                            <option value="2">2</option>
-                                                                            <option value="3">3</option>
-                                                                            <option value="4">4</option>
-                                                                            <option value="5">5</option>
-                                                                        </select>
-                                                                    </span>
-                                                                </p>
-                                                                <p class="feedback-form">
-                                                                    <label for="feedback">Your Review</label>
-                                                                    <textarea id="feedback" name="comment" cols="45"
-                                                                        rows="8" aria-required="true"></textarea>
-                                                                </p>
-                                                                <div class="feedback-input">
-                                                                    <p class="feedback-form-author">
-                                                                        <label for="author">Name<span
-                                                                                class="required">*</span>
-                                                                        </label>
-                                                                        <input id="author" name="author" value=""
-                                                                            size="30" aria-required="true"
-                                                                            type="text" />
-                                                                    </p>
-                                                                    <p class="feedback-form-author feedback-form-email">
-                                                                        <label for="email">Email<span
-                                                                                class="required">*</span>
-                                                                        </label>
-                                                                        <input id="email" name="email" value=""
-                                                                            size="30" aria-required="true"
-                                                                            type="text" />
-                                                                        <span class="required"><sub>*</sub> Required
-                                                                            fields</span>
-                                                                    </p>
-                                                                    <div class="feedback-btn pb-15">
-                                                                        <a href="#" class="close" data-dismiss="modal"
-                                                                            aria-label="Close">Close</a>
-                                                                        <a href="#">Submit</a>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Feedback Area End Here -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Quick View | Modal Area End Here -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Product Area End Here -->
+
 <!-- Begin Li's Laptop Product Area -->
 <section class="product-area li-laptop-product pt-30 pb-50">
     <div class="container-fluid">
@@ -426,7 +367,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -478,7 +420,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -532,7 +475,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -586,7 +530,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -638,7 +583,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -692,7 +638,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>

@@ -94,7 +94,7 @@ include 'header.php'; // Includes the header file
                                   <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -145,7 +145,7 @@ include 'header.php'; // Includes the header file
                                   <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -198,7 +198,7 @@ include 'header.php'; // Includes the header file
                                   <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -249,7 +249,7 @@ include 'header.php'; // Includes the header file
                                   <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -300,7 +300,7 @@ include 'header.php'; // Includes the header file
                                   <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -354,7 +354,7 @@ include 'header.php'; // Includes the header file
                             </li>
 
                             <li>
-                              <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                              <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                             </li>
                           </ul>
                         </div>
@@ -408,7 +408,7 @@ include 'header.php'; // Includes the header file
                             </li>
 
                             <li>
-                              <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                              <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                             </li>
                           </ul>
                         </div>
@@ -460,7 +460,7 @@ include 'header.php'; // Includes the header file
                             </li>
 
                             <li>
-                              <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                              <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                             </li>
                           </ul>
                         </div>
@@ -514,7 +514,7 @@ include 'header.php'; // Includes the header file
                             </li>
 
                             <li>
-                              <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                              <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                             </li>
                           </ul>
                         </div>
@@ -566,7 +566,7 @@ include 'header.php'; // Includes the header file
                             </li>
 
                             <li>
-                              <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                              <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                             </li>
                           </ul>
                         </div>
@@ -618,7 +618,7 @@ include 'header.php'; // Includes the header file
                             </li>
 
                             <li>
-                              <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                              <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                             </li>
                           </ul>
                         </div>

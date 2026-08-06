@@ -90,11 +90,11 @@ include 'header.php'; // Includes the header file
                           <div class="add-actions">
                             <ul class="add-actions-link">
                               <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
+                                <a href="#" class="add-to-cart-link">
+                                  <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -141,11 +141,11 @@ include 'header.php'; // Includes the header file
                           <div class="add-actions">
                             <ul class="add-actions-link">
                               <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
+                                <a href="#" class="add-to-cart-link">
+                                  <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -194,11 +194,11 @@ include 'header.php'; // Includes the header file
                           <div class="add-actions">
                             <ul class="add-actions-link">
                               <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
+                                <a href="#" class="add-to-cart-link">
+                                  <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -245,11 +245,11 @@ include 'header.php'; // Includes the header file
                           <div class="add-actions">
                             <ul class="add-actions-link">
                               <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
+                                <a href="#" class="add-to-cart-link">
+                                  <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -296,11 +296,11 @@ include 'header.php'; // Includes the header file
                           <div class="add-actions">
                             <ul class="add-actions-link">
                               <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
-                              
+                                <a href="#" class="add-to-cart-link">
+                                  <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -341,18 +341,18 @@ include 'header.php'; // Includes the header file
                               <a class="product_name" href="shk-cable.php">SHK Cat 6 Indoor Cable</a>
                             </h4>
                             <div class="price-box">
-                              <span class="new-price">Ksh. 4,000</span>                              
+                              <span class="new-price">Ksh. 4,000</span>
                             </div>
                           </div>
                           <div class="add-actions">
                             <ul class="add-actions-link">
                               <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                                <a href="#" class="add-to-cart-link">
+                                  <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                            
+
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
@@ -399,17 +399,17 @@ include 'header.php'; // Includes the header file
                           <div class="add-actions">
                             <ul class="add-actions-link">
                               <li class="add-to-cart">
-                              <a href="#" class="add-to-cart-link">
-                              <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
+                                <a href="#" class="add-to-cart-link">
+                                  <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
                               </li>
-                            
+
                               <li>
-                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                               </li>
                             </ul>
                           </div>
                         </div>
-                      </div>                      
+                      </div>
                       <!-- single-product-wrap end -->
                     </div>
                   </div>

@@ -102,7 +102,7 @@
                             <ul class="hm-menu">
                                 <!-- Begin Header Middle Wishlist Area -->
                                 <!-- <li class="hm-wishlist">
-                                    <a href="wishlist.html">
+                                    <a href="#">
                                         <span class="cart-item-count wishlist-item-count">0</span>
                                         <i class="fa fa-heart-o"></i>
                                     </a>
@@ -285,7 +285,7 @@
                                                     </li>
                                                     <li><a href="checkout.html">Blog</a></li>
                                                     <li><a href="checkout.php">Checkout</a></li>
-                                                    <li><a href="wishlist.html">Wishlist</a></li>
+                                                    <li><a href="#">Wishlist</a></li>
                                                     <li>
                                                         <a href="shopping-cart.html">Shopping Cart</a>
                                                     </li>

@@ -58,308 +58,225 @@ include 'header.php'; // Includes the header file
                             <span class="new-price new-price-2">Ksh. 2,000</span>
                         </div>
                         <div class="product-desc">
-                            <p>
-                                <span>
-                                    <ol>
-                                        <li>Wireless rate up to 300Mbps</li>
-                                        <li>Supports WPA, WPA2, WPA-PSK/WPA2-PSK security</li>
-                                        <li>SIM card slot for a mobile broadband connection</li>
-                                        <li>It lets you connect to your 4G/5G mobile connection with fast downlink
-                                            speeds of up to 150 Mbps and uplink speeds up to 50 Mbps, giving you the
-                                            speed you need</li>
-                                    </ol>
-                                </span>
-                            </p>
-                        </div>
-                        <div class="product-variants">
-                            <div class="produt-variants-size">
-                                <label>Dimension</label>
-                                <select class="nice-select">
-                                    <option value="1" title="S" selected="selected">
-                                        40x60cm
-                                    </option>
-                                    <option value="2" title="M">60x90cm</option>
-                                    <option value="3" title="L">80x120cm</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="single-add-to-cart">
-                            <form action="#" class="cart-quantity">
-                                <div class="quantity">
-                                    <label>Quantity</label>
-                                    <div class="cart-plus-minus">
-                                        <input class="cart-plus-minus-box" value="1" type="text" />
-                                        <div class="dec qtybutton">
-                                            <i class="fa fa-angle-down"></i>
-                                        </div>
-                                        <div class="inc qtybutton">
-                                            <i class="fa fa-angle-up"></i>
-                                        </div>
-                                    </div>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features: D-Link DWR-M960 4G AC1200 LTE SIM Card Router</b></h4>
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background:#f4f4f4;">
+                                        <tr>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Benefit
+                                            </th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>4G LTE SIM Card
+                                                    Support</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Simply insert your SIM card
+                                                and enjoy high-speed internet without needing a fixed broadband
+                                                connection.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>AC1200 Dual-Band
+                                                    Wi-Fi</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Fast 2.4GHz and 5GHz Wi-Fi
+                                                delivers smooth streaming, online gaming, and video calls for multiple
+                                                users.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Gigabit Ethernet
+                                                    Ports</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Connect PCs, Smart TVs,
+                                                CCTV systems, or switches with reliable high-speed wired connections.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Works with Most SIM
+                                                    Cards</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Compatible with many 4G LTE
+                                                mobile network providers, giving you flexibility in choosing your
+                                                service.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Quick & Easy Setup</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Get your network running in
+                                                minutes with a simple setup process and user-friendly interface.</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-dwrm960" style="display:none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Wide Wi-Fi Coverage</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">External antennas help
+                                                provide stronger wireless coverage throughout your home or office.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Secure Internet
+                                                    Connection</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Built-in firewall and
+                                                WPA/WPA2 wireless security help protect your network and connected
+                                                devices.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Supports Many
+                                                    Devices</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Connect smartphones,
+                                                laptops, TVs, cameras, and other smart devices at the same time.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Perfect for Home &
+                                                    Business</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">An excellent choice for
+                                                homes, offices, shops, and areas without fiber or fixed internet.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleDWRM960()"
+                                        style="padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;"
+                                        id="dwrm960Btn">
+                                        View More
+                                    </button>
                                 </div>
-                                <button class="add-to-cart" type="submit">
-                                    Add to cart
-                                </button>
-                            </form>
+                            </div>
 
-                            <div class="product-additional-info pt-25">
-                                <a href="#" id="whatsapp-link" target="_blank"
-                                    style="background-color:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px;display:inline-block;">
-                                    Click to Order on WhatsApp
+                            <script>
+                                function toggleDWRM960() {
+                                    var rows = document.getElementById("more-dwrm960");
+                                    var btn = document.getElementById("dwrm960Btn");
+
+                                    if (rows.style.display === "none") {
+                                        rows.style.display = "table-row-group";
+                                        btn.innerHTML = "View Less";
+                                    } else {
+                                        rows.style.display = "none";
+                                        btn.innerHTML = "View More";
+                                    }
+                                }
+                            </script>
+                        </div>
+                        <div class="add-to-cart-area pt-30">
+                            <button class="single-product-add-to-cart">
+                                <a href="#" class="add-to-cart-link">
+                                    <i class="fa fa-shopping-cart"></i> Add to Cart
                                 </a>
-                                </a> <br><br>
-                                <script>
-                                    document.addEventListener("DOMContentLoaded", function() {
+                            </button>
+                        </div>
 
-                                        const whatsappBtn = document.getElementById("whatsapp-link");
+                        <div class="product-additional-info pt-25">
+                            <a href="#" id="whatsapp-link" target="_blank"
+                                style="background-color:#25D366;color:#fff;padding:10px 15px;text-decoration:none;border-radius:5px;display:inline-block;">
+                                Click to Order on WhatsApp
+                            </a>
+                            </a> <br><br>
+                            <script>
+                                document.addEventListener("DOMContentLoaded", function() {
 
-                                        if (!whatsappBtn) {
-                                            console.log("WhatsApp button not found.");
-                                            return;
-                                        }
+                                    const whatsappBtn = document.getElementById("whatsapp-link");
 
-                                        whatsappBtn.addEventListener("click", async function(e) {
+                                    if (!whatsappBtn) {
+                                        console.log("WhatsApp button not found.");
+                                        return;
+                                    }
 
-                                            e.preventDefault();
+                                    whatsappBtn.addEventListener("click", async function(e) {
 
-                                            const currentPageURL = window.location.href;
+                                        e.preventDefault();
 
-                                            const productName =
-                                                document.querySelector(".product_name")?.textContent
-                                                .trim() ||
-                                                "this product";
+                                        const currentPageURL = window.location.href;
 
-                                            const productPrice =
-                                                document.querySelector(".new-price")?.textContent
-                                                .trim() ||
-                                                "";
+                                        const productName =
+                                            document.querySelector(".product_name")?.textContent
+                                            .trim() ||
+                                            "this product";
 
-                                            try {
+                                        const productPrice =
+                                            document.querySelector(".new-price")?.textContent
+                                            .trim() ||
+                                            "";
 
-                                                const response = await fetch("whatsapp.php");
+                                        try {
 
-                                                if (!response.ok) {
-                                                    throw new Error("Failed to load whatsapp.php");
-                                                }
+                                            const response = await fetch("whatsapp.php");
 
-                                                const phoneNumber = (await response.text()).trim();
+                                            if (!response.ok) {
+                                                throw new Error("Failed to load whatsapp.php");
+                                            }
 
-                                                console.log("Using Number:", phoneNumber);
+                                            const phoneNumber = (await response.text()).trim();
 
-                                                const message = encodeURIComponent(
-                                                    `Hello CORE LTD
+                                            console.log("Using Number:", phoneNumber);
+
+                                            const message = encodeURIComponent(
+                                                `Hello CORE LTD
 I'm interested in buying:
 
 Product: ${productName}
 Price: ${productPrice}
 
 Link: ${currentPageURL}`
-                                                );
+                                            );
 
-                                                window.open(
-                                                    `https://wa.me/${phoneNumber}?text=${message}`,
-                                                    "_blank"
-                                                );
+                                            window.open(
+                                                `https://wa.me/${phoneNumber}?text=${message}`,
+                                                "_blank"
+                                            );
 
-                                            } catch (error) {
+                                        } catch (error) {
 
-                                                console.error(error);
-                                                alert("Error: " + error.message);
+                                            console.error(error);
+                                            alert("Error: " + error.message);
 
-                                            }
-
-                                        });
+                                        }
 
                                     });
-                                </script>
 
-                            </div>
-                            <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to
-                                wishlist</a>
-                            <div class="product-social-sharing pt-25">
-                                <ul>
-                                    <li class="facebook">
-                                        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
-                                    </li>
-                                    <li class="twitter">
-                                        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
-                                    </li>
-                                    <li class="google-plus">
-                                        <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
-                                    </li>
-                                    <li class="instagram">
-                                        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-                                    </li>
-                                </ul>
-                            </div>
+                                });
+                            </script>
+
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- content-wraper end -->
-<!-- Begin Product Area -->
-<div class="product-area pt-35">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="li-product-tab">
-                    <ul class="nav li-product-menu">
-                        <li>
-                            <a class="active" data-toggle="tab" href="#description"><span>Description</span></a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#product-details"><span>Product Details</span></a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#reviews"><span>Reviews</span></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Begin Li's Tab Menu Content Area -->
-            </div>
-        </div>
-        <div class="tab-content">
-            <div id="description" class="tab-pane active show" role="tabpanel">
-                <div class="product-description">
-                    <span>The best is yet to come! Give your walls a voice with a
-                        framed poster. This aesthethic, optimistic poster will look
-                        great in your desk or in an open-space office. Painted wooden
-                        frame with passe-partout for more depth.</span>
-                </div>
-            </div>
-            <div id="product-details" class="tab-pane" role="tabpanel">
-                <div class="product-details-manufacturer">
-                    <a href="#">
-                        <img src="images/product-details/1.jpg" alt="Product Manufacturer Image" />
-                    </a>
-                    <p><span>Reference</span> demo_7</p>
-                    <p><span>Reference</span> demo_7</p>
-                </div>
-            </div>
-            <div id="reviews" class="tab-pane" role="tabpanel">
-                <div class="product-reviews">
-                    <div class="product-details-comment-block">
-                        <div class="comment-review">
-                            <span>Grade</span>
-                            <ul class="rating">
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                <li class="no-star"><i class="fa fa-star-o"></i></li>
+                        <a class="wishlist-btn" href="#"><i class="fa fa-heart-o"></i>Add to
+                            wishlist</a>
+                        <div class="product-social-sharing pt-25">
+                            <ul>
+                                <li class="facebook">
+                                    <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                                </li>
+                                <li class="twitter">
+                                    <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                                </li>
+                                <li class="google-plus">
+                                    <a href="#"><i class="fab fa-tiktok"></i>TikTok</a>
+                                </li>
+                                <li class="instagram">
+                                    <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                                </li>
                             </ul>
                         </div>
-                        <div class="comment-author-infos pt-25">
-                            <span>HTML 5</span>
-                            <em>01-12-18</em>
-                        </div>
-                        <div class="comment-details">
-                            <h4 class="title-block">Demo</h4>
-                            <p>Plaza</p>
-                        </div>
-                        <div class="review-btn">
-                            <a class="review-links" href="#" data-toggle="modal" data-target="#mymodal">Write Your
-                                Review!</a>
-                        </div>
-                        <!-- Begin Quick View | Modal Area -->
-                        <div class="modal fade modal-wrapper" id="mymodal">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h3 class="review-page-title">Write Your Review</h3>
-                                        <div class="modal-inner-area row">
-                                            <div class="col-lg-6">
-                                                <div class="li-review-product">
-                                                    <img src="images/product/small-size/Tenda F3.jpg" width="400"
-                                                        height="300" alt="Li's Product" />
-                                                    <div class="li-review-product-desc">
-                                                        <p class="li-product-name">
-                                                            Today is a good day Framed poster
-                                                        </p>
-                                                        <p>
-                                                            <span>Beach Camera Exclusive Bundle - Includes
-                                                                Two Samsung Radiant 360 R3 Wi-Fi Bluetooth
-                                                                Speakers. Fill The Entire Room With
-                                                                Exquisite Sound via Ring Radiator
-                                                                Technology. Stream And Control R3 Speakers
-                                                                Wirelessly With Your Smartphone.
-                                                                Sophisticated, Modern Design
-                                                            </span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-review-content">
-                                                    <!-- Begin Feedback Area -->
-                                                    <div class="feedback-area">
-                                                        <div class="feedback">
-                                                            <h3 class="feedback-title">Our Feedback</h3>
-                                                            <form action="#">
-                                                                <p class="your-opinion">
-                                                                    <label>Your Rating</label>
-                                                                    <span>
-                                                                        <select class="star-rating">
-                                                                            <option value="1">1</option>
-                                                                            <option value="2">2</option>
-                                                                            <option value="3">3</option>
-                                                                            <option value="4">4</option>
-                                                                            <option value="5">5</option>
-                                                                        </select>
-                                                                    </span>
-                                                                </p>
-                                                                <p class="feedback-form">
-                                                                    <label for="feedback">Your Review</label>
-                                                                    <textarea id="feedback" name="comment" cols="45"
-                                                                        rows="8" aria-required="true"></textarea>
-                                                                </p>
-                                                                <div class="feedback-input">
-                                                                    <p class="feedback-form-author">
-                                                                        <label for="author">Name<span
-                                                                                class="required">*</span>
-                                                                        </label>
-                                                                        <input id="author" name="author" value=""
-                                                                            size="30" aria-required="true"
-                                                                            type="text" />
-                                                                    </p>
-                                                                    <p class="feedback-form-author feedback-form-email">
-                                                                        <label for="email">Email<span
-                                                                                class="required">*</span>
-                                                                        </label>
-                                                                        <input id="email" name="email" value=""
-                                                                            size="30" aria-required="true"
-                                                                            type="text" />
-                                                                        <span class="required"><sub>*</sub> Required
-                                                                            fields</span>
-                                                                    </p>
-                                                                    <div class="feedback-btn pb-15">
-                                                                        <a href="#" class="close" data-dismiss="modal"
-                                                                            aria-label="Close">Close</a>
-                                                                        <a href="#">Submit</a>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Feedback Area End Here -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Quick View | Modal Area End Here -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Product Area End Here -->
+</div>
+<!-- content-wraper end -->
+
 <!-- Begin Li's Laptop Product Area -->
 <section class="product-area li-laptop-product pt-30 pb-50">
     <div class="container-fluid">
@@ -420,7 +337,7 @@ Link: ${currentPageURL}`
                                                         class="fa fa-eye"></i></a>
                                             </li>
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i
+                                                <a class="links-details" href="#"><i
                                                         class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
@@ -477,7 +394,7 @@ Link: ${currentPageURL}`
                                                         class="fa fa-eye"></i></a>
                                             </li>
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i
+                                                <a class="links-details" href="#"><i
                                                         class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
@@ -534,7 +451,7 @@ Link: ${currentPageURL}`
                                                         class="fa fa-eye"></i></a>
                                             </li>
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i
+                                                <a class="links-details" href="#"><i
                                                         class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
@@ -593,7 +510,7 @@ Link: ${currentPageURL}`
                                                         class="fa fa-eye"></i></a>
                                             </li>
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i
+                                                <a class="links-details" href="#"><i
                                                         class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
@@ -650,7 +567,7 @@ Link: ${currentPageURL}`
                                                         class="fa fa-eye"></i></a>
                                             </li>
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i
+                                                <a class="links-details" href="#"><i
                                                         class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
@@ -709,7 +626,7 @@ Link: ${currentPageURL}`
                                                         class="fa fa-eye"></i></a>
                                             </li>
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i
+                                                <a class="links-details" href="#"><i
                                                         class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>

@@ -25,9 +25,9 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-left">
                     <div class="product-details-images slider-navigation-1">
                         <div class="lg-image">
-                            <a class="popup-img venobox vbox-item" href="images/product/small-size/huawei expon.webp"
+                            <a class="popup-img venobox vbox-item" href="images/product/small-size/huwaei expon.webp"
                                 data-gall="myGallery">
-                                <img src="images/product/small-size/huawei expon.webp" alt="product image" />
+                                <img src="images/product/small-size/huwaei expon.webp" alt="product image" />
                             </a>
                         </div>
                         <div class="lg-image">
@@ -46,7 +46,7 @@ include 'header.php'; // Includes the header file
                 <div class="product-details-view-content pt-60">
                     <div class="product-info">
                         <h4>
-                            <a class="product_name">Huawei ONU GPON/EPON Echolife Router HG8546M</a>
+                            <a class="product_name">Huawei ONU EPON Echolife Router HG8546M</a>
                         </h4>
                         <span class="product-details-ref">Reference: EX</span>
                         <div class="rating-box pt-20">
@@ -61,22 +61,117 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 1,550</span>
+                            <span class="new-price new-price-2">Ksh. 1,400</span>
                         </div>
                         <div class="product-desc">
-                            <p>
-                                <span>
-                                    <ol>
-                                        <li>XPON Compatibility (GPON & EPON)</li>
-                                        <li>Supports both GPON (Gigabit Passive Optical Network) and EPON (Ethernet
-                                            Passive Optical Network) modes</li>
-                                        <li>PON Interface; SC/UPC</li>
-                                        <li>Supports Gigabit Ethernet (GE) ports for high-speed wired connections</li>
-                                        <li>Supports dual-band WiFi (2.4 GHz & 5 GHz) for stable wireless connectivity
-                                        </li>
-                                    </ol>
-                                </span>
-                            </p>
+                            <div style="overflow-x:auto;">
+                                <h4><b>Features: Huawei ONU EPON/GPON EchoLife HG8546M Router</b></h4>
+                                <table
+                                    style="width:100%; border-collapse:collapse; font-family:Arial, sans-serif; border:1px solid #ddd;">
+                                    <thead style="background:#f4f4f4;">
+                                        <tr>
+                                            <th
+                                                style="text-align:left; padding:12px; border:1px solid #ddd; width:30%;">
+                                                Feature</th>
+                                            <th style="text-align:left; padding:12px; border:1px solid #ddd;">Benefit
+                                            </th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>EPON & GPON
+                                                    Compatible</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Works with most fiber
+                                                internet providers, making it an excellent choice for FTTH
+                                                installations.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Built-in Wi-Fi</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Share your fiber internet
+                                                wirelessly with phones, laptops, Smart TVs, and other Wi-Fi devices.
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Multiple LAN Ports</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Connect computers, CCTV
+                                                systems, switches, and other wired devices at the same time.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Voice (Telephone)
+                                                    Support</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Supports VoIP telephone
+                                                services, allowing both internet and voice on one device.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Fast & Stable Fiber
+                                                    Connection</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Delivers reliable internet
+                                                performance for streaming, video calls, online learning, and business
+                                                use.</td>
+                                        </tr>
+
+                                        <!-- Hidden Rows -->
+                                    <tbody id="more-hg8546m" style="display:none;">
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Easy FTTH
+                                                    Installation</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Simple to install and ideal
+                                                for homes, apartments, offices, and business fiber connections.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Supports Multiple
+                                                    Users</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Allows several users and
+                                                devices to stay connected with stable performance.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Energy Efficient</b>
+                                            </td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Consumes low power while
+                                                providing reliable, all-day internet connectivity.</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td style="padding:10px; border:1px solid #ddd;"><b>Ideal for Home &
+                                                    Business</b></td>
+                                            <td style="padding:10px; border:1px solid #ddd;">Perfect for homes, offices,
+                                                schools, hotels, and ISP fiber deployments.</td>
+                                        </tr>
+                                    </tbody>
+                                    </tbody>
+                                </table>
+
+                                <div style="text-align:center; margin-top:10px;">
+                                    <button onclick="toggleHG8546M()"
+                                        style="padding:8px 16px; background:#007BFF; color:#fff; border:none; border-radius:5px; cursor:pointer;"
+                                        id="hg8546mBtn">
+                                        View More
+                                    </button>
+                                </div>
+                            </div>
+
+                            <script>
+                                function toggleHG8546M() {
+                                    var rows = document.getElementById("more-hg8546m");
+                                    var btn = document.getElementById("hg8546mBtn");
+
+                                    if (rows.style.display === "none") {
+                                        rows.style.display = "table-row-group";
+                                        btn.innerHTML = "View Less";
+                                    } else {
+                                        rows.style.display = "none";
+                                        btn.innerHTML = "View More";
+                                    }
+                                }
+                            </script>
                         </div>
                         <!-- ✅ Add to Cart Button -->
                         <div class="add-to-cart-area pt-30">
@@ -159,7 +254,7 @@ Link: ${currentPageURL}`
                             </script>
 
                         </div>
-                        <a class="wishlist-btn" href="wishlist.html"><i class="fa fa-heart-o"></i>Add to wishlist</a>
+                        <a class="wishlist-btn" href="#"><i class="fa fa-heart-o"></i>Add to wishlist</a>
                         <div class="product-social-sharing pt-25">
                             <ul>
                                 <li class="facebook">
@@ -184,171 +279,7 @@ Link: ${currentPageURL}`
 </div>
 </div>
 <!-- content-wraper end -->
-<!-- Begin Product Area -->
-<div class="product-area pt-35">
-    <div class="container-fluid-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="li-product-tab">
-                    <ul class="nav li-product-menu">
-                        <li>
-                            <a class="active" data-toggle="tab" href="#description"><span>Description</span></a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#product-details"><span>Product Details</span></a>
-                        </li>
-                        <li>
-                            <a data-toggle="tab" href="#reviews"><span>Reviews</span></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- Begin Li's Tab Menu Content Area -->
-            </div>
-        </div>
-        <div class="tab-content">
-            <div id="description" class="tab-pane active show" role="tabpanel">
-                <div class="product-description">
-                    <span>Huawei ONU GPON/EPON Echolife Router HG8546M is a routing ONT for Huawei’s all-optical access
-                        solution and it implements ultra-wideband access for users through GPON technology.
-                        This model Support 1 GE+3 FE+1 POTS+1 USB+2.4G WIFI (1 GE Ethernet interface, 3 FE Ethernet
-                        interfaces, 1 port voice interface, 1 USB interface, 1 2.4G WIFI interface), and the
-                        high-performance forwarding capability effectively guarantees the service experience of voice,
-                        data, and high-definition video. Huawei HG8546M GPON wifi router provide customers with an ideal
-                        all-optical access solution and future-oriented business support capabilities.
 
-                        Huawei XPON HG8546M Router Features</span>
-                </div>
-            </div>
-            <div id="product-details" class="tab-pane" role="tabpanel">
-                <div class="product-details-manufacturer">
-                    <a href="#">
-                        <img src="images/product-details/1.jpg" alt="Product Manufacturer Image" />
-                    </a>
-                    <p><span>Reference</span> demo_7</p>
-                    <p><span>Reference</span> demo_7</p>
-                </div>
-            </div>
-            <div id="reviews" class="tab-pane" role="tabpanel">
-                <div class="product-reviews">
-                    <div class="product-details-comment-block">
-                        <div class="comment-review">
-                            <span>Grade</span>
-                            <ul class="rating">
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li><i class="fa fa-star-o"></i></li>
-                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                                <li class="no-star"><i class="fa fa-star-o"></i></li>
-                            </ul>
-                        </div>
-                        <div class="comment-author-infos pt-25">
-                            <span>HTML 5</span>
-                            <em>01-12-18</em>
-                        </div>
-                        <div class="comment-details">
-                            <h4 class="title-block">Demo</h4>
-                            <p>Plaza</p>
-                        </div>
-                        <div class="review-btn">
-                            <a class="review-links" href="#" data-toggle="modal" data-target="#mymodal">Write Your
-                                Review!</a>
-                        </div>
-                        <!-- Begin Quick View | Modal Area -->
-                        <div class="modal fade modal-wrapper" id="mymodal">
-                            <div class="modal-dialog modal-dialog-centered" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <h3 class="review-page-title">Write Your Review</h3>
-                                        <div class="modal-inner-area row">
-                                            <div class="col-lg-6">
-                                                <div class="li-review-product">
-                                                    <img src="images/product/small-size/Tenda F3.jpg" width="400"
-                                                        height="300" alt="Li's Product" />
-                                                    <div class="li-review-product-desc">
-                                                        <p class="li-product-name">
-                                                            Today is a good day Framed poster
-                                                        </p>
-                                                        <p>
-                                                            <span>Beach Camera Exclusive Bundle - Includes
-                                                                Two Samsung Radiant 360 R3 Wi-Fi Bluetooth
-                                                                Speakers. Fill The Entire Room With
-                                                                Exquisite Sound via Ring Radiator
-                                                                Technology. Stream And Control R3 Speakers
-                                                                Wirelessly With Your Smartphone.
-                                                                Sophisticated, Modern Design
-                                                            </span>
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6">
-                                                <div class="li-review-content">
-                                                    <!-- Begin Feedback Area -->
-                                                    <div class="feedback-area">
-                                                        <div class="feedback">
-                                                            <h3 class="feedback-title">Our Feedback</h3>
-                                                            <form action="#">
-                                                                <p class="your-opinion">
-                                                                    <label>Your Rating</label>
-                                                                    <span>
-                                                                        <select class="star-rating">
-                                                                            <option value="1">1</option>
-                                                                            <option value="2">2</option>
-                                                                            <option value="3">3</option>
-                                                                            <option value="4">4</option>
-                                                                            <option value="5">5</option>
-                                                                        </select>
-                                                                    </span>
-                                                                </p>
-                                                                <p class="feedback-form">
-                                                                    <label for="feedback">Your Review</label>
-                                                                    <textarea id="feedback" name="comment" cols="45"
-                                                                        rows="8" aria-required="true"></textarea>
-                                                                </p>
-                                                                <div class="feedback-input">
-                                                                    <p class="feedback-form-author">
-                                                                        <label for="author">Name<span
-                                                                                class="required">*</span>
-                                                                        </label>
-                                                                        <input id="author" name="author" value=""
-                                                                            size="30" aria-required="true"
-                                                                            type="text" />
-                                                                    </p>
-                                                                    <p class="feedback-form-author feedback-form-email">
-                                                                        <label for="email">Email<span
-                                                                                class="required">*</span>
-                                                                        </label>
-                                                                        <input id="email" name="email" value=""
-                                                                            size="30" aria-required="true"
-                                                                            type="text" />
-                                                                        <span class="required"><sub>*</sub> Required
-                                                                            fields</span>
-                                                                    </p>
-                                                                    <div class="feedback-btn pb-15">
-                                                                        <a href="#" class="close" data-dismiss="modal"
-                                                                            aria-label="Close">Close</a>
-                                                                        <a href="#">Submit</a>
-                                                                    </div>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                    <!-- Feedback Area End Here -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Quick View | Modal Area End Here -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Product Area End Here -->
 <!-- Begin Li's Laptop Product Area -->
 <section class="product-area li-laptop-product pt-30 pb-50">
     <div class="container-fluid-fluid">
@@ -405,7 +336,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -457,7 +389,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -511,7 +444,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -565,7 +499,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -617,7 +552,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -671,7 +607,8 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i
+                                                        class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
