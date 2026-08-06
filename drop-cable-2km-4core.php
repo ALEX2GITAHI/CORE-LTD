@@ -54,7 +54,7 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box">
-                            <span class="new-price">Ksh. 15,800</span>
+                            <span class="new-price">Ksh. 22,500</span>
                         </div>
                         <div class="product-desc">
                             <div style="overflow-x:auto;">
@@ -208,7 +208,8 @@ include 'header.php'; // Includes the header file
                                                 "this product";
 
                                             const productPrice =
-                                                document.querySelector(".new-price")?.textContent.trim() ||
+                                                document.querySelector(".new-price")?.textContent
+                                                .trim() ||
                                                 "";
 
                                             try {
@@ -334,8 +335,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -387,8 +387,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -442,8 +441,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -497,8 +495,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -550,8 +547,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -605,8 +601,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
