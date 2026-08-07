@@ -89,7 +89,7 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 11,500</span>
+                            <span class="new-price new-price-2">Ksh. 12,000</span>
                         </div>
                         <div class="product-desc">
                             <p>
@@ -271,8 +271,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -324,8 +323,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -379,8 +377,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -434,8 +431,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -487,8 +483,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>
@@ -542,8 +537,7 @@ Link: ${currentPageURL}`
                                                     <i class="fa fa-shopping-cart"></i> <!-- Cart Icon -->
 
                                             <li>
-                                                <a class="links-details" href="#"><i
-                                                        class="fa fa-heart-o"></i></a>
+                                                <a class="links-details" href="#"><i class="fa fa-heart-o"></i></a>
                                             </li>
                                         </ul>
                                     </div>

@@ -89,7 +89,7 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 3,500</span>
+                            <span class="new-price new-price-2">Ksh. 4,500</span>
                         </div>
                         <div class="product-desc">
                             <p>
