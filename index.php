@@ -244,7 +244,7 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="tenda-f3.php">
+                                    <a href="drop-cable-1km.php">
                                         <img src="images/product/small-size/drop 1km.webp" alt="Li's Product Image" />
                                     </a>
                                     <span class="sticker">New</span>
