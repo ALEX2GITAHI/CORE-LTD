@@ -1,0 +1,4 @@
+    User-agent: *
+Allow: /
+
+Sitemap: https://coreltd.co.ke/sitemap.xml
