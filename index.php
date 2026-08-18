@@ -678,10 +678,10 @@ include 'header.php'; // Includes the header file
                     </h2>
                     <ul class="li-sub-category-list">
                         <li class="active">
-                            <a href="shop-left-sidebar.html">Prime Video</a>
+                            <a href="index.php">Prime Video</a>
                         </li>
-                        <li><a href="shop-left-sidebar.html">Computers</a></li>
-                        <li><a href="shop-left-sidebar.html">Electronics</a></li>
+                        <li><a href="index.php">Computers</a></li>
+                        <li><a href="index.php">Electronics</a></li>
                     </ul>
                 </div>
                 <div class="li-banner-2 pt-15">
@@ -712,7 +712,7 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="single-product.html">
+                                    <a href="index.php">
                                         <img src="images/product/small-size/jakemy.jpg" alt="Li's Product Image" />
                                     </a>
 
@@ -764,7 +764,7 @@ include 'header.php'; // Includes the header file
                             <!-- single-product-wrap start -->
                             <div class="single-product-wrap">
                                 <div class="product-image">
-                                    <a href="single-product.html">
+                                    <a href="index.php">
                                         <img src="images/product/small-size/easenet_1.png" alt="Li's Product Image" />
                                     </a>
 
@@ -1045,10 +1045,10 @@ include 'header.php'; // Includes the header file
                     </h2>
                     <ul class="li-sub-category-list">
                         <li class="active">
-                            <a href="shop-left-sidebar.html">Prime Video</a>
+                            <a href="index.php">Prime Video</a>
                         </li>
-                        <li><a href="shop-left-sidebar.html">Computers</a></li>
-                        <li><a href="shop-left-sidebar.html">Electronics</a></li>
+                        <li><a href="index.php">Computers</a></li>
+                        <li><a href="index.php">Electronics</a></li>
                     </ul>
                 </div>
                 <div class="li-banner-2 pt-15">
@@ -1411,10 +1411,10 @@ include 'header.php'; // Includes the header file
                     </h2>
                     <ul class="li-sub-category-list">
                         <li class="active">
-                            <a href="shop-left-sidebar.html">Prime Video</a>
+                            <a href="index.php">Prime Video</a>
                         </li>
-                        <li><a href="shop-left-sidebar.html">Computers</a></li>
-                        <li><a href="shop-left-sidebar.html">Electronics</a></li>
+                        <li><a href="index.php">Computers</a></li>
+                        <li><a href="index.php">Electronics</a></li>
                     </ul>
                 </div>
                 <div class="li-banner-2 pt-15">

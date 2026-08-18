@@ -10,7 +10,7 @@ include 'header.php'; // Includes the header file
   <div class="container-fluid">
     <div class="breadcrumb-content">
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.php">Home</a></li>
         <li class="active">Routers</li>
       </ul>
     </div>
@@ -632,7 +632,7 @@ include 'header.php'; // Includes the header file
                           </div>
                         </div>
                         <h4>
-                          <a class="product_name" href="d-link.ph">D-Link 4G LTE Router
+                          <a class="product_name" href="d-link.php">D-Link 4G LTE Router
                             DWR-M921</a>
                         </h4>
                         <div class="price-box">
