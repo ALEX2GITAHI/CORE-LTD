@@ -273,7 +273,7 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="drop-cable-1km.php">Drop Cable 1KM</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price">Ksh. 9,500</span>
+                                            <span class="new-price">Ksh. 11,000</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">

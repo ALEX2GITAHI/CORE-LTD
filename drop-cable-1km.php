@@ -54,7 +54,7 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box">
-                            <span class="new-price">Ksh. 9,500</span>
+                            <span class="new-price">Ksh. 11,000</span>
                         </div>
                         <div class="product-desc">
                             <div style="overflow-x:auto;">
