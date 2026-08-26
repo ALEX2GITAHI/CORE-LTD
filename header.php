@@ -537,7 +537,7 @@
                 },
                 {
                     name: "Mikrotik L009",
-                    url: "mikrotik-l009.php"
+                    url: "l009.php"
                 }
             ];
 
