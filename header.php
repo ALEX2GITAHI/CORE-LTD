@@ -497,7 +497,7 @@
                 },
                 {
                     name: "Mikrotik RB941-Hap-Lite",
-                    url: "rb941.php"
+                    url: "rb941-hap-lite.php"
                 },
                 {
                     name: "TP-Link EAP110-Outdoor",
