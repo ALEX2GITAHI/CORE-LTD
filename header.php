@@ -529,7 +529,7 @@
                 },
                 {
                     name: "Mikrotik SXTSQ Series",
-                    url: "ssxtsq-series.php"
+                    url: "sxtsq-series.php"
                 },
                 {
                     name: "Mikrotiks",
