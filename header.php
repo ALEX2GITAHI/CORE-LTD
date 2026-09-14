@@ -8,7 +8,8 @@
     <title>CORE LTD</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5825696635101769"
+        crossorigin="anonymous"></script>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="images/core.png" />
     <!-- Material Design Iconic Font-V2.2.0 -->
