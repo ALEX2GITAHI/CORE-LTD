@@ -226,6 +226,8 @@ include 'header.php'; // Includes the header file
         </div>
     </div>
 </div>
+<amp-auto-ads type="adsense" data-ad-client="ca-pub-5825696635101769">
+</amp-auto-ads>
 <!-- Li's Static Banner Area End Here -->
 <!-- Begin Li's Special Product Area -->
 <section class="product-area li-laptop-product Special-product pt-60 pb-45">
