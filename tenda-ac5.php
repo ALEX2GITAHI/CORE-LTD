@@ -121,67 +121,67 @@ include 'header.php'; // Includes the header file
                             </a>
                             </a> <br><br>
                             <script>
-                            document.addEventListener("DOMContentLoaded", function() {
+                                document.addEventListener("DOMContentLoaded", function() {
 
-                                const whatsappBtn = document.getElementById("whatsapp-link");
+                                    const whatsappBtn = document.getElementById("whatsapp-link");
 
-                                if (!whatsappBtn) {
-                                    console.log("WhatsApp button not found.");
-                                    return;
-                                }
+                                    if (!whatsappBtn) {
+                                        console.log("WhatsApp button not found.");
+                                        return;
+                                    }
 
-                                whatsappBtn.addEventListener("click", async function(e) {
+                                    whatsappBtn.addEventListener("click", async function(e) {
 
-                                    e.preventDefault();
+                                        e.preventDefault();
 
-                                    const currentPageURL = window.location.href;
+                                        const currentPageURL = window.location.href;
 
-                                    const productName =
-                                        document.querySelector(".product_name")?.textContent
-                                        .trim() ||
-                                        "this product";
+                                        const productName =
+                                            document.querySelector(".product_name")?.textContent
+                                            .trim() ||
+                                            "this product";
 
-                                    const productPrice =
-                                        document.querySelector(".new-price")?.textContent.trim() ||
-                                        "";
+                                        const productPrice =
+                                            document.querySelector(".new-price")?.textContent.trim() ||
+                                            "";
 
-                                    try {
+                                        try {
 
-                                        const response = await fetch("whatsapp.php");
+                                            const response = await fetch("whatsapp.php");
 
-                                        if (!response.ok) {
-                                            throw new Error("Failed to load whatsapp.php");
-                                        }
+                                            if (!response.ok) {
+                                                throw new Error("Failed to load whatsapp.php");
+                                            }
 
-                                        const phoneNumber = (await response.text()).trim();
+                                            const phoneNumber = (await response.text()).trim();
 
-                                        console.log("Using Number:", phoneNumber);
+                                            console.log("Using Number:", phoneNumber);
 
-                                        const message = encodeURIComponent(
-                                            `Hello CORE LTD
+                                            const message = encodeURIComponent(
+                                                `Hello CORE LTD
 I'm interested in buying:
 
 Product: ${productName}
 Price: ${productPrice}
 
 Link: ${currentPageURL}`
-                                        );
+                                            );
 
-                                        window.open(
-                                            `https://wa.me/${phoneNumber}?text=${message}`,
-                                            "_blank"
-                                        );
+                                            window.open(
+                                                `https://wa.me/${phoneNumber}?text=${message}`,
+                                                "_blank"
+                                            );
 
-                                    } catch (error) {
+                                        } catch (error) {
 
-                                        console.error(error);
-                                        alert("Error: " + error.message);
+                                            console.error(error);
+                                            alert("Error: " + error.message);
 
-                                    }
+                                        }
+
+                                    });
 
                                 });
-
-                            });
                             </script>
 
                         </div>
@@ -257,7 +257,7 @@ Link: ${currentPageURL}`
                                             <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price">Ksh. 1,350</span>
+                                            <span class="new-price">Ksh. 1,300</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">

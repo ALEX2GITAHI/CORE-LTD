@@ -89,7 +89,7 @@ include 'header.php'; // Includes the header file
                             </ul>
                         </div>
                         <div class="price-box pt-20">
-                            <span class="new-price new-price-2">Ksh. 1,350</span>
+                            <span class="new-price new-price-2">Ksh. 1,300</span>
                         </div>
                         <div class="product-desc">
                             <p>
@@ -257,7 +257,7 @@ Link: ${currentPageURL}`
                                             <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price">Ksh. 1,350</span>
+                                            <span class="new-price">Ksh. 1,300</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">

@@ -322,7 +322,7 @@ Link: ${currentPageURL}`
                                             <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price">Ksh. 1,350</span>
+                                            <span class="new-price">Ksh. 1,300</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
