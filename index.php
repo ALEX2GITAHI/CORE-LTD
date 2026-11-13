@@ -151,7 +151,7 @@ include 'header.php'; // Includes the header file
                             <div class="slider-content">
                                 <!-- <h5>Sale Offer <span>-20% Off</span> This Week</h5>
                                 <h2>Tenda Routers</h2>
-                                <h3>Starting at <span>Ksh. 1,300</span></h3> -->
+                                <h3>Starting at <span>Ksh. 1,400</span></h3> -->
                                 <div class="default-btn slide-btn">
                                     <!-- <a class="links" href="#">Shopping Now</a> -->
                                 </div>
@@ -326,7 +326,7 @@ include 'header.php'; // Includes the header file
                                             <a class="product_name" href="tenda-f3.php">Tenda-F3</a>
                                         </h4>
                                         <div class="price-box">
-                                            <span class="new-price">Ksh. 1,300</span>
+                                            <span class="new-price">Ksh. 1,400</span>
                                         </div>
                                     </div>
                                     <div class="add-actions">
